@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Sunible</title>
+		<link rel="shortcut icon" href="images/favicon.ico"/>
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/flat-ui.css"/>
+		<link rel="stylesheet" type="text/css" href="css/nanoscroller.css"/>
+		<link rel="stylesheet" type="text/css" href="css/general.css"/>
+		<link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+		<link rel="stylesheet" type="text/css" href="css/forms.css"/>
+		<link rel="stylesheet" type="text/css" href="css/layout.css"/>
+		<link rel="stylesheet" type="text/css" href="css/pages.css"/>
+		<!-- IE code -->
+		<script type="text/javascript">var ie;</script>
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+		<!--[if IE 8]>
+			<link rel="stylesheet" type="text/css" href="css/ie8.css"/>
+			<script type="text/javascript">ie = 8;</script>
+		<![endif]-->
+		<!--[if IE 9]>
+			<link rel="stylesheet" type="text/css" href="css/ie8.css"/>
+			<script type="text/javascript">ie = 9;</script>
+		<![endif]-->
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="js/html5shiv.js"></script>
+		<![endif]-->
+	<style type="text/css">
+<!--
+#map { height: 500px; }
+-->
+</style>
+
+</head>
+
+<body>
+
+    <div id="map">
+    	<script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
+    	<script>
+
+		var map = L.map('map').setView([36.7546, -119.778], 12);
+
+		L.tileLayer('http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/997/256/{z}/{x}/{y}.png', {
+			maxZoom: 18,
+			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>'
+		}).addTo(map);
+		
+		
+		var myIcon = L.icon({
+    iconUrl: 'my-icon.png',
+    iconRetinaUrl: 'my-icon@2x.png',
+    iconSize: [38, 38],
+    iconAnchor: [22, 22],
+    popupAnchor: [-3, -23],
+    shadowUrl: 'my-icon-shadow.png',
+    shadowRetinaUrl: 'my-icon-shadow@2x.png',
+    shadowSize: [58, 38],
+    shadowAnchor: [22, 32]
+});
+
+
+		L.marker([36.7493, -119.7835], {icon: myIcon}).addTo(map)
+			.bindPopup("<center><img src='sunpopup.png'><br /><b>93701</b><br />46 Installers</center>").openPopup();
+			
+		L.marker([36.7376, -119.7823], {icon: myIcon}).addTo(map)
+			.bindPopup("<center><img src='sunpopup.png'><br /><b>93721</b><br />28 Installers</center>");
+			
+		L.marker([36.7431, -119.7639], {icon: myIcon}).addTo(map)
+			.bindPopup("<center><img src='sunpopup.png'><br /><b>93702</b><br />34 Installers</center>");
+			
+		L.marker([36.7665, -119.7651], {icon: myIcon}).addTo(map)
+			.bindPopup("<center><img src='sunpopup.png'><br /><b>93703</b><br />39 Installers</center>");
+			
+		L.marker([36.7595, -119.8063], {icon: myIcon}).addTo(map)
+			.bindPopup("<center><img src='sunpopup.png'><br /><b>93728</b><br />59 Installers</center>");
+			
+		L.marker([36.7513, -119.683], {icon: myIcon}).addTo(map)
+			.bindPopup("<center><img src='sunpopup.png'><br /><b>93727</b><br />25 Installers</center>");
+			
+		L.marker([36.8032, -119.810], {icon: myIcon}).addTo(map)
+			.bindPopup("<center><img src='sunpopup.png'><br /><b>93704</b><br />33 Installers</center>");
+			
+		L.marker([36.7903, -119.842], {icon: myIcon}).addTo(map)
+			.bindPopup("<center><img src='sunpopup.png'><br /><b>93705</b><br />42 Installers</center>");
+			
+		L.marker([36.6852, -119.763], {icon: myIcon}).addTo(map)
+			.bindPopup("<center><img src='sunpopup.png'><br /><b>93725</b><br />29 Installers</center>");
+			
+		L.marker([36.8115, -119.759], {icon: myIcon}).addTo(map)
+			.bindPopup("<center><img src='sunpopup.png'><br /><b>93726</b><br />39 Installers</center>");
+			
+		L.marker([36.8337, -119.810], {icon: myIcon}).addTo(map)
+			.bindPopup("<center><img src='sunpopup.png'><br /><b>93711</b><br />26 Installers</center>");
+			
+		L.marker([36.8467, -119.742], {icon: myIcon}).addTo(map)
+			.bindPopup("<center><img src='sunpopup.png'><br /><b>93710</b><br />35 Installers</center>");
+
+		var popup = L.popup();
+		
+
+		map.on('click', onMapClick);
+
+	</script>
+
+    
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+
+<form action="sendContactRequest.php" method="POST">
+    
+<input type=hidden name="retURL" value="http://sunible.com">
+<input type=hidden name="oid" value="00Di0000000JACU">
+    
+<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+<br>
+<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+<br>
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+<br>
+<label for="reason">Reason for contact request</label><br>
+<input type="radio" id="reason" name="reason" value="interested">Possibly interested in solar, don't know where to start<br>
+<input type="radio" id="reason" name="reason" value="very interested">Definitely interested in solar, don't know what provider to choose<br>
+<input type="radio" id="reason" name="reason" value="curious">Just curious, everyone is talking about solar<br>                                                                                                                                                                                                                    
+<input type="radio" id="reason" name="reason" value="lower bill">Want to reduce my power bill, but not convinced about solar<br>
+<input type="radio" id="reason" name="reason" value="not interested">Solar rhymes with polar, polar bears annoy me and so does this hippy talk<br>                                                                       
+<br>                                                                                                                  
+<input type="submit" name="submit">
+
+</form>

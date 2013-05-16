@@ -162,14 +162,14 @@ input:invalid {
 .btn {
 	margin-bottom: 10px;
 	padding: 4px 12px 5px 12px;
-	background-color: #fcd728;
+	background-color: #C0392B;
 	font-size: 18px;
 	font-family: "Lato";
 }
 
 .btn:hover,
 .btn:focus {
-	background-color: #ffe462;
+	background-color: #E74C3C;
 }
 
 .btn-large { padding-left: 20px; padding-right: 20px;}

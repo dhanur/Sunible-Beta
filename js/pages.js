@@ -334,6 +334,7 @@ function showSocialProofMap(data)
 	// bounds coordinates
 	//L.Bounds(bounds.coordinates);
 	//map.fitBounds(bounds.coordinates);
+        map.panTo(new L.LatLng(data[0].latitude, data[0].longitude)); 
 }
 
 function composeMapBounds(source)

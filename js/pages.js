@@ -352,7 +352,7 @@ function composeMapBounds(source)
 			coordinates.push( [source[i].latitude, source[i].longitude] );
 		}
 	};
-        setView(zipGeo,18);
+
 	return {
 		//markers: markers,
 		popups: popups,

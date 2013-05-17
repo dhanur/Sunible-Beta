@@ -667,6 +667,16 @@ function openFaqsPopup()
 	addNiceScroll($faqsPopup.find('.nano'));
 }
 
+$(function(){
+
+    $('#faq li a').each(function(){
+        $(this).click(function(){
+            $(this).siblings('div').slideToggle(300);            
+        });        
+    });                
+
+});
+
 // ABOUT US
 
 function bindAboutUsPopup($launcher)

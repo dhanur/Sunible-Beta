@@ -1,0 +1,8 @@
+/* CSS definition file containing sitestyle stylesheets */
+BODY { font-family: Verdana,Tahoma,Arial,Helvetica,Sans-serif,sans-serif; font-size: x-small; background-color: rgb(255,255,255);}
+ A:active { font-size: small; color: rgb(0,0,153);}
+ A:link { color: rgb(0,0,153);}
+ A:visited { color: rgb(102,153,153);}
+ .TextNavBar { font-size: x-small;}
+ A:hover { color: rgb(0,0,0);}
+ 

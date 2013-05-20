@@ -254,6 +254,13 @@ function getInstallersByZipCodeFormSubmit($form)
 // SOCIAL PROOF
 function initSocialProof(data, location)
 {
+//    	var $spTooltip = $('.page_header .overlay_sp .text');
+//	$spTooltip.tooltip('show');
+
+//	setTimeout(function () {
+//			$spTooltip.tooltip('hide');
+//	}, 5000);
+        
 	updateSocialCounters(data[0]);
 	var $button = pages.socialProof.find('.btn.next_action');
 	var $areaName = pages.socialProof.find('.area_name');

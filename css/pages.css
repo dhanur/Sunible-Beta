@@ -622,11 +622,10 @@ footer.page_footer {
 	}
         
 /* FAQS */
-
       
 ul { margin: 0; padding: 0; }
 ul li { margin: 0; padding: 0; list-style: none; }
-ul li a { font-size:13.0pt; font-family:"Bariol Regular"; color:#F1C40F; }
+ul li a { font-size:13.0pt; color:#F1C40F; }
 ul li div { display: none; }
 
 /* THANK YOU */

@@ -638,9 +638,9 @@ ul li div { display: none; }
 }
 
 .page.thank_you_reg h1 {
-	text-align: center;
+	text-align: left;
 	padding-bottom: 30px;
-	font-size: 48px;
+	font-size: 32px;
 }
 
 .page.thank_you .meanwhile { text-align: center; font-size: 18px; }
@@ -656,7 +656,7 @@ ul li div { display: none; }
 .page.thank_you_reg .additional_stuff {
 	margin: 30px auto;
 	overflow: hidden;
-	width: 600px;
+	width: 850px;
 }
 
 	.page.thank_you .additional_stuff .block {
@@ -748,6 +748,7 @@ ul li div { display: none; }
 	left: 50%;  
 	width: 800px;
 	height: 600px;
+        font-family: "bariol_regular", sans-serif;
         font-size: 16px;
 	margin-top: -20px;
 	margin-left: -400px;  
@@ -817,6 +818,12 @@ ul li div { display: none; }
 
 
 .ie-10 .page.thank_you h1 {
+	margin-bottom: 0;
+	line-height: 20px;
+	padding-bottom: 10px;
+}
+
+.ie-10 .page.thank_you_reg h1 {
 	margin-bottom: 0;
 	line-height: 20px;
 	padding-bottom: 10px;

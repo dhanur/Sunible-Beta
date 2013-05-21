@@ -108,19 +108,23 @@ function showDynamicMessagePage(pageSource)
 
 function showThankYouPage()
 {
-//	var pageHtml = '' +
-//		'<h1>Thank you for registering</h1>' +
-//		'<p>Your data was saved.</p>';
+	var pageHtml = '';
 	var messagePageOptions = {
 		pageHtml: pageHtml,
 		pageClass: 'registration_complete', 
 		buttonText: 'Return to homepage',
 		okCallback : function(){
 			var $currentPage = $('.page.is_shown');
-			changePage($currentPage, pages.thankYou);
+			changePage($currentPage, pages.homePage);
 		}
 	};
 	showDynamicMessagePage(messagePageOptions);
+}
+
+function showThankYouRegPage()
+{
+        var $currentPage = $('.page.is_shown');
+        changePage($currentPage, pages.thankYouReg);
 }
 
 function showNoDataFoundPage()
@@ -481,7 +485,7 @@ function registerUser($form)
 		formData: formData
 	};
 	submitRegisterUserForm(options, function(){
-		showThankYouPage();
+		showThankYouRegPage();
 	});
 }
 

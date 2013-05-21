@@ -1,0 +1,367 @@
+[28-Jun-2012 13:39:21] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/torrohol/public_html/admin.php:3) in /home1/torrohol/public_html/admin.php on line 17
+[28-Jun-2012 13:39:37] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/torrohol/public_html/admin.php:3) in /home1/torrohol/public_html/admin.php on line 17
+[28-Jun-2012 13:53:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/torrohol/public_html/admin.php:3) in /home1/torrohol/public_html/admin.php on line 154
+[28-Jun-2012 13:53:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/torrohol/public_html/admin.php:3) in /home1/torrohol/public_html/admin.php on line 155
+[03-Jul-2012 15:47:57] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home1/torrohol/public_html/admin.php on line 20
+[03-Jul-2012 15:48:00] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home1/torrohol/public_html/admin.php on line 20
+[03-Jul-2012 15:48:04] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home1/torrohol/public_html/admin.php on line 20
+[03-Jul-2012 15:48:16] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home1/torrohol/public_html/admin.php on line 20
+[03-Jul-2012 15:54:38] PHP Parse error:  syntax error, unexpected T_IF, expecting ',' or ';' in /home1/torrohol/public_html/admin.php on line 30
+[21-Apr-2013 11:16:57 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 4
+[21-Apr-2013 11:16:57 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 5
+[21-Apr-2013 11:16:57 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'torrohol'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 7
+[21-Apr-2013 11:16:57 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 7
+[21-Apr-2013 11:16:57 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 8
+[21-Apr-2013 11:16:57 America/Denver] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 12
+[21-Apr-2013 11:19:16 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 8
+[21-Apr-2013 11:23:35 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 8
+[21-Apr-2013 11:25:18 America/Denver] PHP Warning:  mysql_connect(): Host 'host400.hostmonster.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 4
+[21-Apr-2013 11:25:18 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 5
+[21-Apr-2013 11:25:18 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'torrohol'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 7
+[21-Apr-2013 11:25:18 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 7
+[21-Apr-2013 11:25:18 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 8
+[21-Apr-2013 11:25:18 America/Denver] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 12
+[21-Apr-2013 11:28:41 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 9
+[21-Apr-2013 11:32:48 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 8
+[21-Apr-2013 11:33:37 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 8
+[21-Apr-2013 11:33:44 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 6
+[21-Apr-2013 11:33:44 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 8
+[21-Apr-2013 11:35:01 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 8
+[21-Apr-2013 11:41:34 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 8
+[21-Apr-2013 11:42:37 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 8
+[21-Apr-2013 11:43:24 America/Denver] PHP Warning:  mysql_connect(): Host 'host400.hostmonster.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 4
+[21-Apr-2013 11:43:24 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 5
+[21-Apr-2013 11:43:24 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'torrohol'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 7
+[21-Apr-2013 11:43:24 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 7
+[21-Apr-2013 11:43:24 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 8
+[21-Apr-2013 11:43:24 America/Denver] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 12
+[21-Apr-2013 12:37:39 America/Denver] PHP Warning:  mysql_connect(): Host 'host400.hostmonster.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 4
+[21-Apr-2013 12:37:39 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 5
+[21-Apr-2013 12:37:39 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'torrohol'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 7
+[21-Apr-2013 12:37:39 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 7
+[21-Apr-2013 12:37:39 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 8
+[21-Apr-2013 12:37:39 America/Denver] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 12
+[21-Apr-2013 12:37:43 America/Denver] PHP Warning:  mysql_connect(): Host 'host400.hostmonster.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 4
+[21-Apr-2013 12:37:43 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 5
+[21-Apr-2013 12:37:43 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'torrohol'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 7
+[21-Apr-2013 12:37:43 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 7
+[21-Apr-2013 12:37:43 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 8
+[21-Apr-2013 12:37:43 America/Denver] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 12
+[21-Apr-2013 12:37:57 America/Denver] PHP Warning:  mysql_connect(): Host 'host400.hostmonster.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 4
+[21-Apr-2013 12:37:57 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 5
+[21-Apr-2013 12:37:57 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'torrohol'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 7
+[21-Apr-2013 12:37:57 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 7
+[21-Apr-2013 12:37:57 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 8
+[21-Apr-2013 12:37:57 America/Denver] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 12
+[21-Apr-2013 12:39:02 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 3
+[21-Apr-2013 12:39:02 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 4
+[21-Apr-2013 12:39:02 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 5
+[21-Apr-2013 12:39:02 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'torrohol'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 6
+[21-Apr-2013 12:39:02 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 6
+[21-Apr-2013 12:39:02 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 7
+[21-Apr-2013 12:39:02 America/Denver] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 9
+[21-Apr-2013 12:39:06 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 3
+[21-Apr-2013 12:39:06 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 4
+[21-Apr-2013 12:39:06 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 5
+[21-Apr-2013 12:39:06 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'torrohol'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 6
+[21-Apr-2013 12:39:06 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 6
+[21-Apr-2013 12:39:06 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 7
+[21-Apr-2013 12:39:06 America/Denver] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 9
+[21-Apr-2013 12:39:18 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 3
+[21-Apr-2013 12:39:18 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 4
+[21-Apr-2013 12:39:18 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'torrohol'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 6
+[21-Apr-2013 12:39:18 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 6
+[21-Apr-2013 12:39:18 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 7
+[21-Apr-2013 12:39:18 America/Denver] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 9
+[21-Apr-2013 12:40:30 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 5
+[21-Apr-2013 12:40:30 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 7
+[21-Apr-2013 12:41:05 America/Denver] PHP Warning:  mysql_connect(): Host 'host400.hostmonster.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 4
+[21-Apr-2013 12:41:05 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 5
+[21-Apr-2013 12:41:05 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'torrohol'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 7
+[21-Apr-2013 12:41:05 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 7
+[21-Apr-2013 12:41:05 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 8
+[21-Apr-2013 12:41:05 America/Denver] PHP Warning:  mysql_close() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 12
+[22-Apr-2013 15:01:26 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 6
+[22-Apr-2013 15:01:26 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 8
+[22-Apr-2013 15:07:31 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 6
+[22-Apr-2013 15:07:31 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 8
+[22-Apr-2013 16:19:57 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 6
+[22-Apr-2013 16:19:57 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 8
+[22-Apr-2013 16:28:42 America/Denver] PHP Notice:  Use of undefined constant sunible_fn - assumed 'sunible_fn' in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 2
+[22-Apr-2013 16:28:42 America/Denver] PHP Notice:  Use of undefined constant php - assumed 'php' in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 2
+[22-Apr-2013 16:28:42 America/Denver] PHP Warning:  include(sunible_fnphp): failed to open stream: No such file or directory in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 2
+[22-Apr-2013 16:28:42 America/Denver] PHP Warning:  include(): Failed opening 'sunible_fnphp' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 2
+[22-Apr-2013 16:28:42 America/Denver] PHP Fatal error:  Call to undefined function getInstallers() in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 3
+[22-Apr-2013 16:29:27 America/Denver] PHP Notice:  Use of undefined constant sunible_fn - assumed 'sunible_fn' in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 2
+[22-Apr-2013 16:29:27 America/Denver] PHP Notice:  Use of undefined constant php - assumed 'php' in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 2
+[22-Apr-2013 16:29:27 America/Denver] PHP Warning:  include(sunible_fnphp): failed to open stream: No such file or directory in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 2
+[22-Apr-2013 16:29:27 America/Denver] PHP Warning:  include(): Failed opening 'sunible_fnphp' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 2
+[22-Apr-2013 16:29:27 America/Denver] PHP Fatal error:  Call to undefined function getInstallers() in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 3
+[22-Apr-2013 16:29:49 America/Denver] PHP Notice:  Use of undefined constant sunible_fn - assumed 'sunible_fn' in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 2
+[22-Apr-2013 16:29:49 America/Denver] PHP Notice:  Use of undefined constant php - assumed 'php' in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 2
+[22-Apr-2013 16:29:49 America/Denver] PHP Warning:  include(sunible_fnphp): failed to open stream: No such file or directory in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 2
+[22-Apr-2013 16:29:49 America/Denver] PHP Warning:  include(): Failed opening 'sunible_fnphp' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 2
+[22-Apr-2013 16:29:49 America/Denver] PHP Fatal error:  Call to undefined function getInstallers() in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 3
+[22-Apr-2013 16:29:56 America/Denver] PHP Notice:  Use of undefined constant sunible_fn - assumed 'sunible_fn' in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 2
+[22-Apr-2013 16:29:56 America/Denver] PHP Notice:  Use of undefined constant php - assumed 'php' in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 2
+[22-Apr-2013 16:29:56 America/Denver] PHP Warning:  include(sunible_fnphp): failed to open stream: No such file or directory in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 2
+[22-Apr-2013 16:29:56 America/Denver] PHP Warning:  include(): Failed opening 'sunible_fnphp' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 2
+[22-Apr-2013 16:29:56 America/Denver] PHP Fatal error:  Call to undefined function getSocial() in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 3
+[22-Apr-2013 16:31:25 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 16:31:28 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 16:31:45 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 16:32:25 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 16:33:18 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 16:34:31 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 16:34:47 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 16:35:22 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 16:36:04 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 16:36:07 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 16:36:22 America/Denver] PHP Parse error:  syntax error, unexpected end of file in /home6/torrohol/public_html/sunible/getData.php on line 14
+[22-Apr-2013 16:39:33 America/Denver] PHP Warning:  include(sunible_fn.php): failed to open stream: No such file or directory in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 2
+[22-Apr-2013 16:39:33 America/Denver] PHP Warning:  include(): Failed opening 'sunible_fn.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 2
+[22-Apr-2013 16:39:33 America/Denver] PHP Fatal error:  Call to undefined function getSocial() in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 3
+[22-Apr-2013 16:40:49 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/suniblefn.php on line 3
+[22-Apr-2013 16:40:55 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/suniblefn.php on line 3
+[22-Apr-2013 16:41:30 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/suniblefn.php on line 3
+[22-Apr-2013 16:41:34 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/suniblefn.php on line 3
+[22-Apr-2013 16:42:37 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 16:42:42 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 16:45:45 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 16:45:49 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 16:45:55 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 16:49:44 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 16:57:22 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 16:58:48 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 17:00:33 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 17:00:37 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 17:00:47 America/Denver] PHP Parse error:  syntax error, unexpected ';' in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 9
+[22-Apr-2013 17:00:51 America/Denver] PHP Parse error:  syntax error, unexpected ';' in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 9
+[22-Apr-2013 17:01:29 America/Denver] PHP Fatal error:  Call to undefined function getInstallers() in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 3
+[22-Apr-2013 17:01:34 America/Denver] PHP Fatal error:  Call to undefined function getInstallers() in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 3
+[22-Apr-2013 17:03:21 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 17:04:58 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 17:05:25 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 17:05:39 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 3
+[22-Apr-2013 17:09:25 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 6
+[22-Apr-2013 17:09:29 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 6
+[22-Apr-2013 17:13:19 America/Denver] PHP Parse error:  syntax error, unexpected ';' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 20
+[22-Apr-2013 17:13:25 America/Denver] PHP Parse error:  syntax error, unexpected ';' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 20
+[22-Apr-2013 17:14:19 America/Denver] PHP Parse error:  syntax error, unexpected ';' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 20
+[22-Apr-2013 17:16:06 America/Denver] PHP Parse error:  syntax error, unexpected ';' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 20
+[22-Apr-2013 17:16:13 America/Denver] PHP Parse error:  syntax error, unexpected ';' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 20
+[22-Apr-2013 17:16:18 America/Denver] PHP Parse error:  syntax error, unexpected ';' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 20
+[22-Apr-2013 17:16:39 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 21
+[22-Apr-2013 17:17:58 America/Denver] PHP Parse error:  syntax error, unexpected end of file in /home6/torrohol/public_html/sunible/getData.php on line 14
+[22-Apr-2013 17:21:15 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 21
+[22-Apr-2013 18:38:20 America/Denver] PHP Parse error:  syntax error, unexpected end of file in /home6/torrohol/public_html/sunible/getData.php on line 14
+[23-Apr-2013 07:46:04 America/Denver] PHP Notice:  Undefined variable: social in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 5
+[23-Apr-2013 07:48:15 America/Denver] PHP Notice:  Undefined variable: social in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 4
+[23-Apr-2013 07:53:02 America/Denver] PHP Notice:  Undefined variable: social in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 4
+[23-Apr-2013 09:10:27 America/Denver] PHP Notice:  Undefined variable: installers in /home6/torrohol/public_html/sunible/getInstallersByZipCode.php on line 4
+[23-Apr-2013 10:12:34 America/Denver] PHP Parse error:  syntax error, unexpected ';' in /home6/torrohol/public_html/sunible/sunible_fn.php on line 24
+[23-Apr-2013 13:00:25 America/Denver] PHP Notice:  Undefined index: pw in /home6/torrohol/public_html/sunible/admin.php on line 11
+[23-Apr-2013 13:00:25 America/Denver] PHP Notice:  Undefined variable: authenticated_P in /home6/torrohol/public_html/sunible/admin.php on line 18
+[24-Apr-2013 23:44:36 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/sunible_fn.php on line 8
+[24-Apr-2013 23:46:12 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/sunible_fn.php on line 8
+[27-Apr-2013 06:01:03 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 3
+[27-Apr-2013 06:01:03 America/Denver] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home6/torrohol/public_html/sunible/sunible_fn.php on line 8
+[30-Apr-2013 12:52:43 America/Denver] PHP Notice:  Undefined index: leadSource in /home6/torrohol/public_html/sunible/testing.php on line 5
+[30-Apr-2013 12:52:43 America/Denver] PHP Notice:  Undefined index: firstName in /home6/torrohol/public_html/sunible/testing.php on line 6
+[30-Apr-2013 12:52:43 America/Denver] PHP Notice:  Undefined index: lastName in /home6/torrohol/public_html/sunible/testing.php on line 7
+[30-Apr-2013 12:52:43 America/Denver] PHP Notice:  Undefined index: title in /home6/torrohol/public_html/sunible/testing.php on line 8
+[30-Apr-2013 12:52:43 America/Denver] PHP Notice:  Undefined index: company in /home6/torrohol/public_html/sunible/testing.php on line 9
+[30-Apr-2013 12:52:43 America/Denver] PHP Notice:  Undefined index: email in /home6/torrohol/public_html/sunible/testing.php on line 10
+[30-Apr-2013 12:52:43 America/Denver] PHP Notice:  Undefined index: phone in /home6/torrohol/public_html/sunible/testing.php on line 11
+[30-Apr-2013 12:52:43 America/Denver] PHP Notice:  Undefined index: street in /home6/torrohol/public_html/sunible/testing.php on line 12
+[30-Apr-2013 12:52:43 America/Denver] PHP Notice:  Undefined index: city in /home6/torrohol/public_html/sunible/testing.php on line 13
+[30-Apr-2013 12:52:43 America/Denver] PHP Notice:  Undefined index: state in /home6/torrohol/public_html/sunible/testing.php on line 14
+[30-Apr-2013 12:52:43 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/testing.php on line 15
+[30-Apr-2013 23:31:42 America/Denver] PHP Notice:  Undefined variable: Choice_21__c in /home6/torrohol/public_html/sunible/sunible_fn.php on line 97
+[30-Apr-2013 23:31:42 America/Denver] PHP Notice:  Undefined variable: Choice_22__c in /home6/torrohol/public_html/sunible/sunible_fn.php on line 98
+[30-Apr-2013 23:31:42 America/Denver] PHP Notice:  Undefined variable: Choice_23__c in /home6/torrohol/public_html/sunible/sunible_fn.php on line 99
+[30-Apr-2013 23:31:42 America/Denver] PHP Notice:  Undefined variable: Choice_24__c in /home6/torrohol/public_html/sunible/sunible_fn.php on line 100
+[30-Apr-2013 23:31:42 America/Denver] PHP Notice:  Undefined variable: Choice_25__c in /home6/torrohol/public_html/sunible/sunible_fn.php on line 101
+[30-Apr-2013 23:31:42 America/Denver] PHP Notice:  Undefined variable: Choice_26__c in /home6/torrohol/public_html/sunible/sunible_fn.php on line 102
+[30-Apr-2013 23:31:42 America/Denver] PHP Notice:  Undefined variable: Choice_27__c in /home6/torrohol/public_html/sunible/sunible_fn.php on line 103
+[30-Apr-2013 23:31:42 America/Denver] PHP Notice:  Undefined variable: Choice_28__c in /home6/torrohol/public_html/sunible/sunible_fn.php on line 104
+[30-Apr-2013 23:31:42 America/Denver] PHP Notice:  Undefined variable: Choice_29__c in /home6/torrohol/public_html/sunible/sunible_fn.php on line 105
+[30-Apr-2013 23:31:42 America/Denver] PHP Notice:  Undefined variable: Choice_30__c in /home6/torrohol/public_html/sunible/sunible_fn.php on line 106
+[04-May-2013 18:38:58 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 31
+[04-May-2013 18:41:59 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 31
+[04-May-2013 18:43:43 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 31
+[04-May-2013 18:51:13 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 31
+[04-May-2013 18:55:00 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 31
+[04-May-2013 18:57:36 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 31
+[04-May-2013 19:03:15 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 31
+[04-May-2013 19:06:47 America/Denver] PHP Fatal error:  Call to undefined function mysqli() in /home6/torrohol/public_html/sunible/sunible_fn.php on line 9
+[04-May-2013 19:11:11 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 31
+[04-May-2013 19:11:14 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 31
+[04-May-2013 19:22:07 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'torrohol_john'@'localhost' (using password: YES) in /home6/torrohol/public_html/sunible/sunible_fn.php on line 45
+[04-May-2013 19:22:07 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home6/torrohol/public_html/sunible/sunible_fn.php on line 46
+[04-May-2013 19:22:07 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'torrohol'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/sunible_fn.php on line 47
+[04-May-2013 19:22:07 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home6/torrohol/public_html/sunible/sunible_fn.php on line 47
+[04-May-2013 19:22:46 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'torrohol_john'@'localhost' (using password: YES) in /home6/torrohol/public_html/sunible/sunible_fn.php on line 45
+[04-May-2013 19:22:46 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home6/torrohol/public_html/sunible/sunible_fn.php on line 46
+[04-May-2013 19:22:46 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'torrohol'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/sunible_fn.php on line 47
+[04-May-2013 19:22:46 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home6/torrohol/public_html/sunible/sunible_fn.php on line 47
+[04-May-2013 19:23:18 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'torrohol_john'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/sunible_fn.php on line 45
+[04-May-2013 19:23:18 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home6/torrohol/public_html/sunible/sunible_fn.php on line 46
+[04-May-2013 19:23:18 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'torrohol'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/sunible_fn.php on line 47
+[04-May-2013 19:23:18 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home6/torrohol/public_html/sunible/sunible_fn.php on line 47
+[04-May-2013 19:24:09 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 31
+[05-May-2013 00:21:16 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 3
+[05-May-2013 00:21:16 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 12
+[05-May-2013 14:22:53 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/sunible_fn.php on line 8
+[05-May-2013 14:22:53 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home6/torrohol/public_html/sunible/sunible_fn.php on line 12
+[05-May-2013 14:22:53 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 13
+[05-May-2013 14:22:54 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/sunible_fn.php on line 44
+[05-May-2013 14:22:54 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home6/torrohol/public_html/sunible/sunible_fn.php on line 45
+[05-May-2013 14:22:54 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'torrohol'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/sunible_fn.php on line 46
+[05-May-2013 14:22:54 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home6/torrohol/public_html/sunible/sunible_fn.php on line 46
+[05-May-2013 14:27:42 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/sunible_fn.php on line 44
+[05-May-2013 14:27:42 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/sunible_fn.php on line 8
+[05-May-2013 14:27:42 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home6/torrohol/public_html/sunible/sunible_fn.php on line 45
+[05-May-2013 14:27:42 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home6/torrohol/public_html/sunible/sunible_fn.php on line 12
+[05-May-2013 14:27:42 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 13
+[05-May-2013 14:27:42 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'torrohol'@'localhost' (using password: NO) in /home6/torrohol/public_html/sunible/sunible_fn.php on line 46
+[05-May-2013 14:27:42 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home6/torrohol/public_html/sunible/sunible_fn.php on line 46
+[06-May-2013 13:07:34 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 13
+[06-May-2013 13:07:35 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/sunible_fn.php on line 35
+[06-May-2013 13:07:42 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 13
+[06-May-2013 13:07:42 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/sunible_fn.php on line 35
+[06-May-2013 13:07:53 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 13
+[06-May-2013 13:07:53 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/sunible_fn.php on line 35
+[06-May-2013 13:58:30 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 13
+[06-May-2013 13:58:30 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/sunible_fn.php on line 35
+[06-May-2013 14:42:52 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 3
+[06-May-2013 14:42:52 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 13
+[06-May-2013 14:49:24 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 3
+[06-May-2013 14:49:24 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 13
+[06-May-2013 14:52:48 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 3
+[06-May-2013 14:52:48 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 13
+[06-May-2013 14:57:32 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 3
+[06-May-2013 14:57:32 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 13
+[06-May-2013 14:59:38 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 15
+[06-May-2013 15:05:05 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 15
+[06-May-2013 15:07:00 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 15
+[06-May-2013 16:33:40 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 15
+[06-May-2013 17:07:57 America/Denver] PHP Warning:  require_once(lib/OAuth.php): failed to open stream: No such file or directory in /home6/torrohol/public_html/sunible/sunible_fn.php on line 196
+[06-May-2013 17:07:57 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'lib/OAuth.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home6/torrohol/public_html/sunible/sunible_fn.php on line 196
+[06-May-2013 19:42:58 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 30
+[06-May-2013 19:43:02 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 30
+[06-May-2013 20:40:31 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 32
+[06-May-2013 23:00:51 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 15
+[06-May-2013 23:00:51 America/Denver] PHP Warning:  Creating default object from empty value in /home6/torrohol/public_html/sunible/sunible_fn.php on line 34
+[06-May-2013 23:00:51 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/sunible_fn.php on line 40
+[06-May-2013 23:03:23 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 13
+[06-May-2013 23:04:19 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 3
+[07-May-2013 12:28:10 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 15
+[07-May-2013 12:28:10 America/Denver] PHP Warning:  Creating default object from empty value in /home6/torrohol/public_html/sunible/sunible_fn.php on line 34
+[07-May-2013 12:28:10 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/sunible_fn.php on line 40
+[07-May-2013 13:29:24 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 15
+[07-May-2013 13:29:24 America/Denver] PHP Warning:  Creating default object from empty value in /home6/torrohol/public_html/sunible/sunible_fn.php on line 34
+[07-May-2013 13:29:24 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/sunible_fn.php on line 40
+[07-May-2013 13:30:54 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 15
+[07-May-2013 13:30:54 America/Denver] PHP Warning:  Creating default object from empty value in /home6/torrohol/public_html/sunible/sunible_fn.php on line 34
+[07-May-2013 13:30:54 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/sunible_fn.php on line 40
+[07-May-2013 13:31:56 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 3
+[07-May-2013 13:34:32 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 15
+[07-May-2013 13:34:32 America/Denver] PHP Warning:  Creating default object from empty value in /home6/torrohol/public_html/sunible/sunible_fn.php on line 34
+[07-May-2013 13:34:32 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/sunible_fn.php on line 40
+[07-May-2013 13:34:55 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 3
+[07-May-2013 13:34:55 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 13
+[07-May-2013 13:37:34 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 15
+[07-May-2013 13:37:34 America/Denver] PHP Warning:  Creating default object from empty value in /home6/torrohol/public_html/sunible/sunible_fn.php on line 34
+[07-May-2013 13:37:34 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/sunible_fn.php on line 40
+[07-May-2013 13:37:53 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/DashboardDataTest.php on line 3
+[07-May-2013 13:39:52 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 15
+[07-May-2013 13:39:52 America/Denver] PHP Warning:  Creating default object from empty value in /home6/torrohol/public_html/sunible/sunible_fn.php on line 34
+[07-May-2013 13:39:52 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/sunible_fn.php on line 40
+[08-May-2013 01:31:30 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 58
+[08-May-2013 01:31:30 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 17
+[08-May-2013 01:31:30 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/sunible_fn.php on line 42
+[08-May-2013 01:37:05 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 17
+[08-May-2013 01:37:05 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/sunible_fn.php on line 42
+[08-May-2013 01:37:05 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 58
+[08-May-2013 01:40:05 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 58
+[08-May-2013 01:40:05 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 17
+[08-May-2013 01:40:05 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/sunible_fn.php on line 42
+[08-May-2013 08:36:17 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 17
+[08-May-2013 08:36:17 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 58
+[08-May-2013 08:36:17 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/sunible_fn.php on line 42
+[08-May-2013 08:36:26 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 58
+[08-May-2013 08:36:26 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 17
+[08-May-2013 08:36:26 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/sunible_fn.php on line 42
+[08-May-2013 13:25:01 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 3
+[08-May-2013 13:25:01 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 17
+[08-May-2013 18:01:38 America/Denver] PHP Notice:  Undefined index: yelpSearch in /home6/torrohol/public_html/sunible/YelpSearchTest.php on line 3
+[08-May-2013 18:01:40 America/Denver] PHP Warning:  require_once(lib/OAuth.php): failed to open stream: No such file or directory in /home6/torrohol/public_html/sunible/sunible_fn.php on line 226
+[08-May-2013 18:01:40 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'lib/OAuth.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home6/torrohol/public_html/sunible/sunible_fn.php on line 226
+[08-May-2013 18:01:56 America/Denver] PHP Warning:  require_once(lib/OAuth.php): failed to open stream: No such file or directory in /home6/torrohol/public_html/sunible/sunible_fn.php on line 226
+[08-May-2013 18:01:56 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'lib/OAuth.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home6/torrohol/public_html/sunible/sunible_fn.php on line 226
+[08-May-2013 18:02:51 America/Denver] PHP Warning:  require_once(lib/OAuth.php): failed to open stream: No such file or directory in /home6/torrohol/public_html/sunible/sunible_fn.php on line 226
+[08-May-2013 18:02:51 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'lib/OAuth.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home6/torrohol/public_html/sunible/sunible_fn.php on line 226
+[08-May-2013 18:03:01 America/Denver] PHP Warning:  require_once(lib/OAuth.php): failed to open stream: No such file or directory in /home6/torrohol/public_html/sunible/sunible_fn.php on line 226
+[08-May-2013 18:03:01 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'lib/OAuth.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home6/torrohol/public_html/sunible/sunible_fn.php on line 226
+[08-May-2013 18:05:48 America/Denver] PHP Warning:  require_once(lib/OAuth.php): failed to open stream: No such file or directory in /home6/torrohol/public_html/sunible/sunible_fn.php on line 226
+[08-May-2013 18:05:48 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'lib/OAuth.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home6/torrohol/public_html/sunible/sunible_fn.php on line 226
+[09-May-2013 12:13:27 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 68
+[09-May-2013 12:13:27 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 19
+[09-May-2013 12:13:27 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/sunible_fn.php on line 51
+[09-May-2013 12:13:37 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 68
+[09-May-2013 12:13:37 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 19
+[09-May-2013 12:13:37 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/sunible_fn.php on line 51
+[10-May-2013 06:36:24 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 19
+[10-May-2013 06:36:25 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/sunible_fn.php on line 51
+[10-May-2013 06:38:15 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 19
+[10-May-2013 06:38:15 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/sunible_fn.php on line 51
+[10-May-2013 06:39:11 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 19
+[10-May-2013 06:39:11 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/sunible_fn.php on line 51
+[10-May-2013 06:42:42 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 19
+[10-May-2013 06:42:42 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/sunible_fn.php on line 51
+[10-May-2013 06:45:36 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 19
+[10-May-2013 06:45:36 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/sunible_fn.php on line 51
+[10-May-2013 06:49:13 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 19
+[10-May-2013 06:49:13 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/sunible_fn.php on line 51
+[10-May-2013 06:57:16 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 19
+[10-May-2013 06:57:16 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/sunible_fn.php on line 51
+[10-May-2013 07:06:24 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 19
+[10-May-2013 07:06:24 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/sunible_fn.php on line 51
+[10-May-2013 09:28:36 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 19
+[10-May-2013 09:28:36 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/sunible_fn.php on line 51
+[11-May-2013 05:36:51 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 68
+[11-May-2013 05:36:51 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 19
+[11-May-2013 05:36:51 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/sunible_fn.php on line 51
+[11-May-2013 15:52:41 America/Denver] PHP Fatal error:  Call to undefined function clean_string() in /home6/torrohol/public_html/sunible/sunible_fn.php on line 304
+[11-May-2013 18:46:26 America/Denver] PHP Fatal error:  Call to undefined function clean_string() in /home6/torrohol/public_html/sunible/sunible_fn.php on line 304
+[11-May-2013 18:48:43 America/Denver] PHP Fatal error:  Call to undefined function clean_string() in /home6/torrohol/public_html/sunible/sunible_fn.php on line 304
+[11-May-2013 18:57:09 America/Denver] PHP Fatal error:  Call to undefined function clean_string() in /home6/torrohol/public_html/sunible/sunible_fn.php on line 304
+[11-May-2013 19:03:08 America/Denver] PHP Fatal error:  Call to undefined function clean_string() in /home6/torrohol/public_html/sunible/sunible_fn.php on line 304
+[11-May-2013 20:09:42 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/SocialProofDataTest.php on line 3
+[11-May-2013 20:09:42 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/sunible_fn.php on line 17
+[13-May-2013 16:11:02 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/beta/SocialProofDataTest.php on line 3
+[13-May-2013 16:11:02 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 17
+[13-May-2013 16:24:36 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 19
+[13-May-2013 16:24:36 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 51
+[13-May-2013 16:24:36 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 52
+[13-May-2013 16:24:56 America/Denver] PHP Notice:  Undefined index: zip in /home6/torrohol/public_html/sunible/beta/SocialProofDataTest.php on line 3
+[13-May-2013 16:24:56 America/Denver] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 17
+[13-May-2013 16:35:03 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 19
+[13-May-2013 16:35:03 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 51
+[13-May-2013 16:35:03 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 52
+[13-May-2013 17:45:05 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 19
+[13-May-2013 17:45:05 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 51
+[13-May-2013 17:45:05 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 52
+[13-May-2013 18:55:53 America/Denver] PHP Notice:  Undefined index: SystemRoot in /home6/torrohol/public_html/sunible/beta/db_vars.php on line 3
+[13-May-2013 18:56:20 America/Denver] PHP Notice:  Undefined index: SystemRoot in /home6/torrohol/public_html/sunible/beta/db_vars.php on line 3
+[13-May-2013 18:56:20 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 19
+[13-May-2013 18:56:20 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 51
+[13-May-2013 18:56:20 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 52
+[13-May-2013 18:56:34 America/Denver] PHP Notice:  Undefined index: SystemRoot in /home6/torrohol/public_html/sunible/beta/db_vars.php on line 3
+[13-May-2013 18:56:34 America/Denver] PHP Notice:  Undefined index: SystemRoot in /home6/torrohol/public_html/sunible/beta/db_vars.php on line 3
+[13-May-2013 18:56:46 America/Denver] PHP Notice:  Undefined index: SystemRoot in /home6/torrohol/public_html/sunible/beta/db_vars.php on line 3
+[13-May-2013 18:58:45 America/Denver] PHP Notice:  Undefined index: SystemRoot in /home6/torrohol/public_html/sunible/beta/db_vars.php on line 3
+[20-May-2013 06:10:30 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 19
+[20-May-2013 06:10:30 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 51
+[20-May-2013 06:10:30 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 52

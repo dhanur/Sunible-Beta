@@ -1,0 +1,226 @@
+/*
+	styles for form elements
+*/
+
+label {
+	height: auto !important;
+	font-size: 18px;
+}
+
+label.checkbox {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 25px;
+	margin-top: 3px;
+}
+
+.radio input[type="radio"],
+.checkbox input[type="checkbox"] {
+	float: none;
+}
+
+.checkbox,
+.radio {
+	padding-left: 28px;
+	padding-bottom: 10px;
+}
+
+select,
+.dk_container,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input,
+.checkbox,
+.radio {
+	margin-bottom: 0px;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"] {
+	background-color: #ECF0F1;
+	padding: 2px 0 2px 4px;
+	font-family: "bariol_regular", sans-serif;
+	font-size: 18px;
+	border-color: #ECF0F1;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus {
+	outline: none;
+	border-color: #fcd728;
+	background-color: white;
+}
+
+::-webkit-input-placeholder { color: white; padding: 2px 0 2px 4px; }
+:-moz-placeholder { color: white; padding: 2px 0 2px 4px; }
+.placeholder { color: white; padding: 2px 0 2px 4px; }
+
+.checkbox:hover,
+.radio:hover {
+	color: #fcd728;
+}
+
+/*textarea:invalid,
+input:invalid {
+	border-color: #E74C3C;
+	color: #E74C3C;
+}*/
+
+.custom_select_wrapper {
+	display: inline-block;
+}
+
+.dk_container {
+	font-size: 18px;
+}
+
+.dk_options:before {
+	border-color: transparent transparent #d7dadb transparent;
+}
+
+.dk_toggle {
+	padding: 4px 60px 2px 7px;
+	background-color: #ECF0F1;
+	color: #34495E;
+	line-height: 125%;
+}
+
+.dk_toggle:hover,
+.dk_toggle:focus,
+.dk_focus .dk_toggle,
+.dk_open .dk_toggle {
+	background-color: #ffe462;
+}
+
+.dk_options a {
+	color: #34495E;
+}
+
+/*.dk_open .dk_toggle .select-icon,*/
+.dk_options a:hover,
+.dk_option_current a {
+	background-color: #fcd728;
+	color: white;
+}
+
+.dk_options_inner {
+	background-color: #d7dadb;
+}
+
+.select-icon {
+	background-color: #fcd728;
+	border-left: none;
+	width: 33px;
+	background-position-x: 10px;
+}
+
+.dk_open .dk_toggle .select-icon { background-color: #fcd728; }
+
+/* This 2 lines fix Chrome bug with scrollable fixed content that is caused by opacity: 0 value */
+.dk_container .dk_options { opacity: 1; display: none !important;}
+.dk_container.dk_open .dk_options { opacity: 1; display: block !important;}
+
+
+.btn {
+	margin-bottom: 10px;
+	padding: 4px 12px 5px 12px;
+	background-color: #C0392B;
+	font-size: 18px;
+	font-family: "Lato";
+}
+
+.btn:hover,
+.btn:focus {
+	background-color: #E74C3C;
+}
+
+.btn-large { padding-left: 20px; padding-right: 20px;}
+
+.tooltip.bottom .tooltip-arrow { top: 1px; }
+
+form {
+	margin: 10px 0;
+	padding: 10px 0;
+	font-size: 18px;
+}
+
+	form .field_container {
+		display: inline-block;
+		vertical-align: top;
+		margin-top: -2px;
+	}
+
+	form .field { margin-left: 2px; margin-right: 2px;}
+
+	form select.field {line-height: 125%; }
+
+	form p { line-height: 26px; vertical-align: top;}
+
+.alert-block {
+	position: fixed;
+	top: 0;
+	display: none;
+}
+
+.error {
+	font-size: 13px;
+	color: #E74C3C;
+	text-transform: none;
+}
+
+.validation.message label {
+	color: #C0392B;
+	margin: 0 4px;
+}
+
+.field_container {
+	display: inline-block;
+	vertical-align: middle;
+	min-height: 50px;
+}
+
+.field_container .validation.message {
+	display: block;
+	font-size: 11px;
+	line-height: 125%;
+	min-height: 20px;
+}
+

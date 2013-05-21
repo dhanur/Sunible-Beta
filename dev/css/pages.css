@@ -1,0 +1,795 @@
+/*
+	pages specific styles
+*/
+
+.page {
+	display: none; /* this is used to hide all pages. They are shown with javascript */
+	padding-top: 0;
+	min-height: 300px;
+	min-width: 400px;
+}
+.page.is_shown { display: block; }
+
+/* HEADER + FOOTER */
+header.page_header,
+footer.page_footer {
+	display: none;
+}
+
+.page_header .overlay_beta .text {
+	display: block;
+	position: absolute;
+	top: 23px;
+	left: -32px;
+	-webkit-transform: rotateZ(-45deg);
+	-moz-transform: rotateZ(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotateZ(-45deg);
+	transform: rotateZ(-45deg);
+	background-color: #34494E;
+	color: white;
+	padding: 2px 23px;
+	font-size: 18px;
+}
+
+.page_header .overlay_beta .tooltip {
+	top: 26px !important;
+	left: 50px !important;
+}
+
+	.page_header .overlay_beta .tooltip .tooltip-arrow { left: 24px !important; }
+
+	.page_header .overlay_beta .tooltip.bottom .tooltip-arrow,
+	.page_header .overlay_beta .tooltip.top .tooltip-arrow {
+		border-bottom-color: #fcd728;
+	}
+
+	.page_header .overlay_beta .tooltip.bottom .tooltip-inner,
+	.page_header .overlay_beta .tooltip.top .tooltip-inner {
+		background-color: #fcd728;
+		color: #34495E;
+	}
+
+.question.why_solar { width: 85px; }
+
+/* HOMEPAGE */
+
+.page.homepage { min-height: 250px; }
+
+.page.homepage .teaser.ad.container {
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	width: 300px;
+	height: 350px;
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -200px;
+}
+
+	.page.homepage .teaser.ad.container .teaser {
+		text-decoration: none;
+	}
+
+	.page.homepage .teaser,
+	.page.homepage .zip.container {
+		display: block;
+		overflow: hidden;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+		.page.homepage .teaser .save,
+		.page.homepage .teaser .money_with,
+		.page.homepage .teaser .solar {
+			line-height: 100%;
+			display: block;
+			overflow: hidden;
+		}
+
+		.page.homepage .teaser .save {
+			font-size: 128px;
+			color: #fcd728;
+		}
+
+		.page.homepage .teaser .money_with {
+			font-size: 50px;
+			color: #34495E;
+		}
+
+		.page.homepage .teaser .solar {
+			font-size: 98px;
+			color: #fcd728;
+		}
+
+	.page.homepage .zip.container {
+		width: 280px;
+		margin: 0 auto;
+		position: relative;
+		text-align: center;
+	}
+
+		.page.homepage .zip.container input.zip {
+			width: 212px;
+			padding: 4px;
+			padding-right: 58px;
+			font-size: 16px;
+		}
+		.page.homepage .zip.container .btn.search.providers.zip {
+			position: absolute;
+			right: 2px;
+			top: 10px;
+			padding: 4px 16px 4px 16px;
+		}
+
+/* SOCIAL PROOF */
+
+
+/*stretching map*/
+/*
+.page.social_proof {
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	top: 110px;
+	bottom: 10px;
+	padding-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+	.page.social_proof .social_info_by_zip h1 {
+		display: block;
+		font-size: 48px;
+		text-align: center;
+	}
+
+	.page.social_proof .social_info_by_zip .button_container {
+		text-align: center;
+	}
+
+	.page.social_proof .social_info_by_zip .solar_info {
+		display: block;
+		position: absolute;
+		left: 39%;
+		right: 0;
+		top: 50%;
+		margin-top: -175px;
+	}
+
+	.page.social_proof .social_info_by_zip .map.container {
+		display: block;
+		overflow: hidden;
+		position: absolute;
+		top: 70px;
+		bottom: 60px;
+		left: 0;
+		right: 53%;
+		margin: 0;
+	}
+
+		.page.social_proof .social_info_by_zip .map.container figcaption {
+			display: block;
+			overflow: hidden;
+			position: absolute;
+			bottom: 0px;
+			left: 0;
+			right: 0;
+			padding: 6px;
+			text-align: center;
+		}
+
+		.page.social_proof .social_info_by_zip .map.container .map {
+			display: block;
+			overflow: hidden;
+			position: absolute;
+			top: 0px;
+			bottom: 30px;
+			left: 0;
+			right: 0;
+		}
+
+
+		.page.social_proof .social_info_by_zip .solar_info p {
+			font-size: 22px;
+			margin-top: 25px;
+		}
+
+		.page.social_proof .social_info_by_zip .counter.total_install_number,
+		.page.social_proof .social_info_by_zip .counter.total_lease,
+		.page.social_proof .social_info_by_zip .counter.total_installers {
+			padding: 17px 6px 19px 6px;
+			border-radius: 28px;
+			font-size: 28px;
+			min-width: 42px;
+		}
+*/
+
+/* non-stretching map */
+
+.page.social_proof { margin-top: -20px;}
+
+	.page.social_proof h1 {
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.page.social_proof .map.container {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.page.social_proof .social_info_by_zip .solar_info {
+		display: block;
+		position: absolute;
+		left: 5%;
+		right: 5%;
+		bottom: 70px;
+	}
+
+		.page.social_proof .social_info_by_zip .solar_info .counters {
+			clear: both;
+			overflow: hidden;
+			text-align: center;
+		}
+
+			.page.social_proof .social_info_by_zip .solar_info .counters p {
+				/*display: block;
+				text-align: center;
+				width: 30%;
+				float: left;
+				margin-left: 5%;*/
+
+				display: inline-block;
+				width: 200px;
+				vertical-align: top;
+				margin-left: 100px;
+				font-size: 18px;
+				line-height: 1.25em;
+			}
+
+			.page.social_proof .social_info_by_zip .solar_info .counters p:first-child { margin-left: 0; }
+
+		.page.social_proof .social_info_by_zip .solar_info .counter {
+			background-color: transparent;
+			border-radius: 0;
+			display: block;
+			color: #fcd728;
+			font-size: 40px;
+			line-height: 1em;
+			font-weight: bold;
+		}
+
+		.page.social_proof .social_info_by_zip .solar_info .button_container {
+			float: none;
+			clear: both;
+			width: auto;
+			padding-top: 3px;
+			margin-left: 0;
+			margin-bottom: 0;
+			text-align: center;
+		}
+
+		.page.social_proof .social_info_by_zip .solar_info .button_container .btn {
+			margin-bottom: 0;
+		}
+
+		.page.social_proof.fresno .social_info_by_zip .solar_info .message.bakersfield.county { display: none; }
+
+		.page.social_proof.california .social_info_by_zip .solar_info .message.bakersfield.county {
+			text-align: center;
+			margin-bottom: 10px;
+			font-size: 18px;
+			display: block;
+		}
+
+	/*.page.social_proof .social_info_by_zip .map.container {
+		position: absolute;
+		top: 215px;
+		bottom: 241px;
+		left: 5%;
+		right: 5%;
+	}*/
+
+		.page.social_proof .social_info_by_zip .map.container figcaption {
+			display: block;
+			overflow: hidden;
+			padding: 6px;
+			text-align: center;
+			font-size: 18px;
+		}
+
+		.page.social_proof .social_info_by_zip .map.container .map {
+			position: absolute !important;
+			top: 180px;
+			bottom: 250px;
+			left: 5%;
+			right: 5%;
+		}
+
+		.page.social_proof.fresno .social_info_by_zip .map.container .map {
+			bottom: 220px;
+		}
+
+/* map styles*/
+
+.social_info_by_zip .leaflet-popup-content-wrapper {
+	border-radius: 6px;
+	background: transparent url('../images/marker_home_icon.png') 50% 0 no-repeat;
+	padding: 15px 10px 10px 10px;
+}
+
+.social_info_by_zip .leaflet-popup-content-wrapper,
+.social_info_by_zip .leaflet-popup-tip {
+	background-color: transparent;
+	color: white;
+	box-shadow: none;
+}
+
+.social_info_by_zip .leaflet-popup-content { margin: 5px 0; }
+.social_info_by_zip .leaflet-popup-tip-container { height: 15px; margin-left: 4px; }
+
+/* DASHBOARD */
+.page.dashboard {
+	padding-right: 170px;
+	padding-top: 0px;
+}
+
+	.page.dashboard .open_registration_page { display: none; }
+
+	.page.dashboard .providers.container header {
+		/*font-family: "Lato", sans-serif;
+		font-size: 13px;
+		position: absolute;
+		top: 70px;
+		left: 5%;
+		right: 5%;
+		margin-left: 170px;
+		margin-right: 170px;*/
+		text-align: center;
+	}
+
+	.page.dashboard .providers.container .table th {
+		padding: 0px 8px 2px 8px;
+		outline: none;
+		vertical-align: middle;
+	}
+
+		.page.dashboard .providers.container .table th .text { display: block; }
+
+		.page.dashboard .providers.container .table th .question_mark {
+			display: block;
+			width: 6px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+	.page.dashboard .providers.container .providers.list.grid {width: 100% !important;}
+
+	.page.dashboard .providers.container .providers.list.grid .row { margin: 0;}
+
+		.page.dashboard .providers.container .providers.list.grid td {
+			font-size: 18px;
+			font-family: "bariol_regular", sans-serif;
+			height: 72px;
+		}
+
+			.page.dashboard .providers.container .providers.list.grid td.name {
+				font-size: 0px;
+				text-align: center;
+			}
+
+				.page.dashboard .providers.container .providers.list.grid td.name img {
+					max-height: 60px;
+					max-width: 100%;
+					border-radius: 6px;
+				}
+
+			.page.dashboard .providers.container .providers.list.grid th.rating img { width: 50px; }
+
+			.page.dashboard .providers.container .providers.list.grid td.checkboxes,
+			.page.dashboard .providers.container .providers.list.grid td.cost,
+			.page.dashboard .providers.container .providers.list.grid td.number_of_homes_installed {
+				text-align: center;
+			}
+
+			.page.dashboard .providers.container .providers.list.grid .badge {
+				min-width: 95px;
+				font-size: 15px;
+				padding: 4px 10px;
+			} 
+
+			.page.dashboard .providers.container .providers.list.grid td.cost.value .badge {
+				background-color: #4FA541;
+				color: white;
+			}
+
+			.page.dashboard .providers.container .providers.list.grid td.cost.premium .badge {
+			 	background-color: #34495E;
+			 	color: white;
+			 }
+
+			.page.dashboard .providers.container .providers.list.grid td.cost.standard .badge { 
+				background-color: #fcd728;
+				color: white;
+			}
+
+			.page.dashboard .providers.container .providers.list.grid .yelp_review_count { font-size: 13px; display: block;}
+
+			.page.dashboard .providers.container .providers.list.grid .rating_stars.has-1:before,
+			.page.dashboard .providers.container .providers.list.grid .rating_stars.has-1_5:before,
+			.page.dashboard .providers.container .providers.list.grid .rating_stars.has-2:before,
+			.page.dashboard .providers.container .providers.list.grid .rating_stars.has-2_5:before,
+			.page.dashboard .providers.container .providers.list.grid .rating_stars.has-3:before,
+			.page.dashboard .providers.container .providers.list.grid .rating_stars.has-3_5:before,
+			.page.dashboard .providers.container .providers.list.grid .rating_stars.has-4:before,
+			.page.dashboard .providers.container .providers.list.grid .rating_stars.has-4_5:before,
+			.page.dashboard .providers.container .providers.list.grid .rating_stars.has-5:before {
+				display: block;
+				font-size: 16px;
+				letter-spacing: 0px;
+				/*margin-top: 5px;*/
+				position: relative;
+				top: 6px;
+			}
+
+	.page.dashboard aside.logo {
+		width: 160px;
+		text-align: center;
+		position: fixed;
+		right: 10%;
+		top: 15px;
+	}
+
+	.page.dashboard header p {
+		text-align: center;
+		font-size: 18px;
+		line-height: 125%;
+	}
+
+	.page.dashboard header h1 { margin-top: 0; }
+
+	.page.dashboard .number_of_selected.providers {
+		width: 160px;
+		text-align: center;
+		font-size: 24px;
+		line-height: 26px;
+		position: absolute;
+		right: 5%;
+		bottom: 69px;
+		padding-bottom: 40px;
+	}
+			.page.dashboard .number_of_selected.providers .block .max_length.message { font-size: 14px; }
+
+		.page.dashboard .number_of_selected.providers .open_registration_page {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 160px;
+			margin: 0;
+		}
+
+.providers.list.grid input[type="radio"],
+.providers.list.grid input[type="checkbox"] {
+	margin: 0;
+	margin-bottom: 4px;
+}
+
+.dataTables_length { float: left; }
+
+	.dataTables_length label { vertical-align: middle; }
+
+.dataTables_filter { float: right; }
+
+.number_of_selected.providers .counter.selected.providers.number {
+	font-size: 42px;
+	padding-left: 9px;
+	border-radius: 30px;
+	padding-right: 9px;
+	padding-top: 16px;
+	padding-bottom: 17px;
+	margin: 7px 0 3px 0;
+	min-width: 40px;
+}
+
+.providers.list.grid td { vertical-align: middle; }
+
+/* dashboard grid columns sizes */
+
+.providers.list.grid td.checkboxes,
+.providers.list.grid th.checkboxes {
+	width: 5% !important;
+	min-width: 42px;
+}
+
+.providers.list.grid th.cost {
+	width: 15% !important;
+	min-width: 126px;
+}
+
+.providers.list.grid td.cost {
+	width: 15% !important;
+	min-width: 126px;
+}
+
+.providers.list.grid td.number_of_homes_installed,
+.providers.list.grid th.number_of_homes_installed {
+	width: 15% !important;
+	min-width: 125px;
+}
+
+.providers.list.grid td.rating,
+.providers.list.grid th.rating {
+	width: 15% !important;
+	min-width: 125px;
+}
+
+.providers.list.grid th.rating .text { font-size: 12px; }
+
+/*.page.dashboard .providers.container .providers.list.grid td.name {
+	position: relative;
+}*/
+
+.page.dashboard .providers.container .providers.list.grid td.name img {
+	/*display: block;
+	overflow: hidden;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 5px;
+	width: auto !important;
+	max-height: 60px;*/
+	max-width: 230px;
+}
+
+.providers.list.grid td.checkboxes { text-align: center; }
+
+	.providers.list.grid td.checkboxes label.checkbox {
+		padding-left: 10px;
+		display: inline-block;
+	}
+
+.page.dashboard .dataTables_wrapper.stretched_vertically {
+	position: absolute;
+	top: 210px;
+	bottom: 70px;
+	left: 5%;
+	right: 5%;
+	margin-right: 170px;
+}
+
+.page.dashboard .dataTables_wrapper.stretched_vertically .dataTables_scrollBody {
+	height: auto !important;
+	position: absolute;
+	top: 55px;
+	bottom: 6px;
+	overflow-x: hidden !important;
+}
+
+.page.dashboard .dataTables_wrapper.stretched_vertically .dataTables_scroll:after {
+	content: "";
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 6px;
+	background-color: #34495E;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+/* REGISTRATION */
+
+.page.registration {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 800px;
+	height: 375px;
+	margin-top: -187px;
+	margin-left: -400px;
+}
+
+.page.registration form input,
+.page.registration form textarea,
+.page.registration .dk_toggle {
+	margin-top: -1px;
+}
+
+	.page.registration .registration_form .field.first_name { width: 170px; }
+	.page.registration .registration_form .field.last_name { width: 170px; }
+	.page.registration .registration_form .field.nickname { width: 150px; }
+	.page.registration .registration_form .field.street_address { width: 333px; }
+	.page.registration .registration_form .field.city { width: 150px; }
+	.page.registration .registration_form .field.phone_number { width: 150px; }
+	.page.registration .registration_form .field.email { width: 403px; }
+	.page.registration .registration_form .field.property_type { width: 100px; }
+	.page.registration .registration_form .field.cost_per_month { width: 80px; }
+	.page.registration .registration_form .field.people_nature { width: 100px; }
+	.page.registration .registration_form .field.electricity_provider_name { width: 265px; }
+	.page.registration .registration_form .field.roof_type { width: 150px; }
+
+	.page.registration .send_registration {
+		display: block;
+		width: 150px;
+		height: 45px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+        
+/* FAQS */
+
+      
+ul { margin: 0; padding: 0; }
+ul li { margin: 0; padding: 0; list-style: none; }
+ul li a { font-size:13.0pt; font-family:"Bariol Regular"; color:#F1C40F; }
+ul li div { display: none; }
+
+/* THANK YOU */
+
+.page.thank_you h1 {
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 48px;
+}
+
+.page.thank_you .meanwhile { text-align: center; font-size: 18px; }
+
+.page.thank_you .additional_stuff {
+	margin: 30px auto;
+	overflow: hidden;
+	width: 600px;
+}
+
+	.page.thank_you .additional_stuff .block {
+		float: left;
+		width: 45%;
+		padding: 1%;
+	}
+
+	.page.thank_you .additional_stuff .block:first-child { margin-right: 6%; }
+
+	.page.thank_you .additional_stuff .block h2 { text-align: center; color: #fcd728; margin-top: 0;}
+
+	.page.thank_you .additional_stuff .block .logo {
+		display: block;
+		overflow: hidden;
+		border: none;
+		text-align: center;
+		margin: 20px 0;
+	}
+
+		.page.thank_you .additional_stuff .block p {
+			font-size: 18px;
+			text-align: center;
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+
+		.page.thank_you .additional_stuff .block .logo img { height: 40px; }
+
+/* MODAL PAGES */
+
+#modal-page-sign_up { width: 600px; }
+
+#modal-page-sign_up button.sign_up {
+	margin-left: auto;
+	margin-right: auto;
+	width: 254px;
+	display: block;
+}
+
+#modal-page-sign_up .no-spam {
+	text-align: center;
+}
+
+
+#modal-page-sign_up .field.first_name { width: 170px; }
+#modal-page-sign_up .field.last_name { width: 170px; }
+#modal-page-sign_up .field.email { width: 170px; }
+
+#modal-terms_of_service,
+#modal-privacy_policy {
+	height: 450px;
+	width: 600px;
+}
+
+#modal-faqs,
+#modal-about_us,
+#modal-jobs {
+        position: absolute;
+	top: 50%;
+	left: 50%;  
+	width: 800px;
+	height: 600px;
+        font-size: 16px;
+	margin-top: -20px;
+	margin-left: -400px;  
+}
+
+#modal-terms_of_service .nano,
+#modal-privacy_policy .nano {
+	width: auto;
+	height: 370px;
+	padding: 0;
+	margin: 0px;
+}
+
+#modal-faqs .nano,
+#modal-about_us .nano,
+#modal-jobs .nano {
+	width: auto;
+	height: 500px;
+	padding: 0;
+	margin: 0px;
+}
+
+#modal-terms_of_service .nano .content,
+#modal-privacy_policy .nano .content,
+#modal-faqs .nano .content,
+#modal-about_us .nano .content,
+#modal-jobs .nano .content { right: 15px;}
+
+#modal-terms_of_service .modal-body,
+#modal-privacy_policy .modal-body,
+#modal-faqs .modal-body,
+#modal-about_us .modal-body,
+#modal-jobs .modal-body { padding-right: 0; }
+
+#modal-page-contact_us .field.name { width: 200px;}
+#modal-page-contact_us .field.email { width: 300px;}
+
+#modal-page-contact_us .field.comments {
+	width: 516px;
+	max-width: 516px;
+	min-width: 516px;
+	height: 150px;
+	max-height: 150px;
+	min-height: 150px;
+}
+
+#modal-page-contact_us .field.contact_reason {
+	width: 284px;
+}
+
+#modal-page-contact_us button.send_message {
+	margin-left: auto;
+	margin-right: auto;
+	width: 254px;
+	display: block;
+}
+
+#modal-page-contact_us .call_us {
+	text-align: center;
+	font-size: 15px;
+}
+
+
+/* IE 10 styles */
+
+.ie-10 .page.dashboard .providers.container .providers.list.grid .yelp_review_count { margin-top: 14px; }
+
+
+.ie-10 .page.thank_you h1 {
+	margin-bottom: 0;
+	line-height: 20px;
+	padding-bottom: 10px;
+}
+
+/* SAFARI styles */
+.safari .page.dashboard .providers.container .providers.list.grid .rating_stars.has-1:before,
+.safari .page.dashboard .providers.container .providers.list.grid .rating_stars.has-1_5:before,
+.safari .page.dashboard .providers.container .providers.list.grid .rating_stars.has-2:before,
+.safari .page.dashboard .providers.container .providers.list.grid .rating_stars.has-2_5:before,
+.safari .page.dashboard .providers.container .providers.list.grid .rating_stars.has-3:before,
+.safari .page.dashboard .providers.container .providers.list.grid .rating_stars.has-3_5:before,
+.safari .page.dashboard .providers.container .providers.list.grid .rating_stars.has-4:before,
+.safari .page.dashboard .providers.container .providers.list.grid .rating_stars.has-4_5:before,
+.safari .page.dashboard .providers.container .providers.list.grid .rating_stars.has-5:before {
+	top: -2px;
+}
+

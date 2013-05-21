@@ -1,0 +1,58 @@
+/*
+	IE 8 styles
+*/
+
+.sunible.logo { display: inline; }
+.field.error { border-color: #E74C3C; }
+
+form .field_container { margin-top: -3px; }
+
+.page.homepage .zip.container .btn.search.providers.zip { top: 9px; }
+
+.page.dashboard .providers.container .providers.list.grid td.name {
+	position: relative;
+}
+
+.page.dashboard .providers.container .providers.list.grid td.name img {
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 5px;
+	width: auto !important;
+	max-height: 60px;
+}
+
+.nano > .pane { background-color: #ccc; }
+
+.page_header .overlay_beta .text {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.7071067811865483, M12=0.7071067811865467, M21=-0.7071067811865467, M22=0.7071067811865483, SizingMethod='auto expand')";
+	top: -20px;
+	left: -20px;
+}
+
+.sunible.logo img { margin-top: 20px; }
+
+.page.social_proof .social_info_by_zip .solar_info { margin-top: -150px; }
+
+.modal .close,
+.modal .close:hover {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	padding-bottom: 0px;
+}
+
+.social_info_by_zip .leaflet-popup-tip-container { height: 12px; margin-top: -1px; }
+
+.social_info_by_zip .leaflet-popup-content-wrapper { border: none; }
+
+.page.dashboard .providers.container .providers.list.grid .yelp_review_count { margin-top: 20px; }
+
+
+.page.thank_you h1 {
+	margin-bottom: 0;
+	line-height: 20px;
+	padding-bottom: 10px;
+}
+
+.page.thank_you .additional_stuff { margin: 0 auto; }

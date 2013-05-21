@@ -353,3 +353,15 @@
 [13-May-2013 17:45:05 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 19
 [13-May-2013 17:45:05 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 51
 [13-May-2013 17:45:05 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 52
+[13-May-2013 18:55:53 America/Denver] PHP Notice:  Undefined index: SystemRoot in /home6/torrohol/public_html/sunible/beta/db_vars.php on line 3
+[13-May-2013 18:56:20 America/Denver] PHP Notice:  Undefined index: SystemRoot in /home6/torrohol/public_html/sunible/beta/db_vars.php on line 3
+[13-May-2013 18:56:20 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 19
+[13-May-2013 18:56:20 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 51
+[13-May-2013 18:56:20 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 52
+[13-May-2013 18:56:34 America/Denver] PHP Notice:  Undefined index: SystemRoot in /home6/torrohol/public_html/sunible/beta/db_vars.php on line 3
+[13-May-2013 18:56:34 America/Denver] PHP Notice:  Undefined index: SystemRoot in /home6/torrohol/public_html/sunible/beta/db_vars.php on line 3
+[13-May-2013 18:56:46 America/Denver] PHP Notice:  Undefined index: SystemRoot in /home6/torrohol/public_html/sunible/beta/db_vars.php on line 3
+[13-May-2013 18:58:45 America/Denver] PHP Notice:  Undefined index: SystemRoot in /home6/torrohol/public_html/sunible/beta/db_vars.php on line 3
+[20-May-2013 06:10:30 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 19
+[20-May-2013 06:10:30 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 51
+[20-May-2013 06:10:30 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 52

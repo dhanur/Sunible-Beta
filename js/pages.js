@@ -254,7 +254,6 @@ function getInstallersByZipCodeFormSubmit($form)
 // SOCIAL PROOF
 function initSocialProof(data, location)
 {
-        
 	updateSocialCounters(data[0]);
 	var $button = pages.socialProof.find('.btn.next_action');
 	var $areaName = pages.socialProof.find('.area_name');

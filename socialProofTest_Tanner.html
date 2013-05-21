@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Sunible</title>
+		<link rel="shortcut icon" href="images/favicon.ico"/>
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/flat-ui.css"/>
+		<link rel="stylesheet" type="text/css" href="css/general.css"/>
+		<link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+		<link rel="stylesheet" type="text/css" href="css/forms.css"/>
+		<link rel="stylesheet" type="text/css" href="css/layout.css"/>
+		<link rel="stylesheet" type="text/css" href="css/pages.css"/>
+		<!-- IE code -->
+		<script type="text/javascript">var ie;</script>
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+		<!--[if IE 8]>
+			<link rel="stylesheet" type="text/css" href="css/ie8.css"/>
+			<script type="text/javascript">ie = 8;</script>
+		<![endif]-->
+		<!--[if IE 9]>
+			<link rel="stylesheet" type="text/css" href="css/ie8.css"/>
+			<script type="text/javascript">ie = 9;</script>
+		<![endif]-->
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="js/html5shiv.js"></script>
+		<![endif]-->
+    <link href="css/socialproof.css" rel="stylesheet" type="text/css">
+	</head>
+<body>
+		<div class="pages">
+			<header class="page_header homepage dashboard social_proof registration message"> <!-- header has those classes to be toggled with those pages. With that approach, no need to duplicate the header on each page we have it-->
+				<div class="questions">
+					<span class="question why_solar" data-toggle="tooltip" data-placement="bottom" title="Solar is the cleanest. most abundant source of energy on earth. Also, a solar-powered home can save on electricity from day one.">Why solar?</span><span class="question why_sunible" data-toggle="tooltip" data-placement="bottom" title="Like with flights, hotels, insurance or mobile services, there are lots of solar providers out there. We will help you compare, select and contact them. Choice is good!">Why Sunible?</span>
+				</div>
+				<a href="/" class="logo sunible"><img src="images/_project/logo_sunible.png"/></a>
+			</header>
+
+			<!-- HOMEPAGE -->
+			<div class="page homepage show_header" id="page-homepage" data-page="homepage">
+				<section class="ad teaser container">
+					<a href="#" class="teaser" id="homepage_teaser_heading">
+						<span class="save">Save</span>
+						<span class="money_with">Money with</span>
+						<span class="solar">Solar</span>
+					</a>
+					<form class="zip search providers container" id="homepage-search_providers_by_zip-container">
+						<span class="field_container">
+							<input type="text" class="field zip" id="homepage-field-zip_code" name="zipcode" placeholder="Zip Code" pattern="\d{5}(?:[-\s]\d{4})?" value="93210"/>
+							<span class="validation message"></span>
+						</span>
+						<button type="button" class="btn search providers zip" id="homepage-search_providers_by_zip-button">Go</button>
+					</form>
+				</section>			
+			</div>
+			<!-- /HOMEPAGE -->
+
+			<!-- SOCIAL PROOF -->
+			<div class="page social_proof" id="page-social_proof" data-page="social_proof">
+				<h1>Fantastic, your area is very Sunible!</h1>
+				<div class="block">
+						<p>
+							You have selected<br/>
+							<span class="counter selected providers number" id="dashboard-block-number_of_providers_selected">0</span>
+							<br/>
+							providers
+						</p>
+						<p class="max_length message">30 providers max</p>
+					</div>
+			  <table align="center" width="80%" border="0" cellspacing="0" cellpadding="0">
+				  <tr>
+				    <td width="25%" align="center"><table width="65px" height="65px" border="0" cellspacing="0" cellpadding="0" style="background-image:url(images/yellowdot.png);">
+				      <tr>
+				        <td width="65px" align="center"><span class="socialproofaligncenterbig">23</span></td>
+			          </tr>
+				      </table>
+			        <p class="socialProofAlignCenter">homes have gone solar in your area</p></td>
+				    <td width="25%" align="center"><table width="65px" height="65px" border="0" cellspacing="0" cellpadding="0" style="background-image:url(images/yellowdot.png);">
+				      <tr>
+				        <td width="65" align="center"><span class="socialproofaligncenterbig">18</span></td>
+			          </tr>
+				      </table>
+			        <p class="socialProofAlignCenter">of them started saving from day one</p></td>
+				    <td width="25%" align="center"><table width="65px" height="65px" border="0" cellspacing="0" cellpadding="0" style="background-image:url(images/yellowdot.png);">
+				      <tr>
+				        <td width="65" align="center"><span class="socialproofaligncenterbig">14</span></td>
+			          </tr>
+				      </table>
+			        <p class="socialProofAlignCenter">experienced solar providers in your area</p></td>
+				    <td width="25%"> <table width="100%" border="0" cellspacing="0" cellpadding="0">
+				      <tr>
+				        <td>
+                        
+                        <div id="map" style="width: 250px; height: 250px"></div>
+
+	<script src="js/leaflet.js"></script>
+	<script>
+
+		var map = L.map('map').setView([51.505, -0.09], 13);
+
+		L.tileLayer('http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/997/256/{z}/{x}/{y}.png', {
+			maxZoom: 18,
+			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>'
+		}).addTo(map);
+
+
+		L.marker([51.5, -0.09]).addTo(map)
+			.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
+
+		L.circle([51.508, -0.11], 500, {
+			color: 'red',
+			fillColor: '#f03',
+			fillOpacity: 0.5
+		}).addTo(map).bindPopup("I am a circle.");
+
+		L.polygon([
+			[51.509, -0.08],
+			[51.503, -0.06],
+			[51.51, -0.047]
+		]).addTo(map).bindPopup("I am a polygon.");
+
+
+		var popup = L.popup();
+
+		function onMapClick(e) {
+			popup
+				.setLatLng(e.latlng)
+				.setContent("You clicked the map at " + e.latlng.toString())
+				.openOn(map);
+		}
+
+		map.on('click', onMapClick);
+
+	</script>
+
+                        
+                        </td>
+			          </tr>
+				      </table>
+			        <p class="socialProofAlignCenter">Number of solar homes in zip codes around you</p></td>
+	      </tr>
+			  </table>
+<button type="button" class="btn view providers" id="social_proof-view_providers">View providers</button>
+			</div>
+			<!-- /SOCIAL PROOF -->
+
+			<!-- DASHBOARD -->
+			<div class="page dashboard" id="page-dashboard" data-page="dashboard">
+				<!-- <aside class="logo">
+					<a href="/" class="logo sunible"><img src="images/_project/logo_sunible.png"/></a>
+				</aside> -->
+				<section class="providers number_of_selected">
+					<div class="block">
+						<p>
+							You have selected<br/>
+							<span class="counter selected providers number" id="dashboard-block-number_of_providers_selected">0</span>
+							<br/>
+							providers
+						</p>
+						<p class="max_length message">30 providers max</p>
+					</div>
+					<button type="button" class="btn register" id="dashboard-open_registration_page">Let's get Sunible</button>
+				</section>
+				<section class="providers container">
+					<header>
+						<p>
+							<span class="text">Showing</span>
+							<span class="counter found providers number" id="dashboard-header-number_of_providers_found">25</span><!-- HARDCODE -->
+							<span class="text">providers. Click to sort by Provider, $/Watt, Homes Installed or Rating</span>
+						</p>
+					</header>
+					<div class="table container">
+						<table class="providers list grid" id="dashboard-grid-providers-list">
+							<thead>
+								<tr>
+									<th class="checkboxes">
+										<span class="text">Select</span>
+									</th>
+									<th class="name">
+										<span class="question_mark light" data-toggle="tooltip" data-placement="bottom" title="Some tooltip for 'Homes Installed' column.">?</span><br/>
+										<span class="text">Solar Providers</span>
+									</th>
+									<th class="cost">
+										<span class="question_mark light" data-toggle="tooltip" data-placement="bottom" title="Some tooltip for 'Homes Installed' column.">?</span><br/>
+										<span class="text">$/Watt</span>
+									</th>
+									<th class="number_of_homes_installed">
+										<span class="question_mark light" data-toggle="tooltip" data-placement="bottom" title="Some tooltip for 'Homes Installed' column.">?</span>
+										<br/>
+										<span class="text">Homes Installed</span>
+									</th>
+									<th class="rating">
+										<span class="question_mark light" data-toggle="tooltip" data-placement="bottom" title="Some tooltip for 'Homes Installed' column.">?</span><br/>
+										<span class="text">Rating</span>
+									</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="provider-10" class="provider row">
+									<td class="checkboxes">
+										<label class="checkbox" for="provider-10-checkbox">
+											<input type="checkbox" value="" id="provider-10-checkbox"/>
+										</label>
+									</td>
+									<td class="name">Arise Solar<img src="images/_project/providers_logos/logo_AriseSolar.png"/></td>
+									<td class="cost">100</td>
+									<td class="number_of_homes_installed">12</td>
+									<td class="rating"><span class="rating_stars has-4_5">*********</span></td>
+								</tr>
+								<tr id="provider-09" class="provider row">
+									<td class="checkboxes">
+										<label class="checkbox" for="provider-09-checkbox">
+											<input type="checkbox" value="" id="provider-09-checkbox"/>
+										</label>
+									</td>
+									<td class="name">Real Goods Solar<img src="images/_project/providers_logos/logo_RealGoodsSolar.png"/></td>
+									<td class="cost">96</td>
+									<td class="number_of_homes_installed">123</td>
+									<td class="rating"><span class="rating_stars has-2">****</span></td>
+								</tr>
+								<tr id="provider-08" class="provider row">
+									<td class="checkboxes">
+										<label class="checkbox" for="provider-08-checkbox">
+											<input type="checkbox" value="" id="provider-08-checkbox"/>
+										</label>
+									</td>
+									<td class="name">Solar City<img src="images/_project/providers_logos/logo_SolarCity.png"/></td>
+									<td class="cost">96</td>
+									<td class="number_of_homes_installed">123</td>
+									<td class="rating"><span class="rating_stars has-5">**********</span></td>
+								</tr>
+								<tr id="provider-07" class="provider row">
+									<td class="checkboxes">
+										<label class="checkbox" for="provider-07-checkbox">
+											<input type="checkbox" value="" id="provider-07-checkbox"/>
+										</label>
+									</td>
+									<td class="name">Sungevity<img src="images/_project/providers_logos/logo_Sungevity.png"/></td>
+									<td class="cost">96</td>
+									<td class="number_of_homes_installed">123</td>
+									<td class="rating"><span class="rating_stars has-1">**</span></td>
+								</tr>
+								<tr id="provider-06" class="provider row">
+									<td class="checkboxes">
+										<label class="checkbox" for="provider-06-checkbox">
+											<input type="checkbox" value="" id="provider-06-checkbox"/>
+										</label>
+									</td>
+									<td class="name">Verengo Solar<img src="images/_project/providers_logos/logo_VerengoSolar.png"/></td>
+									<td class="cost">96</td>
+									<td class="number_of_homes_installed">123</td>
+									<td class="rating"><span class="rating_stars has-5">**********</span></td>
+								</tr>
+								<tr id="provider-05" class="provider row">
+									<td class="checkboxes">
+										<label class="checkbox" for="provider-05-checkbox">
+											<input type="checkbox" value="" id="provider-05-checkbox"/>
+										</label>
+									</td>
+									<td class="name">Arise Solar<img src="images/_project/providers_logos/logo_AriseSolar.png"/></td>
+									<td class="cost">100</td>
+									<td class="number_of_homes_installed">12</td>
+									<td class="rating"><span class="rating_stars has-3">******</span></td>
+								</tr>
+								<tr id="provider-04" class="provider row">
+									<td class="checkboxes">
+										<label class="checkbox" for="provider-04-checkbox">
+											<input type="checkbox" value="" id="provider-04-checkbox"/>
+										</label>
+									</td>
+									<td class="name">Real Goods Solar<img src="images/_project/providers_logos/logo_RealGoodsSolar.png"/></td>
+									<td class="cost">96</td>
+									<td class="number_of_homes_installed">123</td>
+									<td class="rating"><span class="rating_stars has-4">********</span></td>
+								</tr>
+								<tr id="provider-03" class="provider row">
+									<td class="checkboxes">
+										<label class="checkbox" for="provider-03-checkbox">
+											<input type="checkbox" value="" id="provider-03-checkbox"/>
+										</label>
+									</td>
+									<td class="name">Solar City<img src="images/_project/providers_logos/logo_SolarCity.png"/></td>
+									<td class="cost">96</td>
+									<td class="number_of_homes_installed">123</td>
+									<td class="rating"><span class="rating_stars has-2_5">*****</span></td>
+								</tr>
+								<tr id="provider-02" class="provider row">
+									<td class="checkboxes">
+										<label class="checkbox" for="provider-02-checkbox">
+											<input type="checkbox" value="" id="provider-02-checkbox"/>
+										</label>
+									</td>
+									<td class="name">Sungevity<img src="images/_project/providers_logos/logo_Sungevity.png"/></td>
+									<td class="cost">96</td>
+									<td class="number_of_homes_installed">123</td>
+									<td class="rating"><span class="rating_stars has-2">****</span></td>
+								</tr>
+								<tr id="provider-01" class="provider row">
+									<td class="checkboxes">
+										<label class="checkbox" for="provider-01-checkbox">
+											<input type="checkbox" value="" id="provider-01-checkbox"/>
+										</label>
+									</td>
+									<td class="name">Verengo Solar<img src="images/_project/providers_logos/logo_VerengoSolar.png"/></td>
+									<td class="cost">96</td>
+									<td class="number_of_homes_installed">123</td>
+									<td class="rating"><span class="rating_stars has-3">******</span></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</section>
+			</div>
+			<!-- /DASHBOARD -->
+
+			<!-- REGISTRATION -->
+			<div class="page registration" id="page-registration" data-page="registration">
+					<h1>
+						Registration <small>(Why do we collect this information <span class="question_mark dark" data-toggle="tooltip" data-placement="bottom" title="We collect this information to provide you better service">?</span>)</small>
+					</h1>
+					<form id="page-registration-form-register" class="registration_form" name="registration_form">
+						<p>
+							My name is
+							<!-- first name -->
+							<span class="field_container">
+								<input type="text" class="field first_name" name="first_name" placeholder="First Name" required />
+								<span class="validation message"></span>
+							</span>
+							<!-- last name -->
+							<span class="field_container">
+								<input type="text" class="field last_name" name="last_name" placeholder="Last Name" required/>
+								<span class="validation message"></span>
+							</span>, but you can call me
+							<!-- nickname -->
+							<span class="field_container">
+								<input type="text" class="field nickname" name="nickname" placeholder="Nickname" />
+								<span class="validation message"></span>
+							</span>.
+							<br/>
+							I live at
+							<!-- street address -->
+							<span class="field_container">
+								<input type="text" class="field street_address" name="street_address" placeholder="Street Address" required/>
+								<span class="validation message"></span>
+							</span>,
+							and can be reached on</span>
+							<!-- phone number -->
+							<span class="field_container">
+								<input type="tel" class="field phone_number" name="phone_number" placeholder="Phone Number (xxx)xxx-xxxx" pattern="^\(\d{3}\)\d{3}-\d{4}$" required/>
+								<span class="validation message"></span>
+							</span>
+							<br/>
+							or
+							<!-- email -->
+							<span class="field_container">
+								<input type="email" class="field email" name="email" placeholder="Email" pattern='(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))' required/>
+								<span class="validation message"></span>
+							</span>.
+							I
+							<!-- property type -->
+							<span class="field_container">
+								<select class="field property_type" name="property_type" id="registration-select-appartment-property-type">
+									<option>rent</option>
+									<option>own</option>
+								</select>
+								<span class="validation message"></span>
+							</span>
+							my place and pay about
+							<!-- cost per month -->
+							<span class="field_container">
+								<input type="text" class="field cost_per_month" name="cost_per_month" placeholder="$/month" min="0" required/>
+								<span class="validation message"></span>
+							</span>
+							<br/>
+							for electricity to the
+							<!-- people nature -->
+							<span class="field_container">
+								<select class="field people_nature" name="people_nature" id="registration-select-people-nature-type">
+									<option>good</option>
+									<option>bad</option>
+									<option>crazy</option>
+								</select>
+								<span class="validation message"></span>
+							</span>
+							people at
+							<!-- electricity provider name -->
+							<span class="field_container">
+								<select class="field electricity_provider_name" name="electricity_provider_name" id="registration-select-electricity-company-provider">
+									<option>Pacific Gas &amp; Electric (PG&amp;E)</option>
+									<option>Southern California Edison</option>
+								</select>
+								<span class="validation message"></span>
+							</span>
+							I have a
+							<!-- roof type -->
+							<span class="field_container">
+								<select class="field roof_type" name="roof_type" id="registration-select-roof-type">
+									<option>tiled</option>
+									<option>wood shake</option>
+									<option>composite</option>
+									<option>flat</option>
+									<option>“no idea what”</option>
+								</select>
+								<span class="validation message"></span>
+							</span>
+							roof.
+						</p>
+						<button type="button" class="btn send_registration" id="registration-submit_registration_info">Go</button>
+					</form>
+			</div>
+			<!-- /REGISTRATION -->
+
+			<!-- THANK YOU -->
+			<div class="page message" id="page-message" data-page="message"> <!-- This page is dynamic. Use it for messages like "Thank you", "Sorry", "Error", etc -->
+				<p class="loading message">loading...</p>
+			</div>
+			<!-- /THANK YOU -->
+
+			<!-- FOOTER -->
+			<footer class="page_footer homepage social_proof dashboard registration message"> <!-- footer has those classes to be toggled with those pages. With that approach, no need to duplicate the footer on each page we have it-->
+					<nav class="bottom navigation">
+						<a href="#">Blog</a>
+						<a href="#">FAQ</a>
+						<a href="#">Jobs</a>
+						<a href="#">Contact</a>
+						<a href="#">Terms</a>
+					</nav>
+					<span class="copyright">&copy; Sunible Inc. 2013</span>
+			</footer>
+		</div>
+		<!-- JS -->
+<script type="text/javascript" src="js/jquery/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery/jquery.placeholder.js"></script>
+		<script type="text/javascript" src="js/jquery/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="js/jquery/additional-methods.min.js"></script>
+		<script type="text/javascript" src="js/jquery/jquery.dropkick-1.0.0.js"></script>
+		<script type="text/javascript" src="js/jquery/jquery.dataTables.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap/bootstrap-tooltip.js"></script>
+		<script type="text/javascript" src="js/custom_checkbox_and_radio.js"></script>
+		<script type="text/javascript" src="js/global_methods.js"></script>
+		<script type="text/javascript" src="js/server_calls.js"></script>
+		<script type="text/javascript" src="js/validation.js"></script>
+		<script type="text/javascript" src="js/pages.js"></script>
+		<script type="text/javascript" src="js/dashboard.js"></script>
+		<script type="text/javascript" src="js/application_init.js"></script>
+	</body>
+</html>

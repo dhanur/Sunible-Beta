@@ -120,7 +120,7 @@ Dashboard.prototype = {
 							'<th class="cost">' +
 								'<span class="text">Price Category</span>' +
 								//'<br/>' +
-								'<span class="question_mark light" data-toggle="tooltip" data-placement="bottom" title="Based on the average cost of systems installed in your County, Value = Bottom 33%, Standard = Middle 33% Differentiated = Top 33%. Please read FAQ #3 for a more detailed explanation.">?</span>' + 
+								'<span class="question_mark light" data-toggle="tooltip" data-placement="bottom" title="Based on the average cost of systems installed in your County, Value = Bottom 33%, Standard = Middle 33% Premium = Top 33%. Please read FAQ #3 for a more detailed explanation.">?</span>' + 
 							'</th>' +
 							'<th class="number_of_homes_installed">' +
 								'<span class="text">Homes Installed</span>' +

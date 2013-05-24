@@ -130,12 +130,12 @@ function showThankYouRegPage()
 function showNoDataFoundPage()
 {
 	var pageHtml = '' +
-		'<h1>Sorry, no data found</h1>' +
-		'<p>There is no data found for your request.</p>';
+		'<h1>Ouch, that doesn’t look like a real Zip Code to us.</h1>' +
+		'<br><br>';
 	var messagePageOptions = {
 		pageHtml: pageHtml,
 		pageClass: 'no_data_found', 
-		buttonText: 'Return to homepage',
+		buttonText: 'Let’s Try Again?',
 		okCallback : function(){
 			var $currentPage = $('.page.is_shown');
 			changePage($currentPage, pages.homePage);
@@ -270,7 +270,7 @@ function initSocialProof(data, location)
 			pages.socialProof.removeClass('california').addClass('fresno');
 			break;
 		case 'california':
-			$button.text('Sign Me Up!');
+			$button.text('Let Me Know When You Launch!');
 			bindOpenSignUpPage($button);
 			pages.socialProof.removeClass('fresno').addClass('california');
 			break;
@@ -316,7 +316,7 @@ function showSocialProofMap(data)
 	{
                 map = L.map('page-social_proof-map', {
                     center: zipGeo,
-                    zoom: 13,
+                    zoom: 12,
                     closePopupOnClick: false
 		});
 		$mapContainer.data('map', map);

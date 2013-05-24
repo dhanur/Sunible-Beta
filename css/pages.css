@@ -639,7 +639,7 @@ ul li div { display: none; }
 
 .page.thank_you_reg h1 {
 	text-align: left;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 	font-size: 32px;
 }
 
@@ -654,7 +654,7 @@ ul li div { display: none; }
 }
 
 .page.thank_you_reg .additional_stuff {
-	margin: 30px auto;
+	margin: 20px auto;
 	overflow: hidden;
 	width: 850px;
 }
@@ -665,19 +665,9 @@ ul li div { display: none; }
 		padding: 1%;
 	}
 
-	.page.thank_you_reg .additional_stuff .block {
-		float: left;
-		width: 45%;
-		padding: 1%;
-	}
-
 	.page.thank_you .additional_stuff .block:first-child { margin-right: 6%; }
-        
-        .page.thank_you_reg .additional_stuff .block:first-child { margin-right: 6%; }
 
 	.page.thank_you .additional_stuff .block h2 { text-align: center; color: #fcd728; margin-top: 0;}
-        
-        .page.thank_you_reg .additional_stuff .block h2 { text-align: center; color: #fcd728; margin-top: 0;}
 
 	.page.thank_you .additional_stuff .block .logo {
 		display: block;
@@ -687,14 +677,6 @@ ul li div { display: none; }
 		margin: 20px 0;
 	}
         
-        .page.thank_you_reg .additional_stuff .block .logo {
-		display: block;
-		overflow: hidden;
-		border: none;
-		text-align: center;
-		margin: 20px 0;
-	}
-
 
 		.page.thank_you .additional_stuff .block p {
 			font-size: 18px;
@@ -703,20 +685,11 @@ ul li div { display: none; }
 			margin-right: 10%;
 		}
 
-		.page.thank_you_reg .additional_stuff .block p {
-			font-size: 18px;
-			text-align: center;
-			margin-left: 10%;
-			margin-right: 10%;
-		}
-
 		.page.thank_you .additional_stuff .block .logo img { height: 40px; }
-                
-                .page.thank_you_reg .additional_stuff .block .logo img { height: 40px; }
 
 /* MODAL PAGES */
 
-#modal-page-sign_up { width: 600px; }
+#modal-page-sign_up { width: 625px; }
 
 #modal-page-sign_up button.sign_up {
 	margin-left: auto;

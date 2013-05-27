@@ -39,6 +39,6 @@ $(document).ready(function() {
 	{
 		targetSafari();
 	}
-
+	// git test
 	//addNiceScroll($('.nano'));
 });

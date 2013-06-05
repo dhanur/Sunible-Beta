@@ -718,7 +718,8 @@ ul li div { display: none; }
 
 #modal-faqs,
 #modal-about_us,
-#modal-jobs {
+#modal-jobs,
+#modal-blog {
         position: absolute;
 	top: 50%;
 	left: 50%;  
@@ -740,7 +741,8 @@ ul li div { display: none; }
 
 #modal-faqs .nano,
 #modal-about_us .nano,
-#modal-jobs .nano {
+#modal-jobs .nano,
+#modal-blog {
 	width: auto;
 	height: 500px;
 	padding: 0;
@@ -751,12 +753,14 @@ ul li div { display: none; }
 #modal-privacy_policy .nano .content,
 #modal-faqs .nano .content,
 #modal-about_us .nano .content,
+#modal-blog .nano .content,
 #modal-jobs .nano .content { right: 15px;}
 
 #modal-terms_of_service .modal-body,
 #modal-privacy_policy .modal-body,
 #modal-faqs .modal-body,
 #modal-about_us .modal-body,
+#modal-blog .modal-body,
 #modal-jobs .modal-body { padding-right: 0; }
 
 #modal-page-contact_us .field.name { width: 200px;}

@@ -15,7 +15,8 @@ var pages = {
         thankYouReg: $('#page-thank_you_reg'),
         faqs: $('#page-faqs'),
         aboutUs: $('#page-about_us'),
-        jobs: $('#page-jobs')
+        jobs: $('#page-jobs'),
+        blog: $('#page-blog')
 }
 
 function changePage($currentPage, $nextPage)
@@ -210,7 +211,7 @@ function getInstallersByZipCodeFormSubmit($form)
 	var zipCode = $form.find('input[type="text"].zip').val();
 	if (zipCode.charAt(0) == '9')
 	{ // CALIFORNIA zip
-		if (zipCode.charAt(1) == '3')
+		if (zipCode.charAt(1) == '3' || zipCode.charAt(1) == '5')
 		{ // FRESNO zip
 			// show social proof with view dashboard button
 			getSocialProofDataByZipCode(zipCode, function(data){
@@ -712,4 +713,21 @@ function openJobsPopup()
 	var $jobsPopup = $('#modal-jobs');
 	$jobsPopup.modal();
 	addNiceScroll($jobsPopup.find('.nano'));
+}
+
+
+// BLOG
+
+function bindBlogPopup($launcher)
+{
+	$launcher.click(function(){
+		openBlogPopup();
+	});	
+}
+
+function openBlogPopup()
+{
+	var $blogPopup = $('#modal-blog');
+	$blogPopup.modal();
+	addNiceScroll($blogPopup.find('.nano'));
 }

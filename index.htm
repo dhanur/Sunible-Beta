@@ -32,6 +32,8 @@
 		<!--[if lt IE 9]>
 			<script type="text/javascript" src="js/html5shiv.js"></script>
 		<![endif]-->
+      
+                <!--GOOGLE ANALYTICS TRACKING SCRIPT-->
                 <script type="text/javascript">
 
                     var _gaq = _gaq || [];
@@ -42,25 +44,58 @@
 
                     (function() {
                         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+//                        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+                        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
                         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
                     })();
 
                 </script>
+                 <script type="text/javascript"><!--
+ function checkPhone (obj) {
+  str = obj.value.replace(/[^0-9]+?/g, '');
+  switch (str.length) {
+   case 0:
+     alert('Please enter numbers only.');
+     obj.select();
+     return;
+   case 7:
+     str = str.substr(0,3)+"-"+str.substr(3,4);
+     break;
+   case 10:
+     str = "("+str.substr(0,3)+") "+str.substr(3,3)+"-"+str.substr(6,4);
+     break;
+   default:
+     alert('Please enter a 7 digit phone number (with area code, if applicable).');
+     obj.select();
+     return;
+  }
+  obj.value = str;
+ }
+--></script>
+ 
+<!-- <script type="text/javascript">
+window.onbeforeunload = function() {
+    return "Your progress will not be saved.";
+};
+</script>  -->
+
 	</head>
+                
 	<body>
+        
 		<div class="pages">
 			<header class="page_header homepage dashboard social_proof registration message thank_you thank_you_reg"> <!-- header has those classes to be toggled with those pages.  With that approach, no need to duplicate the header on each page we have it-->
 				<div class="questions">
-					<span class="question why_solar" data-toggle="tooltip" data-placement="bottom" title="A solar-powered home can lower your electricity bills from day one, which is why over 300,000 homeowners in the U.S. have gone solar! Also, the Sun is the cleanest, most abundant source of energy on earth.">Why solar?</span><span class="question why_sunible" data-toggle="tooltip" data-placement="bottom" title="There are a lot of solar providers to choose from, but there is no easy way to find, compare and select the right one. We will help you from start to finish, and answer every question you have along the way (and yes, for free!)">Why Sunible?</span>
+                                    <span class="question why_solar" data-toggle="tooltip" data-placement="bottom" onMouseover="_gaq.push(['_trackEvent', 'Tooltips', 'Mouseover', 'Why Solar', 1, false]);" title="A solar-powered home can lower your electricity bills from day one, which is why over 300,000 homeowners in the U.S. have gone solar! Also, the Sun is the cleanest, most abundant source of energy on earth.">Why solar?</span><span class="question why_sunible" onMouseover="_gaq.push(['_trackEvent', 'Tooltips', 'Mouseover', 'Why Sunible', 1, false]);" data-toggle="tooltip" data-placement="bottom" title="There are a lot of solar providers to choose from, but there is no easy way to find, compare and select the right one. We will help you from start to finish, and answer every question you have along the way (and yes, for free!)">Why Sunible?</span>
 				</div>
-				<a href="/" class="logo sunible"><img src="images/logo_sunible.png"/></a>
+				<a href="/" class="logo sunible" onMouseover="_gaq.push(['_trackEvent', 'Links', 'Mouseover', 'Landing Page Logo', 1, false]);" onClick="_gaq.push(['_trackEvent', 'Links', 'Click', 'Landing Page Logo', 1, false]);"><img src="images/logo_sunible.png"/></a>
 				<span class="overlay_beta">
-					<span class="text" data-toggle="tooltip" data-placement="bottom" title="We are doing our best to get better, and we would love your feedback! Please get in touch via the Contact link below.">We're in beta</span>
+                                    <span onMouseover="_gaq.push(['_trackEvent', 'Tooltips', 'Mouseover', 'Beta Stripe', 1, false]);"class="text" data-toggle="tooltip" data-placement="bottom" title="We are doing our best to get better, and we would love your feedback! Please get in touch via the Contact link below.">We're in beta</span>
 				</span>
+                                 
 			</header>
-
-			<!-- HOMEPAGE -->
+ 
+ 			<!-- HOMEPAGE -->
 			<div class="page homepage show_header" id="page-homepage" data-page="homepage">
 				<section class="ad teaser container">
 					<a href="#" class="teaser" id="homepage_teaser_heading">
@@ -68,12 +103,16 @@
 						<span class="money_with">Money with</span>
 						<span class="solar">Solar</span>
 					</a>
+                                        
+
 					<form class="zip search providers container" id="homepage-search_providers_by_zip-container">
 						<span class="field_container">
-							<input type="text" class="field zip" id="homepage-field-zip_code" name="zipcode" placeholder="Zip Code" pattern="\d{5}(?:[-\s]\d{4})?"/>
+							<input type="text" onFocus="_gaq.push(['_trackEvent', 'Form Fields', 'Focus', 'Landing Page Zip', 1, false]);" class="field zip" id="homepage-field-zip_code" name="zipcode" placeholder="Zip Code" pattern="\d{5}(?:[-\s]\d{4})?"/>
 							<span class="validation message"></span>
 						</span>
-						<button type="button" class="btn search providers zip" id="homepage-search_providers_by_zip-button">Go</button>
+						<button type="button" onMouseover="_gaq.push(['_trackEvent', 'Buttons', 'Mouseover', 'Landing Page Submit', 1, false]);" 
+                                                onClick="_gaq.push(['_trackEvent', 'Buttons', 'Click', 'Landing Page Submit', 1, false]);" 
+                                                class="btn search providers zip" id="homepage-search_providers_by_zip-button">Go</button>
 					</form>
 				</section>			
 			</div>
@@ -89,16 +128,16 @@
 					</figure>
 					<section class="solar_info">
 						<div class="counters">
-							<p data-toggle="tooltip" data-placement="bottom" title="Homes in your County that have gone solar since 2006. This number is growing everyday!">
+							<p data-toggle="tooltip" onMouseover="_gaq.push(['_trackEvent', 'Tooltips', 'Mouseover', 'Social Proof Total Install Count', 1, false]);" data-placement="bottom" title="Homes in your County that have gone solar since 2006. This number is growing everyday!">
 								<span class="counter total_install_number by_zip">22</span> 
 								solar homes <br/>in <span class="area_name">Fresno County</span>
 							</p>
-							<p data-toggle="tooltip" data-placement="bottom" title="Rather than buying a solar system, these homes ''rent'' out their rooftops and buy the electricity as a service. This typically lowers electricity bills from day 1.">
+							<p data-toggle="tooltip" onMouseover="_gaq.push(['_trackEvent', 'Tooltips', 'Mouseover', 'Social Proof Lease Count', 1, false]);" data-placement="bottom" title="Rather than buying a solar system, these homes ''rent'' out their rooftops and buy the electricity as a service. This typically lowers electricity bills from day 1.">
 								<span class="counter total_lease by_zip">4</span> 
 								of them had solar<br/> savings from Day 1
 
 							</p>
-							<p data-toggle="tooltip" data-placement="bottom" title="These providers have installed solar in at least one home every month in your County recently.">
+							<p data-toggle="tooltip" onMouseover="_gaq.push(['_trackEvent', 'Tooltips', 'Mouseover', 'Social Proof Active Providers', 1, false]);" data-placement="bottom" title="These providers have installed solar in at least one home every month in your County recently.">
 								<span class="counter total_installers by_zip">11</span> 
 								active solar providers<br/> in <span class="area_name">Fresno</span>
 
@@ -107,6 +146,8 @@
                                                 <p class="message bakersfield county"> &nbsp; </p>
 						<p class="button_container">
 							<button type="button" 
+                                                                onMouseover="_gaq.push(['_trackEvent', 'Buttons', 'Mouseover', 'Social Proof Submit', 1, false]);"
+                                                                onClick="_gaq.push(['_trackEvent', 'Buttons', 'Click', 'Social Proof Submit', 1, false]);"
 								class="btn btn-large next_action" 
 								id="social_proof-next_action">Nice, let’s check them out!</button>
 						</p>
@@ -127,7 +168,9 @@
 						</p>
 						<p class="max_length message">20 providers max</p>
 					</div>
-					<button type="button" class="btn open_registration_page" id="dashboard-open_registration_page">Let's get Sunible</button>
+					<button type="button" onMouseover="_gaq.push(['_trackEvent', 'Buttons', 'Mouseover', 'Dashboard Submit']);" 
+                                        onClick="_gaq.push(['_trackEvent', 'Buttons', 'Click', 'Dashboard Submit', 1, false]);" 
+                                        class="btn open_registration_page" id="dashboard-open_registration_page">Let's get Sunible</button>
 				</section>
 				<section class="providers container">
 					<header>
@@ -145,43 +188,39 @@
 						Registration <small data-toggle="tooltip" data-placement="top" title="We use this information to get in touch with you if we have questions. And your providers use this information to make a pre-quote assessment. All providers listed on Sunible are bound by our Privacy Policy.">(Why do we collect this information?)</small>
 					</h1>
 					<form id="page-registration-form-register" class="registration_form" name="registration_form">
-						<input type="hidden" value="" name="state"/>
-						<input type="hidden" value="" name="Utility_Rating__c"/>
-						<input type="hidden" value="" name="Utility_Company__c"/>
-						<input type="hidden" value="" name="Roof_Type__c"/>
 						<p>
 							My name is
 							<!-- first name -->
 							<span class="field_container">
-								<input type="text" class="field first_name" name="first_name" placeholder="First Name" required />
+								<input type="text" onFocus="_gaq.push(['_trackEvent', 'Form Fields', 'Focus', 'Registration First Name', 1, false]);" class="field first_name" name="first_name" placeholder="First Name" required />
 								<span class="validation message"></span>
 							</span>
 							<!-- last name -->
 							<span class="field_container">
-								<input type="text" class="field last_name" name="last_name" placeholder="Last Name" required/>
+								<input type="text" onFocus="_gaq.push(['_trackEvent', 'Form Fields', 'Focus', 'Registration Last Name', 1, false]);" class="field last_name" name="last_name" placeholder="Last Name" required />
 								<span class="validation message"></span>
-							</span>, but you can call me
+							</span>, call me
 							<!-- nickname -->
 							<span class="field_container">
-								<input type="text" class="field nickname" name="nick_name" placeholder="Nickname" />
+								<input type="text" onFocus="_gaq.push(['_trackEvent', 'Form Fields', 'Focus', 'Registration Nick Name', 1, false]);" class="field nickname" name="nick_name" placeholder="Nickname" />
 								<span class="validation message"></span>
 							</span>
 							<br/>
 							I live at
 							<!-- street address -->
 							<span class="field_container">
-								<input type="text" class="field street_address" name="street" placeholder="Street Address" required/>
+								<input type="text" onFocus="_gaq.push(['_trackEvent', 'Form Fields', 'Focus', 'Registration Street', 1, false]);" class="field street_address" name="street" placeholder="Street Address" required />
 								<span class="validation message"></span>
 							</span>
 							<!-- city -->
 							<span class="field_container">
-								<input type="text" class="field city" name="city" placeholder="City" required/>
+								<input type="text" onFocus="_gaq.push(['_trackEvent', 'Form Fields', 'Focus', 'Registration City', 1, false]);" class="field city" name="city" placeholder="City" required />
 								<span class="validation message"></span>
 							</span>
 							( I
 							<!-- property type -->
 							<span class="field_container">
-								<select class="field property_type" name="Own_Rent__c" id="registration-select-appartment-property-type"> 
+								<select onFocus="_gaq.push(['_trackEvent', 'Form Fields', 'Focus', 'Registration Own-Rent', 1, false]);" onchange="_gaq.push(['_trackEvent', 'Form Fields','Select', this.value);" class="field property_type" name="Own_Rent__c" id="registration-select-appartment-property-type"> 
                                                                         <option selected="selected">own</option>
 									<option>rent</option>                                                        
 								</select>
@@ -191,20 +230,20 @@
 							You can reach me on</span>
 							<!-- phone number -->
 							<span class="field_container">
-								<input type="tel" class="field phone_number" name="phone" placeholder="Phone Number" pattern="^\(\d{3}\)\d{3}-\d{4}$" required/>
-								<span class="validation message"></span>
+								<input type="text" onFocus="_gaq.push(['_trackEvent', 'Form Fields', 'Focus', 'Registration Phone', 1, false]);" style="width: 150px" name="phone" placeholder="Phone Number" onchange="checkPhone(this)" pattern="^[(]{0,1}[0-9]{3}[)]{0,1}[-\s\.]{0,1}[0-9]{3}[-\s\.]{0,1}[0-9]{4}$" required />
+                                                                <span class="validation message"></span>
 							</span>
 							and
 							<!-- email -->
 							<span class="field_container">
-								<input type="email" class="field email" name="email" placeholder="Email" pattern='(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))' required/>
+								<input type="email" onFocus="_gaq.push(['_trackEvent', 'Form Fields', 'Focus', 'Registration Email', 1, false]);" class="field email" name="email" placeholder="Email" pattern='(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))' required />
 								<span class="validation message"></span>
 							</span>
 							<br/>
 							I pay about
 							<!-- cost per month -->
 							<span class="field_container">
-								<input type="text" class="field cost_per_month" name="Utility_Bill__c" placeholder="$/month" min="0" required/>
+								<input type="text" onFocus="_gaq.push(['_trackEvent', 'Form Fields', 'Focus', 'Registration Utility Bill', 1, false]);" class="field cost_per_month" name="Utility_Bill__c" placeholder="$/month" min="0" required />
 								<span class="validation message"></span>
 							</span>
 							in electricity bills, but wait, that will change when I go solar <img src="/images/smile.png" class="icon smile"/>
@@ -212,16 +251,19 @@
 							<!-- Terms of Service-->
 							<span class="field_container">
 								<label class="checkbox" for="registration-checkbox-terms_of_service">
-									<input type="checkbox" id="registration-checkbox-terms_of_service" name="terms_of_service" required/>
+									<input type="checkbox" onMouseover="_gaq.push(['_trackEvent', 'Form Fields', 'Mouseover', 'Registration I Agree', 1, false]);" onClick="_gaq.push(['_trackEvent', 'Form Fields', 'Check', 'Registration I Agree', 1, false]);" id="registration-checkbox-terms_of_service" name="terms_of_service" required />
 								</label>
 
 								I have read and agree to Sunible's
-								<a href="#" class="launcher open terms_of_service">Terms of Service</a> &amp;
-								<a href="#" class="launcher open privacy_policy">Privacy Policy</a>
+								<a href="#" onMouseover="_gaq.push(['_trackEvent', 'Links', 'Mouseover', 'Registration Terms of Service', 1, false]);" onClick="_gaq.push(['_trackEvent', 'Links', 'Click', 'Registration Terms of Service', 1, false]);" class="launcher open terms_of_service">Terms of Service</a> &amp;
+								<a href="#" onMouseover="_gaq.push(['_trackEvent', 'Links', 'Mouseover', 'Registration Privacy Policy', 1, false]);" onClick="_gaq.push(['_trackEvent', 'Links', 'Click', 'Registration Privacy Policy', 1, false]);" class="launcher open privacy_policy">Privacy Policy</a>
 								<span class="validation message"></span>
 							</span>
 						</p>
-						<button type="button" class="btn btn-large send_registration" id="registration-submit_registration_info">Go</button>
+                                                
+						<button type="button" onMouseover="_gaq.push(['_trackEvent', 'Buttons', 'Mouseover', 'Registration Submit', 1, false]);"
+                                                onClick="_gaq.push(['_trackEvent', 'Buttons', 'Click', 'Registration Submit', 1, false]);" class="btn btn-large send_registration" id="registration-submit_registration_info">Go</button>
+
 					</form>
 			</div>
 			<!-- /REGISTRATION -->
@@ -237,7 +279,7 @@
 				<section class="additional_stuff">
 					<div class="block join_mosaic">
 						<h2>Invest</h2>
-						<a href="https://joinmosaic.com" class="logo"><img src="images/logo_join_mosaic.png" alt=""/></a>
+						<a href="https://joinmosaic.com" onClick="_gaq.push(['_trackEvent', 'Links', 'Click', 'Mosaic Logo', 1, false]);" class="logo"><img src="images/logo_join_mosaic.png" alt=""/></a>
 						<p>
 							Mosaic connects investors to high quality solar projects.
 							Invest in $25 increments for 4.5% returns or more
@@ -245,7 +287,7 @@
 					</div>
 					<div class="block grid_alternatives">
 						<h2>Volunteer</h2>
-						<a href="http://www.gridalternatives.org" class="logo"><img src="images/logo_grid_alternatives.png" alt=""/></a>
+						<a href="http://www.gridalternatives.org" onClick="_gaq.push(['_trackEvent', 'Links', 'Click', 'Grid Alternatives Logo', 1, false]);" class="logo"><img src="images/logo_grid_alternatives.png" alt=""/></a>
 						<p>
 							Grid Alternatives <br/>brings the benefits of solar to communities
 							that would not otherwise have access.
@@ -345,17 +387,17 @@
 						<p style="padding:.0in .0in .0in .2in">
 							<!-- first name -->
 							<span class="field_container">
-								<input type="text" class="field first_name" name="first_name" placeholder="First Name" required />
+								<input type="text" onFocus="_gaq.push(['_trackEvent', 'Form Fields', 'Focus', 'Sign Up First Name', 1, false]);"class="field first_name" name="first_name" placeholder="First Name" required />
 								<span class="validation message"></span>
 							</span>
 							<!-- last name -->
 							<span class="field_container">
-								<input type="text" class="field last_name" name="last_name" placeholder="Last Name" required/>
+								<input type="text" onFocus="_gaq.push(['_trackEvent', 'Form Fields', 'Focus', 'Sign Up Last Name', 1, false]);" class="field last_name" name="last_name" placeholder="Last Name" required/>
 								<span class="validation message"></span>
 							</span>
 							<!-- email -->
 							<span class="field_container">
-								<input type="email" class="field email" name="email" placeholder="Email" pattern='(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))' required/>
+								<input type="email" onFocus="_gaq.push(['_trackEvent', 'Form Fields', 'Focus', 'Sign Up Email', 1, false]);" class="field email" name="email" placeholder="Email" pattern='(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))' required/>
 								<span class="validation message"></span>
 							</span>
 						</p>
@@ -363,29 +405,30 @@
 							<!-- Levels of interest-->
 							<span class="field_container">
 								<label class="radio" for="sign_up-interested">
-									<input type="radio" id="sign_up-interested" name="reason" value="interested" required/>
+									<input type="radio" onchange="_gaq.push(['_trackEvent', 'Form Fields','Select', this.value, 1, false]);" id="sign_up-interested" name="reason" value="interested" required/>
 									Possibly interested in solar, don’t know where to start
 								</label>
 								<label class="radio" for="sign_up-very_interested">
-									<input type="radio" id="sign_up-very_interested" name="reason" value="very interested"/>
+									<input type="radio" onchange="_gaq.push(['_trackEvent', 'Form Fields','Select', this.value, 1, false]);" id="sign_up-very_interested" name="reason" value="very interested"/>
 									Definitely interested in solar, don’t know what provider to choose
 								</label>
 								<label class="radio" for="sign_up-curious">
-									<input type="radio" id="sign_up-curious" name="reason" value="curious"/>
+									<input type="radio" onchange="_gaq.push(['_trackEvent', 'Form Fields','Select', this.value, 1, false]);" id="sign_up-curious" name="reason" value="curious"/>
 									Just curious, everyone is talking about solar
 								</label>
 								<label class="radio" for="sign_up-lower_bill">
-									<input type="radio" id="sign_up-lower_bill" name="reason" value="lower bill"/>
+									<input type="radio" onchange="_gaq.push(['_trackEvent', 'Form Fields','Select', this.value, 1, false]);" id="sign_up-lower_bill" name="reason" value="lower bill"/>
 									Want to reduce my power bill, but not convinced about solar
 								</label>
 								<label class="radio" for="sign_up-not_interested">
-									<input type="radio" id="sign_up-not_interested" name="reason" value="not interested"/>
+									<input type="radio" onchange="_gaq.push(['_trackEvent', 'Form Fields','Select', this.value, 1, false]);" id="sign_up-not_interested" name="reason" value="not interested"/>
 									Solar rhymes with polar, polar bears annoy me, and so does this hippy talk
 								</label>
 								<span class="validation message"></span>
 							</span>
 						</p>
-						<button type="button" class="btn btn-large sign_up">Sign Me Up!</button>
+						<button type="button" onMouseover="_gaq.push(['_trackEvent', 'Buttons', 'Mouseover', 'Sign Up Submit', 1, false]);"
+                                                onClick="_gaq.push(['_trackEvent', 'Buttons', 'Click', 'Sign Up Submit', 1, false]);" class="btn btn-large sign_up">Sign Me Up!</button>
 						<p class="no-spam" style="padding:.0in .0in .0in .2in">(no spam ever, only launch updates)</p>
 					</form>
 				</div>
@@ -398,19 +441,19 @@
 				<div class="modal-body">
 					<form class="contact_us" id="modal-page-contact_us-form">
 						<p>
-							<!-- first name -->
+							<!-- name -->
 							<span class="field_container">
-								<input type="text" class="field name" name="name" placeholder="Name" required />
+								<input type="text" onFocus="_gaq.push(['_trackEvent', 'Form Fields', 'Focus', 'Contact Us Name', 1, false]);" class="field name" name="name" placeholder="Name" required />
 								<span class="validation message"></span>
 							</span>
 							<!-- email -->
 							<span class="field_container">
-								<input type="email" class="field email" name="email" placeholder="Email" pattern='(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))' required/>
+								<input type="email" onFocus="_gaq.push(['_trackEvent', 'Form Fields', 'Focus', 'Contact Us Email', 1, false]);" class="field email" name="email" placeholder="Email" pattern='(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))' required/>
 								<span class="validation message"></span>
 							</span>
 							What are you writing to us about?
 							<span class="field_container">
-								<select class="field contact_reason" name="contact_reason" id="contact_us-select-contact_reason">
+								<select onchange="_gaq.push(['_trackEvent', 'Form Fields','Select', this.value, 1, false]);" class="field contact_reason" name="contact_reason" id="contact_us-select-contact_reason">
 									<option value="feedback" selected="selected">I have some feedback</option>
 									<option value="something_broken">Something's broken!</option>
 									<option value="installer">I'm an installer, let's talk</option>
@@ -424,7 +467,9 @@
 								<span class="validation message"></span>
 							</span>
 						</p>
-						<button type="button" class="btn btn-large send_message" id="modal-page-contact_us-form-send_message">and ...  send!</button>
+						<button type="button" onMouseover="_gaq.push(['_trackEvent', 'Buttons', 'Mouseover', 'Contact Us Submit', 1, false]);"
+                                                onClick="_gaq.push(['_trackEvent', 'Buttons', 'Click', 'Contact Us Submit', 1, false]);" class="btn btn-large send_message" id="modal-page-contact_us-form-send_message">and ...  send!</button>
+
 						<p class="call_us">(You can also call us on (800) 979-2215 from Monday to Friday, 9am-7pm PT)<br>Sunible is located at 55 Harrison St., 3rd Floor, Oakland, CA  94607</p>
 					</form>
 				</div>
@@ -433,7 +478,7 @@
 
 			<!-- MODAL TERMS OF SERVICE-->
 			<div id="modal-terms_of_service" class="modal terms_of_service hide fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<button type="button" onClick="_gaq.push(['_trackEvent', 'Buttons', 'Click', 'Terms of Service Close', 1, false]);" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				<div class="modal-body">
 						<h1>Terms of Service</h1>
 						<div class="nano">
@@ -1317,7 +1362,7 @@ electronic mail address and a request for these Terms.</span></p>							</div>
 
 			<!-- MODAL PRIVACY POLICY -->
 			<div id="modal-privacy_policy" class="modal privacy_policy hide fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<button type="button" onClick="_gaq.push(['_trackEvent', 'Buttons', 'Click', 'Privacy Policy Close', 1, false]);" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				<div class="modal-body">
 						<h1>Privacy policy</h1>
 						<div class="nano">
@@ -2208,7 +2253,7 @@ electronic mail address and a request for these Terms.</span></p>							</div>
 			<!-- MODAL FAQS -->
  
 			<div id="modal-faqs" class="modal faqs hide fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<button type="button" onClick="_gaq.push(['_trackEvent', 'Buttons', 'Click', 'FAQ Close', 1, false]);" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				<div class="modal-body"><br>   
                                 <b><span style='margin-bottom:0in; width:8in; padding: .5in .1in .025in .2in; height:24.0pt; font-size:18.0pt;color:#F1C40F'>
                                 Frequently Asked Questions</span></b>
@@ -2527,10 +2572,10 @@ electronic mail address and a request for these Terms.</span></p>							</div>
 			<footer class="page_footer homepage social_proof dashboard registration message thank_you thank_you_reg"> <!-- footer has those classes to be toggled with those pages.  With that approach, no need to duplicate the footer on each page we have it-->
 					<nav class="bottom navigation">
 						<a href="#" class="launcher open faqs">FAQs</a>
-                                                <a href="http://blog.sunible.com">Blog</a>
-						<a href="#" class="launcher open contact_us">Contact</a>
-						<a href="#" class="launcher open about_us">About Us</a>
-						<a href="#" class="launcher open terms_of_service">Terms</a>
+                                                <a href="http://blog.sunible.com" target="_blank">Blog</a>
+						<a href="#" onMouseover="_gaq.push(['_trackEvent', 'Links', 'Mouseover', 'Footer Contact Form', 1, false]);" onClick="_gaq.push(['_trackEvent', 'Links', 'Click', 'Footer Contact Form', 1, false]);" class="launcher open contact_us">Contact</a>
+						<a href="#" onMouseover="_gaq.push(['_trackEvent', 'Links', 'Mouseover', 'Footer About Us', 1, false]);" onClick="_gaq.push(['_trackEvent', 'Links', 'Click', 'Footer About Us', 1, false]);" class="launcher open about_us">About Us</a>
+						<a href="#" onMouseover="_gaq.push(['_trackEvent', 'Links', 'Mouseover', 'Footer Terms of Service', 1, false]);" onClick="_gaq.push(['_trackEvent', 'Links', 'Click', 'Footer Terms of Service', 1, false]);" class="launcher open terms_of_service">Terms</a>
 <!--  						<a href="#" class="launcher open jobs">Jobs</a>  -->
 					</nav>
 					<span class="copyright">&copy; Sunible Inc.  2013</span>
@@ -2556,5 +2601,8 @@ electronic mail address and a request for these Terms.</span></p>							</div>
 		<script type="text/javascript" src="js/pages.js"></script>
 		<script type="text/javascript" src="js/dashboard.js"></script>
 		<script type="text/javascript" src="js/application_init.js"></script>
+
+		<!-- CLICKY TRACKING SCRIPT -->
+<script src="//static.getclicky.com/js" type="text/javascript"></script>
 	</body>
 </html>

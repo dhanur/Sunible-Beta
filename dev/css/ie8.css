@@ -56,3 +56,12 @@ form .field_container { margin-top: -3px; }
 }
 
 .page.thank_you .additional_stuff { margin: 0 auto; }
+
+
+.page.thank_you_reg h1 {
+	margin-bottom: 0;
+	line-height: 20px;
+	padding-bottom: 10px;
+}
+
+.page.thank_you_reg .additional_stuff { margin: 0 auto; }

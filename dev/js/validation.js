@@ -34,8 +34,8 @@ var validation = {
 						city: { required: true },
 						phone: {
 							required: true,
-							maxlength: 13,
-							pattern: '^\\(\\d{3}\\)\\d{3}-\\d{4}$'
+							maxlength: 14,
+							pattern: '^\\(?([2-9][0-8][0-9])\\)?[-. ]?([2-9][0-9]{2})[-. ]?([0-9]{4})$'
 						},
 						email: {
 							required: true,
@@ -64,7 +64,7 @@ var validation = {
 						},
 						phone: {
 							required: 'Required field',
-							pattern: 'Format is (XXX)XXX-XXXX'
+							pattern: 'Invalid phone number'
 						},
 						email: {
 							required: 'Required field',

@@ -365,3 +365,44 @@
 [20-May-2013 06:10:30 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 19
 [20-May-2013 06:10:30 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 51
 [20-May-2013 06:10:30 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/beta/sunible_fn.php on line 52
+[23-May-2013 09:39:36 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 19
+[23-May-2013 09:39:36 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 51
+[23-May-2013 09:39:36 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 52
+[23-May-2013 09:40:24 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 19
+[23-May-2013 09:40:24 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 51
+[23-May-2013 09:40:24 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 52
+[23-May-2013 10:45:58 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 19
+[23-May-2013 10:45:58 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 51
+[23-May-2013 10:45:58 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 52
+[23-May-2013 21:46:08 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 19
+[23-May-2013 21:46:08 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 51
+[23-May-2013 21:46:08 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 52
+[26-May-2013 23:13:42 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 19
+[26-May-2013 23:13:42 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 51
+[26-May-2013 23:13:42 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 52
+[26-May-2013 23:36:32 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 68
+[26-May-2013 23:36:32 America/Denver] PHP Notice:  Trying to get property of non-object in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 19
+[26-May-2013 23:36:32 America/Denver] PHP Warning:  array_merge(): Argument #1 is not an array in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 51
+[26-May-2013 23:36:32 America/Denver] PHP Notice:  Undefined variable: user_arr in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 52
+[05-Jun-2013 12:50:59 America/Denver] PHP Notice:  Undefined variable: con in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 308
+[05-Jun-2013 12:50:59 America/Denver] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 308
+[05-Jun-2013 12:53:14 America/Denver] PHP Notice:  Undefined variable: con in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 308
+[05-Jun-2013 12:53:14 America/Denver] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 308
+[05-Jun-2013 13:05:54 America/Denver] PHP Notice:  Undefined variable: zip in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 305
+[05-Jun-2013 13:09:20 America/Denver] PHP Notice:  Undefined variable: zip in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 304
+[05-Jun-2013 13:10:28 America/Denver] PHP Notice:  Undefined variable: zip in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 304
+[05-Jun-2013 13:10:28 America/Denver] PHP Notice:  Undefined variable: zip in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 304
+[05-Jun-2013 13:12:11 America/Denver] PHP Fatal error:  Call to undefined function now() in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 300
+[05-Jun-2013 13:12:51 America/Denver] PHP Notice:  Undefined variable: zip in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 305
+[05-Jun-2013 13:14:20 America/Denver] PHP Notice:  Undefined variable: zip in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 305
+[05-Jun-2013 13:14:20 America/Denver] PHP Notice:  Undefined variable: zip in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 305
+[05-Jun-2013 13:17:15 America/Denver] PHP Notice:  Undefined variable: zip in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 305
+[05-Jun-2013 13:20:04 America/Denver] PHP Notice:  Undefined variable: zip in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 305
+[05-Jun-2013 13:20:04 America/Denver] PHP Notice:  Undefined variable: zip in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 305
+[05-Jun-2013 13:22:20 America/Denver] PHP Notice:  Undefined variable: zip in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 305
+[05-Jun-2013 13:45:56 America/Denver] PHP Notice:  Undefined variable: zipcode in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 305
+[05-Jun-2013 13:46:08 America/Denver] PHP Notice:  Undefined variable: zipcode in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 305
+[05-Jun-2013 13:46:08 America/Denver] PHP Notice:  Undefined variable: zipcode in /home6/torrohol/public_html/sunible/dev/sunible_fn.php on line 305
+[06-Jun-2013 12:11:58 America/Denver] PHP Notice:  Undefined index: zipcode in /home6/torrohol/public_html/sunible/dev/sendContactForm.php on line 7
+[06-Jun-2013 12:15:11 America/Denver] PHP Notice:  Undefined index: zipcode in /home6/torrohol/public_html/sunible/dev/sendContactForm.php on line 7
+[06-Jun-2013 12:17:06 America/Denver] PHP Notice:  Undefined index: zipcode in /home6/torrohol/public_html/sunible/dev/sendContactForm.php on line 7

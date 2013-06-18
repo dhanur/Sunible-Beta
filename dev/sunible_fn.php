@@ -86,17 +86,18 @@ function submitSignUp(
 $first_name,
 $last_name,
 $email,
-$reason){
+$reason,
+$zipcode){
 $req  = "&first_name=". urlencode($first_name);
 $req .= "&last_name=" . urlencode($last_name);
 $req .= "&email=" . urlencode($email);
 $req .= "&Contact_Request__c=" . urlencode($reason);
+$req .= "&BillingPostalCode=" . urlencode($zipcode);
 $req .= "&Lead_Type__c=" . urlencode("Contact Request");
 $req .= "&debug=" . urlencode("0");
 $req .= "&oid=" . urlencode("00Di0000000JACU"); 
 $req .= "&retURL=" . urlencode("www.sunible.com");
 $req .= "&debugEmail=" . urlencode("john@sunible.com");
-
 $header  = "POST /servlet/servlet.WebToLead?encoding=UTF-8 HTTP/1.0\r\n";
 $header .= "Content-Type: application/x-www-form-urlencoded\r\n";
 $header .= "Host: www.salesforce.com\r\n";
@@ -294,13 +295,15 @@ $response = json_decode($data);
 return $response;
 }
 
-function sendEmailForm($name,$email,$comments) {
+function sendEmailForm($name,$email,$comments,$zipcode) {
 include 'db_vars.php';
+$ip = $_SERVER["REMOTE_ADDR"];
+$timestamp = date("d/m/y : H:i:s", time());
 
 $db = new mysqli($host,$uid,$pw,$dbs);
 if(mysqli_connect_errno()){echo mysqli_connect_error();}
 
-$sql="INSERT INTO contact_us (name, email, comments) VALUES ('$name', '$email', '$comments')";
+$sql="INSERT INTO contact_us (timestamp, name, email, comments, ip, zip) VALUES ('$timestamp', '$name', '$email', '$comments', '$ip', '$zipcode')";
 
 if (!mysqli_query($db,$sql))
   {
@@ -309,15 +312,18 @@ if (!mysqli_query($db,$sql))
 
 mysqli_close($db);
 
-$email_to = "info@sunible.com";
-$email_message = "Name: ".$name."\n";
+$email_from = "info@sunible.com";
+$email_to = "john@sunible.com";
+$email_message = "IP Address: ".$ip."\n";
+$email_message .= "Zip Code: ".$zipcode."\n";
+$email_message .= "Name: ".$name."\n";
 $email_message .= "Email: ".$email."\n";
 $email_message .= "Comments: ".$comments."\n";
 $email_subject = "Contact request from " . $name;    
      
 // create email headers
 $headers = 'From: '.$email."\r\n".
-'Reply-To: '.$email."\r\n" .
+'Reply-To: '.$email_from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);  
 

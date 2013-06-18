@@ -5,7 +5,7 @@
 .page {
 	display: none; /* this is used to hide all pages. They are shown with javascript */
 	padding-top: 0;
-	min-height: 300px;
+	min-height: 400px;
 	min-width: 400px;
 }
 .page.is_shown { display: block; }
@@ -54,7 +54,13 @@ footer.page_footer {
 
 /* HOMEPAGE */
 
-.page.homepage { min-height: 250px; }
+.page.homepage h1 {
+	color: #fcd728;
+	font-size: 39px;
+        text-align: center;
+}
+
+.page.homepage { min-height: 550px; }
 
 .page.homepage .teaser.ad.container {
 	display: block;
@@ -337,7 +343,7 @@ footer.page_footer {
 	padding-top: 0px;
 }
 
-	.page.dashboard .open_registration_page { display: none; }
+	.page.dashboard .open_installer_page { display: none; }
 
 	.page.dashboard .providers.container header {
 		/*font-family: "Lato", sans-serif;
@@ -463,7 +469,7 @@ footer.page_footer {
 	}
 			.page.dashboard .number_of_selected.providers .block .max_length.message { font-size: 14px; }
 
-		.page.dashboard .number_of_selected.providers .open_registration_page {
+		.page.dashboard .number_of_selected.providers .open_installer_page {
 			position: absolute;
 			left: 0;
 			bottom: 0;
@@ -601,12 +607,12 @@ footer.page_footer {
 }
 
 	.page.registration .registration_form .field.first_name { width: 170px; }
-	.page.registration .registration_form .field.last_name { width: 170px; }
-	.page.registration .registration_form .field.nickname { width: 150px; }
+	.page.registration .registration_form .field.last_name { width: 470px; }
 	.page.registration .registration_form .field.street_address { width: 333px; }
 	.page.registration .registration_form .field.city { width: 150px; }
 	.page.registration .registration_form .field.phone_number { width: 150px; }
 	.page.registration .registration_form .field.email { width: 403px; }
+	.page.registration .registration_form .field.nickname { width: 100px; }
 	.page.registration .registration_form .field.property_type { width: 100px; }
 	.page.registration .registration_form .field.cost_per_month { width: 80px; }
 	.page.registration .registration_form .field.people_nature { width: 100px; }
@@ -628,8 +634,9 @@ footer.page_footer {
 
       
 ul { margin: 0; padding: 0; }
-ul li { margin: 0; padding: 0; list-style: none; }
-ul li a { font-size:13.0pt; font-family:"Bariol Regular"; color:#F1C40F; }
+ul li { margin: 0; padding: 0; list-style: none; cursor: pointer; }
+ul li a { font-size:13.0pt; font-family:"Bariol Regular"; color:#195072; text-decoration: none; }
+ul li a:hover { font-size:13.0pt; font-family:"Bariol Regular"; color:#F1C40F; text-decoration: none; }
 ul li div { display: none; }
 
 /* THANK YOU */

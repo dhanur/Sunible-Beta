@@ -5,59 +5,70 @@ $res_return = array();
 $group = array();
 
 // New Connection
-$db = new mysqli('localhost','torrohol_nik','installers','torrohol_ca_csi');
-if(mysqli_connect_errno()){echo mysqli_connect_error();}
+$db = new mysqli('localhost','root','','sunible');
 
-//$result = $db->query("SELECT zipcode.group FROM zipcode WHERE zipcode.zip = $zip"); 
-$result = $db->query("SELECT zipcode.county FROM zipcode WHERE zipcode.zip = $zip"); 
-$group = $result->fetch_object();
-//$gr = $group->group;
-$gr = $group->county;
-$result->close();
+// Check for errors
+if(mysqli_connect_errno()){
+ echo mysqli_connect_error();
+}
 
-// get geodata
-$result = $db->query("call getSocialProofData('$gr')");
+//$data = mysql_query("SELECT DISTINCT zipcode.group FROM zipcode WHERE zipcode.zip = $zip") 
+ or die(mysql_error()); 
+//$group = mysql_fetch_assoc($data);
+//$gr = ($group['group']);
+$gr = 1;
+// 1st Query
+$result = $db->query("call getSocialProofData($gr)");
 if($result){
-    // Cycle through results
+     // Cycle through results
     while ($row = $result->fetch_object()){
-        $user_arr[] = ($row);
+        $user_arr[] = $row;
     }
+    // Free result set
     $result->close();
     $db->next_result();
 }
 else echo($db->error);
 
-// get social proof data
-$result = $db->query("call getCountyTotals($zip)");
-$data = $result->fetch_object();
-if($data->total_installers == 0){
-  $data->total_installers = $data->total_installers_county;}
-
-// Close connection  
-$result->close();
+// Close connection
 $db->close();
 
-$res_return['geodata'] = $user_arr;
-return(json_encode(array($data,$res_return)));
+return($user_arr);
+
+
+
+// 2nd Query
+$result = $db->query("call getGroups()");
+if($result){
+     // Cycle through results
+    while ($row = $result->fetch_object()){
+        $group_arr[] = $row;
+    }
+     // Free result set
+     $result->close();
+     $db->next_result();
 }
+
+
+
+
+
+
+
 
 function getInstallers($zip){
 $res = array();
 $res_return = array();
+$conn = mysql_connect('localhost', 'root', '');
+mysql_select_db('sunible', $conn);
+$result = mysql_query("call getDashboardData($zip)")
+ or die(mysql_error()); 
 
-$db = new mysqli('localhost','torrohol_nik','installers','torrohol_ca_csi');
-if(mysqli_connect_errno()){echo mysqli_connect_error();}
-
-$result = $db->query("call getDashboardData($zip)");
-if($result){
-    while($res = $result->fetch_object())
-        {
-        $res_return[] = $res;
+while($res = mysql_fetch_assoc($result))
+    {
+    $res_return[] = $res;
     }
-    $result->close();
-    $db->next_result();
-}
-
+mysql_close($conn);
 return json_encode($res_return);
 }
 

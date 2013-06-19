@@ -40,7 +40,7 @@
                     _gaq.push(['_setAccount', 'UA-38493701-1']);
                     _gaq.push(['_setDomainName', 'sunible.com']);
                     _gaq.push(['_setAllowLinker', true]);
-                    _gaq.push(['_trackPageview']);
+                    _gaq.push(['_trackPageview', 'vpv/landing.html']);
 
                     (function() {
                         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
@@ -105,12 +105,14 @@ window.onbeforeunload = function() {
 					</a>
                                         
 
-					<form class="zip search providers container" id="homepage-search_providers_by_zip-container">
+					<form class="zip search providers container" id="homepage-search_providers_by_zip-container" >
+                                         
 						<span class="field_container">
 							<input type="text" onFocus="_gaq.push(['_trackEvent', 'Form Fields', 'Focus', 'Landing Page Zip', 1, false]);" class="field zip" id="homepage-field-zip_code" name="zipcode" placeholder="Zip Code" pattern="\d{5}(?:[-\s]\d{4})?"/>
 							<span class="validation message"></span>
 						</span>
-						<button type="button" onMouseover="_gaq.push(['_trackEvent', 'Buttons', 'Mouseover', 'Landing Page Submit', 1, false]);" 
+						<button type="button" 
+                                                onMouseover="_gaq.push(['_trackEvent', 'Buttons', 'Mouseover', 'Landing Page Submit', 1, false]);" 
                                                 onClick="_gaq.push(['_trackEvent', 'Buttons', 'Click', 'Landing Page Submit', 1, false]);" 
                                                 class="btn search providers zip" id="homepage-search_providers_by_zip-button">Go</button>
 					</form>
@@ -120,6 +122,7 @@ window.onbeforeunload = function() {
 
 			<!-- SOCIAL PROOF -->
 			<div class="page social_proof" id="page-social_proof" data-page="social_proof">
+                        <script type="text/javascript">  _gaq.push(['_trackPageview', 'vpv/social_proof.html']);  </script>
 				<div class="social_info_by_zip">
 					<h1>Fantastic, <span class="area_name" id="page-social_proof-area_name">your area</span> is very Sunible!</h1>
 					<figure class="map container" id="page-social_proof-map-container">
@@ -146,6 +149,7 @@ window.onbeforeunload = function() {
                                                 <p class="message bakersfield county"> &nbsp; </p>
 						<p class="button_container">
 							<button type="button" 
+                                                                onSubmit="_gaq.push(['_trackPageview', 'vpv/social_proof']);"
                                                                 onMouseover="_gaq.push(['_trackEvent', 'Buttons', 'Mouseover', 'Social Proof Submit', 1, false]);"
                                                                 onClick="_gaq.push(['_trackEvent', 'Buttons', 'Click', 'Social Proof Submit', 1, false]);"
 								class="btn btn-large next_action" 
@@ -158,6 +162,7 @@ window.onbeforeunload = function() {
 
 			<!-- DASHBOARD -->
 			<div class="page dashboard" id="page-dashboard" data-page="dashboard">
+                        <script type="text/javascript">  _gaq.push(['_trackPageview', 'vpv/dashboard.html']);  </script>
 				<section class="providers number_of_selected">
 					<div class="block">
 						<p>
@@ -168,7 +173,9 @@ window.onbeforeunload = function() {
 						</p>
 						<p class="max_length message">20 providers max</p>
 					</div>
-					<button type="button" onMouseover="_gaq.push(['_trackEvent', 'Buttons', 'Mouseover', 'Dashboard Submit']);" 
+					<button type="button" 
+                                        onSubmit="_gaq.push(['_trackPageview', 'vpv/dashboard']);"
+                                        onMouseover="_gaq.push(['_trackEvent', 'Buttons', 'Mouseover', 'Dashboard Submit']);" 
                                         onClick="_gaq.push(['_trackEvent', 'Buttons', 'Click', 'Dashboard Submit', 1, false]);" 
                                         class="btn open_registration_page" id="dashboard-open_registration_page">Let's get Sunible</button>
 				</section>
@@ -184,6 +191,7 @@ window.onbeforeunload = function() {
 
 			<!-- REGISTRATION -->
 			<div class="page registration" id="page-registration" data-page="registration">
+                        <script type="text/javascript">  _gaq.push(['_trackPageview', 'vpv/registration.html']);  </script>
 					<h1>
 						Registration <small data-toggle="tooltip" data-placement="top" title="We use this information to get in touch with you if we have questions. And your providers use this information to make a pre-quote assessment. All providers listed on Sunible are bound by our Privacy Policy.">(Why do we collect this information?)</small>
 					</h1>
@@ -261,7 +269,7 @@ window.onbeforeunload = function() {
 							</span>
 						</p>
                                                 
-						<button type="button" onMouseover="_gaq.push(['_trackEvent', 'Buttons', 'Mouseover', 'Registration Submit', 1, false]);"
+						<button type="button"  onSubmit="_gaq.push(['_trackPageview', 'vpv/registration']);" onMouseover="_gaq.push(['_trackEvent', 'Buttons', 'Mouseover', 'Registration Submit', 1, false]);"
                                                 onClick="_gaq.push(['_trackEvent', 'Buttons', 'Click', 'Registration Submit', 1, false]);" class="btn btn-large send_registration" id="registration-submit_registration_info">Go</button>
 
 					</form>
@@ -270,6 +278,7 @@ window.onbeforeunload = function() {
 
 			<!-- THANK YOU -->
 			<div class="page thank_you" id="page-thank_you" data-page="thank_you">
+                        <script type="text/javascript">  _gaq.push(['_trackPageview', 'vpv/sign_up_thank_you.html']);  </script>
 				<h1>
 					THANK YOU!
 					<br/>
@@ -299,6 +308,7 @@ window.onbeforeunload = function() {
        
        <!-- REGISTRATION THANK YOU -->
 			<div class="page thank_you_reg" id="page-thank_you_reg" data-page="thank_you_reg">
+                        <script type="text/javascript">  _gaq.push(['_trackPageview', 'vpv/registration_thank_you.html']);  </script>
  				<section class="additional_stuff">
                 <table border="1" width="250%" style="border-width: 0px">
                         <h1>Congratulations, and may the Sun be with you.<br/>Here's what happens next,

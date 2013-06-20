@@ -1,4 +1,0 @@
-beta
-====
-
-Fresno trial

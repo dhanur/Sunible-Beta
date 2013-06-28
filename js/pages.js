@@ -12,11 +12,11 @@ var pages = {
 	registration: $('#page-registration'),
 	message: $('#page-message'),
 	thankYou: $('#page-thank_you'),
-        thankYouReg: $('#page-thank_you_reg'),
-        faqs: $('#page-faqs'),
-        aboutUs: $('#page-about_us'),
-        jobs: $('#page-jobs'),
-        blog: $('#page-blog')
+	thankYouReg: $('#page-thank_you_reg'),
+	faqs: $('#page-faqs'),
+	aboutUs: $('#page-about_us'),
+	jobs: $('#page-jobs'),
+	blog: $('#page-blog')
 }
 
 function changePage($currentPage, $nextPage)
@@ -124,9 +124,9 @@ function showThankYouPage()
 
 function showThankYouRegPage()
 {
-        var $currentPage = $('.page.is_shown');
-        _gaq.push(['_trackPageview', 'vpv/registration_thank_you.html']);
-        changePage($currentPage, pages.thankYouReg);
+	var $currentPage = $('.page.is_shown');
+	_gaq.push(['_trackPageview', 'vpv/registration_thank_you.html']);
+	changePage($currentPage, pages.thankYouReg);
 }
 
 function showNoDataFoundPage()
@@ -222,7 +222,7 @@ function getInstallersByZipCodeFormSubmit($form)
 				}
 				else
 				{
-                    _gaq.push(['_trackPageview', 'vpv/social_proof.html']);
+					_gaq.push(['_trackPageview', 'vpv/social_proof.html']);
 					changePage($currentPage, pages.socialProof);
 					initSocialProof(data, 'fresno');
 				}
@@ -231,7 +231,7 @@ function getInstallersByZipCodeFormSubmit($form)
 			getInstallersByZipCode(zipCode, function(data){
 				if (data != undefined && data.length > 0)
 				{
-                                        initDashboard(zipCode, data);
+										initDashboard(zipCode, data);
 				}
 			});
 		}
@@ -245,7 +245,7 @@ function getInstallersByZipCodeFormSubmit($form)
 				}
 				else
 				{
-                    _gaq.push(['_trackPageview', 'vpv/social_proof.html']);
+					_gaq.push(['_trackPageview', 'vpv/social_proof.html']);
 					changePage($currentPage, pages.socialProof);
 					initSocialProof(data, 'california');
 				}
@@ -255,7 +255,7 @@ function getInstallersByZipCodeFormSubmit($form)
 	else
 	{ // NON-CALIFORNIA zip
 		// we show signup form
-        _gaq.push(['_trackPageview', 'vpv/sign_up.html']);
+		_gaq.push(['_trackPageview', 'vpv/sign_up.html']);
 		initSignUpForm();
 		showSignUpPopup();
 	}
@@ -319,17 +319,17 @@ function showSocialProofMap(data)
 	}
 	else
 	{
-                map = L.map('page-social_proof-map', {
-                    center: zipGeo,
-                    zoom: 13,
-                    closePopupOnClick: false
+		if (isSafari()) L.Browser.webkit3d = false; // RLY: issue #28
+		map = L.map('page-social_proof-map', {
+			center: zipGeo,
+			zoom: 13,
+			closePopupOnClick: false
 		});
 		$mapContainer.data('map', map);
 
 		L.tileLayer('http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/997/256/{z}/{x}/{y}.png', {
-                    maxZoom: 18
-//                  attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>'
-                }).addTo(map);
+			maxZoom: 18
+		}).addTo(map);
 	}
 	var bounds = composeMapBounds(markerSource);
 	// adding markers to map
@@ -344,7 +344,8 @@ function showSocialProofMap(data)
 	// bounds coordinates
 	//L.Bounds(bounds.coordinates);
 	//map.fitBounds(bounds.coordinates);
-        map.panTo(new L.LatLng(data[0].latitude, data[0].longitude)); 
+	map.panTo(new L.LatLng(data[0].latitude, data[0].longitude));
+	if (isSafari()) L.Browser.webkit3d = true; // RLY: issue #28
 }
 
 function composeMapBounds(source)
@@ -400,7 +401,7 @@ function composeMarkerPopupHtml(markerSource)
 function bindButtonViewProviders($button){
 	var $currentPage = $button.closest('.page');
 	$button.click(function(){
-        _gaq.push(['_trackPageview', 'vpv/dashboard.html']);
+		_gaq.push(['_trackPageview', 'vpv/dashboard.html']);
 		changePage($currentPage, pages.dashboard);
 		// re-init the nanoScroll 'cause page was inserted dynamically
 		var $nanoScrollWrapper = $('.page.dashboard .dataTables_scrollBody.nano');
@@ -437,7 +438,7 @@ function initRegistration(zip)
 	var $button = $('#dashboard-open_registration_page');
 	var $currentPage = $button.closest('.page');
 	$button.click(function(){
-        _gaq.push(['_trackPageview', 'vpv/registration.html']);
+		_gaq.push(['_trackPageview', 'vpv/registration.html']);
 		var $dashboard = $currentPage.find('.providers.list.grid ');
 		$dashboard.data('zip', zip);
 		var dashboardProviders = collectDashboardProvidersData($dashboard);
@@ -478,7 +479,7 @@ function initRegistrationForm(formData)
 function bindButtonRegisterUser($button, $form, providers)
 {
 	$button.click(function(){
-        _gaq.push(['_trackPageview', 'vpv/registration_thank_you.html']);
+		_gaq.push(['_trackPageview', 'vpv/registration_thank_you.html']);
 		registerUser($form);
 	});
 }
@@ -535,7 +536,7 @@ function getRegistrationFormData($form)
 function bindContactUsPage($launcher)
 {
 	$launcher.click(function(){
-        _gaq.push(['_trackPageview', 'vpv/contact_us.html']);
+		_gaq.push(['_trackPageview', 'vpv/contact_us.html']);
 		openContactUsPage();
 		initContactUsForm();
 	});
@@ -583,7 +584,7 @@ function sendContactUsMessage($form)
 function bindOpenSignUpPage($button)
 {
 	$button.click(function(){
-        _gaq.push(['_trackPageview', 'vpv/sign_up.html']);
+		_gaq.push(['_trackPageview', 'vpv/sign_up.html']);
 		initSignUpForm();
 		showSignUpPopup();
 	});
@@ -639,7 +640,7 @@ function bindTermsPopup($launcher)
 
 function showTermsPopup()
 {
-    _gaq.push(['_trackPageview', 'vpv/terms_of_service.html']);
+	_gaq.push(['_trackPageview', 'vpv/terms_of_service.html']);
 	var $termsPopup = $('#modal-terms_of_service');
 	$termsPopup.modal();
 	addNiceScroll($termsPopup.find('.nano'));
@@ -656,7 +657,7 @@ function bindPrivacyPolicyPopup($launcher)
 
 function openPrivacyPolicyPopup()
 {
-    _gaq.push(['_trackPageview', 'vpv/privacy_policy.html']);
+	_gaq.push(['_trackPageview', 'vpv/privacy_policy.html']);
 	var $privacyPopup = $('#modal-privacy_policy');
 	$privacyPopup.modal();
 	addNiceScroll($privacyPopup.find('.nano'));
@@ -680,7 +681,7 @@ function bindFaqsPopup($launcher)
 
 function openFaqsPopup()
 {
-    _gaq.push(['_trackPageview', 'vpv/FAQ.html']);
+	_gaq.push(['_trackPageview', 'vpv/FAQ.html']);
 	var $faqsPopup = $('#modal-faqs');
 	$faqsPopup.modal();
 	addNiceScroll($faqsPopup.find('.nano'));
@@ -688,11 +689,11 @@ function openFaqsPopup()
 
 $(function(){
 
-    $('#faq li a').each(function(){
-        $(this).click(function(){
-            $(this).siblings('div').slideToggle(300);            
-        });        
-    });                
+	$('#faq li a').each(function(){
+		$(this).click(function(){
+			$(this).siblings('div').slideToggle(300);			
+		});		
+	});				
 
 });
 
@@ -707,7 +708,7 @@ function bindAboutUsPopup($launcher)
 
 function openAboutUsPopup()
 {
-    _gaq.push(['_trackPageview', 'vpv/about_us.html']);
+	_gaq.push(['_trackPageview', 'vpv/about_us.html']);
 	var $aboutUsPopup = $('#modal-about_us');
 	$aboutUsPopup.modal();
 	addNiceScroll($aboutUsPopup.find('.nano'));
@@ -724,7 +725,7 @@ function bindJobsPopup($launcher)
 
 function openJobsPopup()
 {
-    _gaq.push(['_trackPageview', 'vpv/jobs.html']);
+	_gaq.push(['_trackPageview', 'vpv/jobs.html']);
 	var $jobsPopup = $('#modal-jobs');
 	$jobsPopup.modal();
 	addNiceScroll($jobsPopup.find('.nano'));

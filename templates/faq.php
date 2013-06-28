@@ -1,4 +1,3 @@
-
 <!-- MODAL FAQS -->
 
 <div id="modal-faqs" class="modal faqs hide fade" tabindex="-1"
@@ -13,13 +12,6 @@
 				Frequently Asked Questions</span> </b>
 		<div class="nano">
 			<div class="content">
-				<!-- QUOTATION         
-  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=800 style='width:8in'>      
-  <tr style='height:12.0pt'>
-  <td width=100% valign=top style='width:8in; padding:.1in .1in .1in .1in; height:12.0pt; font-size:12.0pt; font-family:"Bariol Regular"; color:#003E5F'>  
-  <b>''Ask not what you can do for the Sun, but what the Sun can do for you''<br>- Sun Tzu? </b>
-  </td></tr>
-  </table>  -->
 
 				<table class="MsoNormalTable" border="0" cellspacing="0"
 					cellpadding="0" width="800"

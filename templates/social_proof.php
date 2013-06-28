@@ -1,4 +1,3 @@
-
 <!-- SOCIAL PROOF -->
 <div class="page social_proof" id="page-social_proof"
 	data-page="social_proof">
@@ -8,8 +7,7 @@
 				area</span> is very Sunible!
 		</h1>
 		<figure class="map container" id="page-social_proof-map-container">
-			<figcaption>(Map shows the number of solar homes in Zip Codes around
-				you)</figcaption>
+			<figcaption>(Map shows the number of solar homes in Zip Codes around you)</figcaption>
 			<div class="map" id="page-social_proof-map"></div>
 		</figure>
 		<section class="solar_info">

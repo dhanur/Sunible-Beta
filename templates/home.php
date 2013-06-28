@@ -12,7 +12,7 @@
 			<span class="field_container"> <input type="text"
 				onFocus="_gaq.push(['_trackEvent', 'Form Fields', 'Focus', 'Landing Page Zip', 1, false]);"
 				class="field zip" id="homepage-field-zip_code" name="zipcode"
-				placeholder="Zip Code" pattern="\d{5}(?:[-\s]\d{4})?" /> <span
+				placeholder="Zip Code" pattern="\d{5}(?:[-\s]\d{4})?" autofocus /> <span
 				class="validation message"></span>
 			</span>
 			<button type="button"

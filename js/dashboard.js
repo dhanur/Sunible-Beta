@@ -110,7 +110,7 @@ Dashboard.prototype = {
 					'<thead>' +
 						'<tr>' +
 							'<th class="checkboxes">' +
-								'<span class="text">Select</span>' +
+								'<span class="text">Request Quote</span>' +
 							'</th>' +
 							'<th class="name">' +
 								'<span class="text">Solar Providers</span>' +

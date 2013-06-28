@@ -23,26 +23,6 @@
 
 <script type="text/javascript">var ie;</script>
 
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements.  All other JS at the end of file.  -->
-
-<!--[if lte IE 8]>
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
-<![endif]-->
-<!-- IE code -->
-
-<!--[if IE 8]>
-			<link rel="stylesheet" type="text/css" href="css/ie8.css"/>
-			<script type="text/javascript">ie = 8;</script>
-		<![endif]-->
-<!--[if IE 9]>
-			<link rel="stylesheet" type="text/css" href="css/ie9.css"/>
-			<script type="text/javascript">ie = 9;</script>
-		<![endif]-->
-<!--[if lt IE 9]>
-			<script type="text/javascript" src="js/html5shiv.js"></script>
-		<![endif]-->
-
-
 <!--GOOGLE ANALYTICS TRACKING SCRIPT-->
 <script type="text/javascript">
                     var _gaq = _gaq || [];
@@ -113,21 +93,21 @@
 				src="images/logo_sunible.png" alt="" /> </a>
 		</header>
 
-		<?php include ("home.php"); ?>
-		<?php include ("social_proof.php"); ?>
-		<?php include ("dashboard.php"); ?>
-		<?php include ("registration.php"); ?>
-		<?php include ("thank_you.php"); ?>
-		<?php include ("registration_thank_you.php"); ?>
-		<?php include ("sign_up.php"); ?>
-		<?php include ("contact_us.php"); ?>
-		<?php include ("faq.php"); ?>
-		<?php include("page_message.php"); ?>
-		<?php include("modal_message.php"); ?>
-		<?php include("tos.php"); ?>
-		<?php include("pp.php"); ?>
-		<?php include("about_us.php"); ?>
-		<?php include("jobs.php"); ?>
+		<?php include ("templates/home.php"); ?>
+		<?php include ("templates/social_proof.php"); ?>
+		<?php include ("templates/dashboard.php"); ?>
+		<?php include ("templates/registration.php"); ?>
+		<?php include ("templates/thank_you.php"); ?>
+		<?php include ("templates/registration_thank_you.php"); ?>
+		<?php include ("templates/sign_up.php"); ?>
+		<?php include ("templates/contact_us.php"); ?>
+		<?php include ("templates/faq.php"); ?>
+		<?php include ("templates/page_message.php"); ?>
+		<?php include ("templates/modal_message.php"); ?>
+		<?php include ("templates/tos.php"); ?>
+		<?php include ("templates/pp.php"); ?>
+		<?php include ("templates/about_us.php"); ?>
+		<?php include ("templates/jobs.php"); ?>
 
 		<!-- FOOTER -->
 		<footer

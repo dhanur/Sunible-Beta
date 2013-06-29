@@ -637,8 +637,8 @@ footer.page_footer {
       
 ul { margin: 0; padding: 0; }
 ul li { margin: 0; padding: 0; list-style: none; cursor: pointer; }
-ul li a { font-size:13.0pt; font-family:"Bariol Regular"; color:#195072; text-decoration: none; }
-ul li a:hover { font-size:13.0pt; font-family:"Bariol Regular"; color:#F1C40F; text-decoration: none; }
+ul li a { font-size:13.0pt; font-family: "bariol_regular", sans-serif; color:#195072; text-decoration: none; }
+ul li a:hover { font-size:13.0pt; font-family: "bariol_regular", sans-serif; color:#F1C40F; text-decoration: none; }
 ul li div { display: none; }
 
 /* THANK YOU */
@@ -734,8 +734,8 @@ ul li div { display: none; }
 	left: 50%;  
 	width: 800px;
 	height: 600px;
-        font-family: "bariol_regular", sans-serif;
-        font-size: 16px;
+	font-family: "bariol_regular", sans-serif;
+	font-size: 16px;
 	margin-top: -20px;
 	margin-left: -400px;  
 }

@@ -65,3 +65,5 @@ form .field_container { margin-top: -3px; }
 }
 
 .page.thank_you_reg .additional_stuff { margin: 0 auto; }
+
+.pages.ie8-footer-fix { padding-right: 1px;}

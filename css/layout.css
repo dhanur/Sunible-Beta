@@ -9,24 +9,29 @@ body {
 }
 
 .pages {
-	display: block;
-	overflow: hidden;
-	position: relative;
 	min-width: 960px;
+	position:relative;
 	min-height: 100%;
 	height: auto !important;
-	/*padding-bottom: 60px;*/
+	height: 100%;
+}
+
+.footer-margin {
+clear: both;
+display: inline;
+width: 100%;
+height: 0;
+overflow: hidden;
 }
 
 footer.page_footer {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	z-index: 6;
-	width: 100%;
-	display: block;
-	overflow: hidden;
 	height: 60px;
+	width: 100%;
+	margin: -60px auto 0;
+	padding: 0px;
+	position: relative;
+	overflow: hidden;
+	z-index: 6;
 }
 
 header.page_header,
@@ -37,7 +42,6 @@ header.page_header,
 
 .page {
 	padding-top: 10px;
-	padding-bottom: 60px;
 	overflow: visible;
 }
 

@@ -57,10 +57,10 @@ footer.page_footer {
 .page.homepage h1 {
 	color: #fcd728;
 	font-size: 39px;
-        text-align: center;
+	text-align: center;
 }
 
-.page.homepage { min-height: 550px; }
+.page.homepage { min-height: 350px; }
 
 .page.homepage .teaser.ad.container {
 	display: block;

@@ -1,3 +1,25 @@
+function checkPhone (obj) {
+	str = obj.value.replace(/[^0-9]+?/g, '');
+	switch (str.length)
+	{
+		case 0:
+			alert('Please enter numbers only.');
+			obj.select();
+			return;
+		case 7:
+			str = str.substr(0,3)+"-"+str.substr(3,4);
+			break;
+		case 10:
+			str = "("+str.substr(0,3)+") "+str.substr(3,3)+"-"+str.substr(6,4);
+			break;
+		default:
+			alert('Please enter a 7 digit phone number (with area code, if applicable).');
+			obj.select();
+			return;
+	}
+	obj.value = str;
+}
+
 function isIe10()
 {
 	return navigator.appVersion.indexOf('MSIE 10') > -1;
@@ -16,6 +38,16 @@ function isSafari()
 function targetSafari()
 {
 	$('body').addClass('safari');
+}
+
+function ie8FixFooter()
+{
+	$(window).resize(function(){
+		setTimeout(function () {
+			var $pagesContainer = $('.pages');
+			$pagesContainer.toggleClass('ie8-footer-fix');
+		}, 500);
+	});
 }
 
 function showMessage(messageText)

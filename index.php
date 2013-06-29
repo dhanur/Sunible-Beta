@@ -74,6 +74,7 @@
 			<?php include("about_us.php"); ?>
 			<?php include("jobs.php"); ?>
 			<!-- FOOTER -->
+			<div class="footer-margin"></div>
 			<footer class="page_footer homepage social_proof dashboard registration message thank_you thank_you_reg"> <!-- footer has those classes to be toggled with those pages.  With that approach, no need to duplicate the footer on each page we have it-->
 					<nav class="bottom navigation">
 						<a href="#" onMouseover="_gaq.push(['_trackEvent', 'Links', 'Mouseover', 'Footer FAQ', 1, false]);" onClick="_gaq.push(['_trackEvent', 'Links', 'Click', 'Footer FAQ', 1, false]);" class="launcher open faqs">FAQs</a>

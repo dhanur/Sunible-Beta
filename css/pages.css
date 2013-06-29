@@ -590,7 +590,9 @@ footer.page_footer {
 
 /* REGISTRATION */
 
-.page.registration {
+.page.registration { min-height: 460px; }
+
+.page.registration .inner_content {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -607,7 +609,7 @@ footer.page_footer {
 }
 
 	.page.registration .registration_form .field.first_name { width: 170px; }
-	.page.registration .registration_form .field.last_name { width: 470px; }
+	.page.registration .registration_form .field.last_name { width: 303px; }
 	.page.registration .registration_form .field.street_address { width: 333px; }
 	.page.registration .registration_form .field.city { width: 150px; }
 	.page.registration .registration_form .field.phone_number { width: 150px; }

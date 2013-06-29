@@ -1,7 +1,7 @@
 
 			<!-- REGISTRATION -->
 			<div class="page registration" id="page-registration" data-page="registration">
-                        
+				<div class="inner_content">
 					<h1>
 						Registration <small data-toggle="tooltip" data-placement="top" title="We use this information to get in touch with you if we have questions. And your providers use this information to make a pre-quote assessment. All providers listed on Sunible are bound by our Privacy Policy.">(Why do we collect this information?)</small>
 					</h1>
@@ -39,7 +39,7 @@
 							<!-- property type -->
 							<span class="field_container">
 								<select onChange="_gaq.push(['_trackEvent', 'Form Fields', 'Change', 'Registration Own-Rent', 1, false]);" class="field property_type" name="Own_Rent__c" id="registration-select-appartment-property-type"> 
-                                                                        <option selected="selected">own</option>
+									<option selected="selected">own</option>
 									<option>rent</option>                                                        
 								</select>
 								<span class="validation message"></span>
@@ -49,7 +49,7 @@
 							<!-- phone number -->
 							<span class="field_container">
 								<input type="text" onFocus="_gaq.push(['_trackEvent', 'Form Fields', 'Focus', 'Registration Phone', 1, false]);" style="width: 150px" name="phone" placeholder="Phone Number" onchange="checkPhone(this)" pattern="^[(]{0,1}[0-9]{3}[)]{0,1}[-\s\.]{0,1}[0-9]{3}[-\s\.]{0,1}[0-9]{4}$" required />
-                                                                <span class="validation message"></span>
+								<span class="validation message"></span>
 							</span>
 							and
 							<!-- email -->
@@ -69,19 +69,19 @@
 							<!-- Terms of Service-->
 							<span class="field_container">
 								<label class="checkbox" for="registration-checkbox-terms_of_service">
-                                                                    <input type="checkbox" onMouseover="_gaq.push(['_trackEvent', 'Form Fields', 'Mouseover', 'Registration I Agree', 1, false]);" onClick="_gaq.push(['_trackEvent', 'Form Fields', 'Check', 'Registration I Agree', 1, false]);" id="registration-checkbox-terms_of_service" name="terms_of_service" required />
+									<input type="checkbox" onMouseover="_gaq.push(['_trackEvent', 'Form Fields', 'Mouseover', 'Registration I Agree', 1, false]);" onClick="_gaq.push(['_trackEvent', 'Form Fields', 'Check', 'Registration I Agree', 1, false]);" id="registration-checkbox-terms_of_service" name="terms_of_service" required />
 								</label>
-
 								I have read and agree to Sunible's
 								<a href="#" onMouseover="_gaq.push(['_trackEvent', 'Links', 'Mouseover', 'Registration Terms of Service', 1, false]);" onClick="_gaq.push(['_trackEvent', 'Links', 'Click', 'Registration Terms of Service', 1, false]);" class="launcher open terms_of_service">Terms of Service</a> &amp;
 								<a href="#" onMouseover="_gaq.push(['_trackEvent', 'Links', 'Mouseover', 'Registration Privacy Policy', 1, false]);" onClick="_gaq.push(['_trackEvent', 'Links', 'Click', 'Registration Privacy Policy', 1, false]);" class="launcher open privacy_policy">Privacy Policy</a>
 								<span class="validation message"></span>
 							</span>
 						</p>
-                                                
-						<button type="button"  onMouseover="_gaq.push(['_trackEvent', 'Buttons', 'Mouseover', 'Registration Submit', 1, false]);"
-                                                onClick="_gaq.push(['_trackEvent', 'Buttons', 'Click', 'Registration Submit', 1, false]);" class="btn btn-large send_registration" id="registration-submit_registration_info">Go</button>
-
+						<button type="button"
+							onMouseover="_gaq.push(['_trackEvent', 'Buttons', 'Mouseover', 'Registration Submit', 1, false]);"
+							onClick="_gaq.push(['_trackEvent', 'Buttons', 'Click', 'Registration Submit', 1, false]);"
+							class="btn btn-large send_registration" id="registration-submit_registration_info">Go</button>
 					</form>
+				</div>
 			</div>
 			<!-- /REGISTRATION -->

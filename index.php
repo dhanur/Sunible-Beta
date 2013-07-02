@@ -58,21 +58,22 @@
 				</div>
 				<a href="/" class="logo sunible" onMouseover="_gaq.push(['_trackEvent', 'Links', 'Mouseover', 'Landing Page Logo', 1, false]);" onClick="_gaq.push(['_trackEvent', 'Links', 'Click', 'Landing Page Logo', 1, false]);"><img src="images/logo_sunible.png"/></a>
 			</header>
-			<?php include ("home.php"); ?>
-			<?php include ("social_proof.php"); ?>
-			<?php include ("dashboard.php"); ?>
-			<?php include ("registration.php"); ?>
-			<?php include ("thank_you.php"); ?>
-			<?php include ("registration_thank_you.php"); ?>
-			<?php include ("sign_up.php"); ?>
-			<?php include ("contact_us.php"); ?>
-			<?php include ("faq.php"); ?>
-			<?php include("page_message.php"); ?>
-			<?php include("modal_message.php"); ?>
-			<?php include("tos.php"); ?>
-			<?php include("pp.php"); ?>
-			<?php include("about_us.php"); ?>
-			<?php include("jobs.php"); ?>
+			<!-- PAGES -->
+			<?php include ("templates/pages/home.php"); ?>
+			<?php include ("templates/pages/social_proof.php"); ?>
+			<?php include ("templates/pages/dashboard.php"); ?>
+			<?php include ("templates/pages/registration.php"); ?>
+			<?php include ("templates/pages/thank_you.php"); ?>
+			<?php include ("templates/pages/registration_thank_you.php"); ?>
+			<?php include ("templates/pages/sign_up.php"); ?>
+			<?php include ("templates/pages/contact_us.php"); ?>
+			<?php include ("templates/pages/faq.php"); ?>
+			<?php include ("templates/pages/page_message.php"); ?>
+			<?php include ("templates/pages/modal_message.php"); ?>
+			<?php include ("templates/pages/tos.php"); ?>
+			<?php include ("templates/pages/pp.php"); ?>
+			<?php include ("templates/pages/about_us.php"); ?>
+			<?php include ("templates/pages/jobs.php"); ?>
 			<!-- FOOTER -->
 			<div class="footer-margin"></div>
 			<footer class="page_footer homepage social_proof dashboard registration message thank_you thank_you_reg"> <!-- footer has those classes to be toggled with those pages.  With that approach, no need to duplicate the footer on each page we have it-->

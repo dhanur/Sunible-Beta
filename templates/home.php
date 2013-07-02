@@ -3,10 +3,13 @@
 	data-page="homepage">
 	<section class="ad teaser container">
 		<a href="#" class="teaser" id="homepage_teaser_heading"> <span
-			class="save">Save</span> <span class="money_with">Money with</span> <span
-			class="solar">Solar</span>
+			class="money_with">3 Steps to Solar Savings with Sunible</span> 
 		</a>
-
+		<br/>
+				<p align="center">
+				<img border="0" src="http://sunible.com/assets/images/sunible.jpg" width="792" height="256">
+				</p>
+		<br/>
 		<form class="zip search providers container"
 			id="homepage-search_providers_by_zip-container" action="">
 			<span class="field_container"> <input type="text"

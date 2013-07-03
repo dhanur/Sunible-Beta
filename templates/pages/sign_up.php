@@ -36,7 +36,7 @@
 								</label>
 								<label class="radio" for="sign_up-very_interested">
 									<input type="radio" onchange="_gaq.push(['_trackEvent', 'Form Fields','Select', this.value, 1, false]);" id="sign_up-very_interested" name="reason" value="very interested"/>
-									Definitely interested in solar, don’t know what provider to choose
+									Definitely interested in solar, don’t know what installer to choose
 								</label>
 								<label class="radio" for="sign_up-curious">
 									<input type="radio" onchange="_gaq.push(['_trackEvent', 'Form Fields','Select', this.value, 1, false]);" id="sign_up-curious" name="reason" value="curious"/>

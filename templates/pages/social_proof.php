@@ -17,9 +17,9 @@
 								of them had solar<br/> savings from Day 1
 
 							</p>
-							<p data-toggle="tooltip" onMouseover="_gaq.push(['_trackEvent', 'Tooltips', 'Mouseover', 'Social Proof Active Providers', 1, false]);" data-placement="bottom" title="These providers have installed solar in at least one home every month in your County recently.">
+							<p data-toggle="tooltip" onMouseover="_gaq.push(['_trackEvent', 'Tooltips', 'Mouseover', 'Social Proof Active Providers', 1, false]);" data-placement="bottom" title="These installers have installed solar in at least one home every month in your County recently.">
 								<span class="counter total_installers by_zip">11</span> 
-								active solar providers<br/> in <span class="area_name">Fresno</span>
+								active solar installers<br/> in <span class="area_name">Fresno</span>
 
 							</p>
 						</div>

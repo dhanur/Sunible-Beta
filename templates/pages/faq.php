@@ -29,14 +29,14 @@
   <td width=100% valign=top style='width:8in;padding:.05in .1in .1in .2in; height:12.0pt'>      
   <ul id="faq">
   <li><a><b>What is Sunible?</b></a>
-  <div>Sunible is the easiest way for homeowners to go solar. We are on a mission to lower America's electricity bills, with energy that is falling free from the sky!<br><br>You wouldn't buy flight tickets, insurance or a phone plan without understanding and comparing all your options. Sunible will help you do the same thing with solar, and then some. We will help you understand if solar can work for your home (yep, if it doesn't, we will be upfront about it). We will also help you select the best provider possible, and answer just about any question you have along the way. No charge!
+  <div>Sunible is the easiest way for homeowners to go solar. We are on a mission to lower America's electricity bills, with energy that is falling free from the sky!<br><br>You wouldn't buy flight tickets, insurance or a phone plan without understanding and comparing all your options. Sunible will help you do the same thing with solar, and then some. We will help you understand if solar can work for your home (yep, if it doesn't, we will be upfront about it). We will also help you select the best installer possible, and answer just about any question you have along the way. No charge!
   </div></li></ul></td></tr>
  
   <tr style='height:12.0pt'>
   <td width=100% valign=top style='width:8in;padding:.05in .1in .1in .2in; height:12.0pt'>      
   <ul id="faq"> 
   <li><a><b>What happens after I register?</b></a>
-  <div>First, we will call you to get a few more details about your home, and to make sure you're a real person (and not a web bot, zombie or the boogie man!). We will then share this information with the solar providers you chose, and follow up with them until you get your quotes.
+  <div>First, we will call you to get a few more details about your home, and to make sure you're a real person (and not a web bot, zombie or the boogie man!). We will then share this information with the solar installers you chose, and follow up with them until you get your quotes.
   <br><br>Team Sunible will be in touch with you along the way to answer any questions. Once you make your decision and get those man-made miracles installed on your roof, we will ask you to rate your experience. This will help more people in your neighborhood, your city and the rest of America go solar, one rooftop at a time.
   </div></li></ul></td></tr>
 
@@ -44,16 +44,16 @@
   <td width=100% valign=top style='width:8in;padding:.05in .1in .1in .2in; height:12.0pt'>      
   <ul id="faq">
   <li><a><b>What do the PREMIUM, STANDARD and VALUE price categories mean?</b></a>
-  <div>PREMIUM providers typically offer high-output solar panels (that use less space on your roof), highly customized installations (eg. if you have a non-standard roof) and sophisticated monitoring systems (to view energy-use and savings in real-time). They also provide great payment plans. These providers fall in the top 33% of all providers, in terms of average cost of systems installed in your area.
-  <br><br>STANDARD providers typically offer industry-standard solar panels, equipment and payment plans.  This group falls in the middle 33% of all providers, in terms of average cost of systems installed in your area.
-  <br><br>VALUE providers also offer industry-standard solar panels and equipment, and fall in the bottom 33% in terms of average cost of systems installed in your area. These providers may offer a limited choice of payment plans.
+  <div>PREMIUM installers typically offer high-output solar panels (that use less space on your roof), highly customized installations (eg. if you have a non-standard roof) and sophisticated monitoring systems (to view energy-use and savings in real-time). They also provide great payment plans. These installers fall in the top 33% of all installers, in terms of average cost of systems installed in your area.
+  <br><br>STANDARD installers typically offer industry-standard solar panels, equipment and payment plans.  This group falls in the middle 33% of all installers, in terms of average cost of systems installed in your area.
+  <br><br>VALUE installers also offer industry-standard solar panels and equipment, and fall in the bottom 33% in terms of average cost of systems installed in your area. These installers may offer a limited choice of payment plans.
   </div></li></ul></td></tr>
  
   <tr style='height:12.0pt'>
   <td width=100% valign=top style='width:8in;padding:.05in .1in .1in .2in; height:12.0pt'>      
   <ul id="faq"> 
   <li><a><b>So what is better - PREMIUM, STANDARD or VALUE?</b></a>
-  <div>There isn't one that is better, because each category offers distinct benefits. We think it's best to compare VALUE providers with other VALUE providers, based on Homes Installed and Yelp Ratings. Likewise for STANDARD and PREMIUM.
+  <div>There isn't one that is better, because each category offers distinct benefits. We think it's best to compare VALUE installers with other VALUE installers, based on Homes Installed and Yelp Ratings. Likewise for STANDARD and PREMIUM.
   </div></li></ul></td></tr>
   
   <tr style='height:16.0pt'>
@@ -111,7 +111,7 @@
   <td width=100% valign=top style='width:8in;padding:.05in .1in .1in .2in; height:12.0pt'>      
   <ul id="faq">
   <li><a><b>Do I need a big roof? Does it have to face South?</b></a>
-  <div>How much space you need depends on how much electricity you use. As long as your roof is not shaded, it does not have to face south. But you don't need to figure all this out yourself, your chosen providers will make this assessment for free.
+  <div>How much space you need depends on how much electricity you use. As long as your roof is not shaded, it does not have to face south. But you don't need to figure all this out yourself, your chosen installers will make this assessment for free.
   </div></li></ul></td></tr>
  
   <tr style='height:12.0pt'>
@@ -126,7 +126,7 @@
   <td width=100% valign=top style='width:8in;padding:.05in .1in .1in .2in; height:12.0pt'>      
   <ul id="faq">
   <li><a><b>Will solar panels damage my roof? What if I need to fix or replace my roof later?</b></a>
-  <div>Before putting any panels on, your solar provider will verify that your roof is in good enough shape. Solar panels can actually protect your roof from wear and tear. And whether you choose Ownership or Solar-as-a-service, all equipment comes with long-term warranties.
+  <div>Before putting any panels on, your solar installer will verify that your roof is in good enough shape. Solar panels can actually protect your roof from wear and tear. And whether you choose Ownership or Solar-as-a-service, all equipment comes with long-term warranties.
   </div>
   </li></ul></td></tr>
  

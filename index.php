@@ -54,10 +54,24 @@
 			<!-- HEADER -->
 			<header class="page_header homepage dashboard social_proof registration message thank_you thank_you_reg"> <!-- header has those classes to be toggled with those pages.  With that approach, no need to duplicate the header on each page we have it-->
 				<div class="questions">
-					<span class="question why_solar" data-toggle="tooltip" data-placement="bottom" onMouseover="_gaq.push(['_trackEvent', 'Tooltips', 'Mouseover', 'Why Solar', 1, false]);" title="A solar-powered home can lower your electricity bills from day one, which is why over 300,000 homeowners in the U.S. have gone solar! Also, the Sun is the cleanest, most abundant source of energy on earth.">Why solar?</span><span class="question why_sunible" onMouseover="_gaq.push(['_trackEvent', 'Tooltips', 'Mouseover', 'Why Sunible', 1, false]);" data-toggle="tooltip" data-placement="bottom" title="There are a lot of solar providers to choose from, but there is no easy way to find, compare and select the right one. We will help you from start to finish, and answer every question you have along the way (and yes, for free!)">Why Sunible?</span>
+					<span class="question why_solar" data-toggle="tooltip" data-placement="bottom" onMouseover="_gaq.push(['_trackEvent', 'Tooltips', 'Mouseover', 'Why Solar', 1, false]);" title="A solar-powered home can lower your electricity bills from day one, which is why over 300,000 homeowners in the U.S. have gone solar! Also, the Sun is the cleanest, most abundant source of energy on earth.">Why solar?</span><span class="question why_sunible" onMouseover="_gaq.push(['_trackEvent', 'Tooltips', 'Mouseover', 'Why Sunible', 1, false]);" data-toggle="tooltip" data-placement="bottom" title="There are a lot of solar installers to choose from, but there is no easy way to find, compare and select the right one. We will help you from start to finish, and answer every question you have along the way (and yes, for free!)">Why Sunible?</span>
 				</div>
 				<a href="/" class="logo sunible" onMouseover="_gaq.push(['_trackEvent', 'Links', 'Mouseover', 'Landing Page Logo', 1, false]);" onClick="_gaq.push(['_trackEvent', 'Links', 'Click', 'Landing Page Logo', 1, false]);"><img src="images/logo_sunible.png"/></a>
 			</header>
+            
+            
+<!-- Our Phone Number -->
+<div id="contactnumber">
+<table width="250" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img border="0" src="images/phonenumber.png" alt="call us"/></td>
+    <td width="30px">&nbsp;</td>
+  </tr>
+</table>
+</div>
+<!-- End Our Phone Number -->   
+
+   
 			<!-- PAGES -->
 			<?php include ("templates/pages/home.php"); ?>
 			<?php include ("templates/pages/social_proof.php"); ?>

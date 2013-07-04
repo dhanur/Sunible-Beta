@@ -27,7 +27,7 @@ $(document).ready(function() {
 	bindFaqsPopup( $('.open.faqs.launcher') );
 	bindAboutUsPopup($('.open.about_us.launcher') );
 	bindJobsPopup( $('.open.jobs.launcher') );
-	
+
 	initHomePage();
 
 	if (isIe10())
@@ -40,11 +40,13 @@ $(document).ready(function() {
 		targetSafari();
 	}
 
-	// git test 2
-	//addNiceScroll($('.nano'));
-
 	window.onbeforeunload = function() {
-		return "Your progress will not be saved.";
+	_gaq.push(['_trackEvent', 'Behavior', 'Reload', 'Browser Refresh', 1, false]);
+	return "Your progress will not be saved.";
+	};
+
+	window.onresize = function() {
+	_gaq.push(['_trackEvent', 'Behavior', 'Resize', 'Browser Resize', 1, false]);
 	};
 
 	if (ie == 8)

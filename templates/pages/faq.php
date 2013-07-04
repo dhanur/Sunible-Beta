@@ -111,7 +111,7 @@
   <td width=100% valign=top style='width:8in;padding:.05in .1in .1in .2in; height:12.0pt'>      
   <ul id="faq">
   <li><a><b>Do I need a big roof? Does it have to face South?</b></a>
-  <div>How much space you need depends on how much electricity you use. As long as your roof is not shaded, it does not have to face south. But you don't need to figure all this out yourself, your chosen installer will make this assessment for free.
+  <div>How much space you need depends on how much electricity you use. As long as your roof is not shaded, it does not have to face south. But you don't need to figure all this out yourself, your chosen installers will make this assessment for free.
   </div></li></ul></td></tr>
  
   <tr style='height:12.0pt'>
@@ -126,7 +126,7 @@
   <td width=100% valign=top style='width:8in;padding:.05in .1in .1in .2in; height:12.0pt'>      
   <ul id="faq">
   <li><a><b>Will solar panels damage my roof? What if I need to fix or replace my roof later?</b></a>
-  <div>Before putting any panels on, your solar installers will verify that your roof is in good enough shape. Solar panels can actually protect your roof from wear and tear. And whether you choose Ownership or Solar-as-a-service, all equipment comes with long-term warranties.
+  <div>Before putting any panels on, your solar installer will verify that your roof is in good enough shape. Solar panels can actually protect your roof from wear and tear. And whether you choose Ownership or Solar-as-a-service, all equipment comes with long-term warranties.
   </div>
   </li></ul></td></tr>
  

@@ -60,11 +60,7 @@ footer.page_footer {
 	text-align: center;
 }
 
-<<<<<<< HEAD
 .page.homepage { min-height: 850px; }
-=======
-.page.homepage { min-height: 350px; }
->>>>>>> trunk
 
 .page.homepage .teaser.ad.container {
 	display: block;

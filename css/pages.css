@@ -50,7 +50,7 @@ footer.page_footer {
 		color: #34495E;
 	}
 
-.question.why_solar { width: 85px; }
+.question.why_solar { width: 100px; }
 
 /* HOMEPAGE */
 
@@ -60,18 +60,18 @@ footer.page_footer {
 	text-align: center;
 }
 
-.page.homepage { min-height: 350px; }
+.page.homepage { min-height: 850px; }
 
 .page.homepage .teaser.ad.container {
 	display: block;
 	overflow: hidden;
 	position: absolute;
-	width: 300px;
-	height: 350px;
+	width: 792px;
+	height: 456px;
 	left: 50%;
 	top: 50%;
-	margin-left: -150px;
-	margin-top: -200px;
+	margin-left: -400px;
+	margin-top: -375px;
 }
 
 	.page.homepage .teaser.ad.container .teaser {
@@ -81,15 +81,13 @@ footer.page_footer {
 	.page.homepage .teaser,
 	.page.homepage .zip.container {
 		display: block;
-		overflow: hidden;
 		text-align: center;
-		text-transform: uppercase;
 	}
 
 		.page.homepage .teaser .save,
 		.page.homepage .teaser .money_with,
 		.page.homepage .teaser .solar {
-			line-height: 100%;
+			line-height: 120%;
 			display: block;
 			overflow: hidden;
 		}

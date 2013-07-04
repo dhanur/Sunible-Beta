@@ -32,7 +32,7 @@
 		<td style="padding:.25in .0in .0in .0in; border-style: none; border-width: medium">
 		<p style="text-align: left; direction: ltr; unicode-bidi: embed; word-break: normal; punctuation-wrap: hanging; margin-left: 0.2in; margin-top: 0pt; margin-bottom: 0pt">
 		<span style="font-size: 14.0pt; color: #003E5F">
-		We will follow up with your chosen providers until you get your quotes.
+		We will follow up with your chosen installers until you get your quotes.
 		<br>
 		(We'll also be in touch with you to answer any questions)</span></td>
 	</tr>

@@ -1,7 +1,7 @@
 			<!-- MODAL CONTACT US -->
 			<div id="modal-page-contact_us" class="modal contact_us hide fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
                        
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<button type="button" class="close" data-dismiss="modal" arial-hidden="true">&times;</button>
 				<div class="modal-body">
 					<form class="contact_us" id="modal-page-contact_us-form">
 						<p>

@@ -484,3 +484,10 @@ footer,
 	}
 
 		.modal .nano .content { padding-right: 12px; }
+		
+		
+  #contactnumber {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }

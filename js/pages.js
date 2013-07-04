@@ -270,7 +270,7 @@ function initSocialProof(data, location)
 	$areaName.text(data[0].county + ' County');
 	switch(location){
 		case 'fresno':
-			$button.text('See Solar Providers!');
+			$button.text('Compare Installers');
 			bindButtonViewProviders($button);
 			pages.socialProof.removeClass('california').addClass('fresno');
 			break;

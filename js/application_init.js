@@ -24,9 +24,9 @@ $(document).ready(function() {
 	bindContactUsPage( $('.open.contact_us.launcher') );
 	bindTermsPopup( $('.open.terms_of_service.launcher') );
 	bindPrivacyPolicyPopup($('.open.privacy_policy.launcher') );
-        bindFaqsPopup( $('.open.faqs.launcher') );
+	bindFaqsPopup( $('.open.faqs.launcher') );
 	bindAboutUsPopup($('.open.about_us.launcher') );
-        bindJobsPopup( $('.open.jobs.launcher') );
+	bindJobsPopup( $('.open.jobs.launcher') );
 	
 	initHomePage();
 
@@ -39,6 +39,16 @@ $(document).ready(function() {
 	{
 		targetSafari();
 	}
+
 	// git test 2
 	//addNiceScroll($('.nano'));
+
+	window.onbeforeunload = function() {
+		return "Your progress will not be saved.";
+	};
+
+	if (ie == 8)
+	{
+		ie8FixFooter();
+	}
 });

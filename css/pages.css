@@ -57,10 +57,14 @@ footer.page_footer {
 .page.homepage h1 {
 	color: #fcd728;
 	font-size: 39px;
-        text-align: center;
+	text-align: center;
 }
 
+<<<<<<< HEAD
 .page.homepage { min-height: 850px; }
+=======
+.page.homepage { min-height: 350px; }
+>>>>>>> trunk
 
 .page.homepage .teaser.ad.container {
 	display: block;
@@ -588,7 +592,9 @@ footer.page_footer {
 
 /* REGISTRATION */
 
-.page.registration {
+.page.registration { min-height: 460px; }
+
+.page.registration .inner_content {
 	position: absolute;
 	top: 50%;
 	left: 50%;

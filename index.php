@@ -99,7 +99,18 @@ content="solar, online, installers, home, residential, compare, utility, save, m
 						onClick="_gaq.push(['_trackEvent', 'Links', 'Click', 'Landing Page Logo', 1, false]);"><img
 						src="images/logo_sunible.png" alt="" /> </a>
 				</header>
-						
+				
+				<!-- Our Phone Number -->
+				<div id="contactnumber">
+						<table width="250" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+										<td><img border="0" src="images/phonenumber.png" alt="call us"/></td>
+										<td width="30px">&nbsp;</td>
+								</tr>
+						</table>
+				</div>
+				<!-- End Our Phone Number -->   
+
 			<?php include ("templates/pages/home.php"); ?>
 			<?php include ("templates/pages/social_proof.php"); ?>
 			<?php include ("templates/pages/dashboard.php"); ?>

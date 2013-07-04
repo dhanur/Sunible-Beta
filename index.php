@@ -100,21 +100,21 @@ content="solar, online, installers, home, residential, compare, utility, save, m
 						src="images/logo_sunible.png" alt="" /> </a>
 				</header>
 						
-				<?php include ("templates/home.php"); ?>
-				<?php include ("templates/social_proof.php"); ?>
-				<?php include ("templates/dashboard.php"); ?>
-				<?php include ("templates/registration.php"); ?>
-				<?php include ("templates/thank_you.php"); ?>
-				<?php include ("templates/registration_thank_you.php"); ?>
-				<?php include ("templates/sign_up.php"); ?>
-				<?php include ("templates/contact_us.php"); ?>
-				<?php include ("templates/faq.php"); ?>
-				<?php include ("templates/page_message.php"); ?>
-				<?php include ("templates/modal_message.php"); ?>
-				<?php include ("templates/tos.php"); ?>
-				<?php include ("templates/pp.php"); ?>
-				<?php include ("templates/about_us.php"); ?>
-				<?php include ("templates/jobs.php"); ?>
+			<?php include ("templates/pages/home.php"); ?>
+			<?php include ("templates/pages/social_proof.php"); ?>
+			<?php include ("templates/pages/dashboard.php"); ?>
+			<?php include ("templates/pages/registration.php"); ?>
+			<?php include ("templates/pages/thank_you.php"); ?>
+			<?php include ("templates/pages/registration_thank_you.php"); ?>
+			<?php include ("templates/pages/sign_up.php"); ?>
+			<?php include ("templates/pages/contact_us.php"); ?>
+			<?php include ("templates/pages/faq.php"); ?>
+			<?php include ("templates/pages/page_message.php"); ?>
+			<?php include ("templates/pages/modal_message.php"); ?>
+			<?php include ("templates/pages/tos.php"); ?>
+			<?php include ("templates/pages/pp.php"); ?>
+			<?php include ("templates/pages/about_us.php"); ?>
+			<?php include ("templates/pages/jobs.php"); ?>
 				
 				<!-- FOOTER -->
 				<footer

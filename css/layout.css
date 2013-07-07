@@ -17,11 +17,16 @@ body {
 }
 
 .footer-margin {
-clear: both;
-display: inline;
-width: 100%;
-height: 0;
-overflow: hidden;
+	clear: both;
+	display: inline;
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+/*	clear: both;
+	display: block;
+	width: 100%;
+	height: 60px;
+	overflow: hidden;*/
 }
 
 footer.page_footer {

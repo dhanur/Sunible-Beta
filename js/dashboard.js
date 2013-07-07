@@ -77,7 +77,7 @@ Dashboard.prototype = {
 		//self.setRatingSorting();
 		self.applyDataTable($table);
 		var $gridWrapper = $table.closest('.dataTables_wrapper');
-		$gridWrapper.addClass('nano_used');
+		//$gridWrapper.addClass('nano_used');
 		// dynamically inserted tooltips should be initialized
 		var $tooltips = $gridWrapper.find('.question_mark');
 		initTooltips($tooltips);
@@ -86,10 +86,18 @@ Dashboard.prototype = {
 		initCustomCheckboxAndRadio($checkboxesAndRadios);
 		self.insertToContainer($gridWrapper, newDashboard.container);
 
-		// re-init the nanoScroll 'cause page was inserted dynamically
-		var $nanoScrollWrapper = $table.closest('.nano');
-		addNiceScroll($nanoScrollWrapper, { flash: true });
-		$gridWrapper.find('.dataTables_scrollHeadInner th.rating.sorting_asc').click();
+		if ($gridWrapper.hasClass('no_scroll'))
+		{
+			$gridWrapper.find('th.rating.sorting_asc').click();
+		}
+		else if ($gridWrapper.hasClass('nano_used'))
+		{
+			// re-init the nanoScroll 'cause page was inserted dynamically
+			var $nanoScrollWrapper = $table.closest('.nano');
+			addNiceScroll($nanoScrollWrapper, { flash: true });
+			$gridWrapper.find('.dataTables_scrollHeadInner th.rating.sorting_asc').click();
+		}
+
 		newDashboard.callback();
 		return $table;
 	},
@@ -243,12 +251,15 @@ Dashboard.prototype = {
 			//bLengthChange: true,
 			//bFilter: true,
 			//bInfo: true,
-			sScrollY: '300px',
-			bNanoScroll: true,
-			bStretchedVerticallyToContainer: true,
-			bPaginate: false,
-			bScrollCollapse: true,
+			//
+			// scrolling options
+			//sScrollY: '300px',
+			//bNanoScroll: true,
+			//bStretchedVerticallyToContainer: true,
+			//bScrollCollapse: true,
+			// /scrolling options
 			bSort: true,
+			bPaginate: false,
 			aaSorting: [
 				[ 4, "asc" ]
 			],
@@ -257,7 +268,7 @@ Dashboard.prototype = {
 				{ "asSorting": [ "asc", "desc" ] }, // providers
 				{ "asSorting": [ "asc", "desc" ] }, // pricing
 				{ "asSorting": [ "desc", "asc" ] }, // homes installed
-				{ "asSorting": [ "desc", "asc" ]/*, "sSortDataType": "dom-rating"*/ }  // rating
+				{ "asSorting": [ "desc", "asc" ] }  // rating
 			],
 			aoColumnDefs: [
 				{ "bSortable": false, "aTargets": [0] },

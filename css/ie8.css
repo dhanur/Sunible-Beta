@@ -42,9 +42,12 @@ form .field_container { margin-top: -3px; }
 	padding-bottom: 0px;
 }
 
+
 .social_info_by_zip .leaflet-popup-tip-container { height: 12px; margin-top: -1px; }
 
 .social_info_by_zip .leaflet-popup-content-wrapper { border: none; }
+
+.page.dashboard .number_of_selected.providers { top: 213px; }
 
 .page.dashboard .providers.container .providers.list.grid .yelp_review_count { margin-top: 20px; }
 

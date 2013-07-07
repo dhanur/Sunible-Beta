@@ -270,13 +270,19 @@ function createGrid($table, options)
 	if (options.bNanoScroll == undefined) options.bNanoScroll = false;
 
 	var $grid = $table.dataTable(options);
+	var $gridWrapper = $grid.closest('.dataTables_wrapper');
 
 	if (options.bStretchedVerticallyToContainer)
 	{
-		$grid.closest('.dataTables_wrapper').addClass('stretched_vertically');
+		$gridWrapper.addClass('stretched_vertically nano_used');
+	}
+	else
+	{
+		$gridWrapper.addClass('no_scroll');
 	}
 
-	if (options.sScrollY != undefined && options.bNanoScroll){
+	if (options.sScrollY != undefined && options.bNanoScroll)
+	{
 		// nano
 		var $nanoScrollWrapper = $grid.closest('.dataTables_scrollBody');
 		$nanoScrollWrapper.addClass('nano');
@@ -285,6 +291,12 @@ function createGrid($table, options)
 		$nanoScrollContent.append($grid);
 		$nanoScrollWrapper.append($nanoScrollContent);
 		addNiceScroll($nanoScrollWrapper, { flash: true });
+	}
+	else
+	{
+		var $gridContentWrapper = $('<div class="content"></div>');
+		$gridContentWrapper.append($grid);
+		$gridWrapper.append($gridContentWrapper);
 	}
 
 	if (options.bPaginate == true)

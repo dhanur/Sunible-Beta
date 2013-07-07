@@ -172,6 +172,10 @@ input:invalid {
 	background-color: #E74C3C;
 }
 
+.btn[disabled]:hover {
+	background-color: #95a5a6;
+}
+
 .btn-large { padding-left: 20px; padding-right: 20px;}
 
 .tooltip.bottom .tooltip-arrow { top: 1px; }

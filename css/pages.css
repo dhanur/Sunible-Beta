@@ -60,18 +60,18 @@ footer.page_footer {
 	text-align: center;
 }
 
-.page.homepage { min-height: 850px; }
+.page.homepage { min-height: 350px; }
 
 .page.homepage .teaser.ad.container {
 	display: block;
 	overflow: hidden;
 	position: absolute;
-	width: 792px;
-	height: 456px;
+	width: 300px;
+	height: 400px;
 	left: 50%;
 	top: 50%;
-	margin-left: -400px;
-	margin-top: -375px;
+	margin-left: -150px;
+	margin-top: -200px;
 }
 
 	.page.homepage .teaser.ad.container .teaser {
@@ -90,6 +90,7 @@ footer.page_footer {
 			line-height: 120%;
 			display: block;
 			overflow: hidden;
+			text-transform: uppercase;
 		}
 
 		.page.homepage .teaser .save {
@@ -339,6 +340,7 @@ footer.page_footer {
 .page.dashboard {
 	padding-right: 170px;
 	padding-top: 0px;
+	padding-bottom: 50px;
 }
 
 	.page.dashboard .open_installer_page { display: none; }
@@ -456,18 +458,26 @@ footer.page_footer {
 	.page.dashboard header h1 { margin-top: 0; }
 
 	.page.dashboard .number_of_selected.providers {
-		width: 160px;
+		/*width: 160px;
 		text-align: center;
 		font-size: 24px;
 		line-height: 26px;
 		position: absolute;
 		right: 5%;
 		bottom: 69px;
+		padding-bottom: 40px;*/
+		width: 160px;
+		text-align: center;
+		font-size: 24px;
+		line-height: 26px;
+		position: fixed;
+		right: 5%;
+		top: 211px;
 		padding-bottom: 40px;
 	}
 			.page.dashboard .number_of_selected.providers .block .max_length.message { font-size: 14px; }
 
-		.page.dashboard .number_of_selected.providers .open_installer_page {
+		.page.dashboard .number_of_selected.providers .open_registration_page {
 			position: absolute;
 			left: 0;
 			bottom: 0;
@@ -530,6 +540,9 @@ footer.page_footer {
 	min-width: 125px;
 }
 
+.providers.list.grid  .row:before,
+.providers.list.grid  .row:after { content: ''; display: none;}
+
 .providers.list.grid th.rating .text { font-size: 12px; }
 
 /*.page.dashboard .providers.container .providers.list.grid td.name {
@@ -585,6 +598,28 @@ footer.page_footer {
 	border-bottom-left-radius: 6px;
 	border-bottom-right-radius: 6px;
 }
+
+.page.dashboard .dataTables_wrapper.no_scroll .content:before,
+.page.dashboard .dataTables_wrapper.no_scroll .content:after {
+	content: "";
+	display: block;
+	/*overflow: hidden;*/
+	position: static;
+	height: 6px;
+	background-color: #34495E;
+}
+
+
+.page.dashboard .dataTables_wrapper.no_scroll .content:before {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.page.dashboard .dataTables_wrapper.no_scroll .content:after {
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
 
 /* REGISTRATION */
 

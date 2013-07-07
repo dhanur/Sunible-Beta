@@ -150,12 +150,12 @@ function showNoDataFoundPage()
 function initHomePage()
 {
 	changePage(null, pages.homePage);
-//	var $betaTooltip = $('.page_header .overlay_beta .text');
-//	$betaTooltip.tooltip('show');
+	//	var $betaTooltip = $('.page_header .overlay_beta .text');
+	//	$betaTooltip.tooltip('show');
 
-//	setTimeout(function () {
-//			$betaTooltip.tooltip('hide');
-//	}, 5000);
+	//	setTimeout(function () {
+	//			$betaTooltip.tooltip('hide');
+	//	}, 5000);
 
 	var $form = $('#homepage-search_providers_by_zip-container');
 	bindZipCodeFieldFocusOnTeaserClick();

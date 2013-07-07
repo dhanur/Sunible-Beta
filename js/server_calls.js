@@ -2,6 +2,22 @@
 this file contains API calls 
 */
 
+function getCountyFromZip(zip, callback)
+{
+	if (zip == undefined)
+	{
+		showMessage('getCountyFromZip(): Zip is required parameter.');
+		return;
+	}
+	var options = {
+		requestUrl: '/zipToCountyTest.php?zip=' + zip,
+		opDescription: 'getting county from zip',
+		isAsync: true,
+		callback: callback
+	};
+	getJsonData(options);
+}
+
 function getInstallersByZipCode(zip, callback)
 {
 	if (zip == undefined)

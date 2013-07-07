@@ -468,7 +468,7 @@ footer.page_footer {
 	}
 			.page.dashboard .number_of_selected.providers .block .max_length.message { font-size: 14px; }
 
-		.page.dashboard .number_of_selected.providers .open_installer_page {
+		.page.dashboard .number_of_selected.providers .open_registration_page {
 			position: absolute;
 			left: 0;
 			bottom: 0;

@@ -312,7 +312,7 @@ function incrementSelectedProvidersCounter($counter)
 	if (counterValue > 0)
 	{
 		var $registerButton = $counter.closest('.number_of_selected.providers').find('.open_registration_page');
-		$registerButton.show();
+		$registerButton.removeAttr('disabled');
 	}
 }
 
@@ -330,7 +330,7 @@ function descrementSelectedProvidersCounter($counter)
 function resetDashboardCounter($counter)
 {
 	var $registerButton = $counter.closest('.number_of_selected.providers').find('.open_registration_page');
-	$registerButton.hide();
+	$registerButton.attr('disabled', '');
 	$counter.text('0');
 }
 

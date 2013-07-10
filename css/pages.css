@@ -66,12 +66,12 @@ footer.page_footer {
 	display: block;
 	overflow: hidden;
 	position: absolute;
-	width: 300px;
-	height: 400px;
+	width: 792px;
+	height: 456px;
 	left: 50%;
 	top: 50%;
-	margin-left: -150px;
-	margin-top: -200px;
+	margin-left: -400px;
+	margin-top: -175px;
 }
 
 	.page.homepage .teaser.ad.container .teaser {
@@ -90,7 +90,6 @@ footer.page_footer {
 			line-height: 120%;
 			display: block;
 			overflow: hidden;
-			text-transform: uppercase;
 		}
 
 		.page.homepage .teaser .save {

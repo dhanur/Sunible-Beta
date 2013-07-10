@@ -1,5 +1,28 @@
 <?php
 
+function zipToCounty($zip){
+
+include 'db_vars.php';
+$group = array();
+
+// New Connection
+$db = new mysqli($host,$uid,$pw,$dbs);
+if(mysqli_connect_errno()){echo mysqli_connect_error();}
+
+// get county and state that zip is located in
+$result = $db->query("SELECT state, county
+FROM zipcode_usa
+WHERE zip = $zip"); 
+$group = $result->fetch_object();
+
+$county = $group->county;
+$state = $group->state;
+
+$result->close();
+
+return(json_encode(array($state,$county)));
+}
+
 function getSocial($zip){
 
 include 'db_vars.php';

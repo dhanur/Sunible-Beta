@@ -7,7 +7,7 @@
 
 form .field_container { margin-top: -3px; }
 
-.page.homepage .zip.container .btn.search.providers.zip { top: 9px; }
+.page.homepage .zip.container .btn.search.providers.zip { top: 0px; margin-top: -1px; }
 
 .page.dashboard .providers.container .providers.list.grid td.name {
 	position: relative;

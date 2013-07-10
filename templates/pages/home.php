@@ -2,14 +2,24 @@
 <div class="page homepage show_header" id="page-homepage"
 	data-page="homepage">
 	<section class="ad teaser container">
-		<a href="#" class="teaser" id="homepage_teaser_heading"> <span
-			class="money_with">3 Steps to Solar Savings with Sunible</span> 
-		</a>
-		<br/>
-				<p align="center">
-				<img border="0" src="http://sunible.com/assets/images/sunible.jpg" width="792" height="256">
-				</p>
-		<br/>
+		<div class="teaser">
+			<h1>3 steps to Solar Savings with <em>Sunible</em></h1>
+			<div class="block see">
+				<h2>See</h2>
+				<img alt="" class="icon see" src="/images/icons/big_icon_map.png"/>
+				<p>See exactly how many solar homes there are around you. If they're saving with solar, you can too</p>
+			</div>
+			<div class="block compare">
+				<h2>Compare</h2>
+				<img alt="" class="icon compare" src="/images/icons/big_icon_compare.png"/>
+				<p>Compare solar installers. We've analyzed millions of data points so you can make an informed choice.</p>
+			</div>
+			<div class="block request">
+				<h2>Request</h2>
+				<img alt="" class="icon see" src="/images/icons/big_icon_quote.png"/>
+				<p>Request quotes. Once you get them, we'll advice you from start to finish. No cost, no commitment.</p>
+			</div>
+		</div>
 		<form class="zip search providers container"
 			id="homepage-search_providers_by_zip-container" action="">
 			<span class="field_container"> <input type="text"

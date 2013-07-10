@@ -60,22 +60,23 @@ footer.page_footer {
 	text-align: center;
 }
 
-.page.homepage { min-height: 350px; }
+.page.homepage { min-height: 456px; }
 
 .page.homepage .teaser.ad.container {
 	display: block;
 	overflow: hidden;
 	position: absolute;
 	width: 792px;
-	height: 456px;
+	height: 440px;
 	left: 50%;
 	top: 50%;
-	margin-left: -400px;
-	margin-top: -175px;
+	margin-left: -396px;
+	margin-top: -220px;
 }
 
 	.page.homepage .teaser.ad.container .teaser {
 		text-decoration: none;
+		margin-bottom: 20px;
 	}
 
 	.page.homepage .teaser,
@@ -84,13 +85,44 @@ footer.page_footer {
 		text-align: center;
 	}
 
-		.page.homepage .teaser .save,
-		.page.homepage .teaser .money_with,
-		.page.homepage .teaser .solar {
-			line-height: 120%;
-			display: block;
-			overflow: hidden;
+		.page.homepage .teaser h1 {
+			color: #34495E;
+			font-size: 47px;
+			margin-bottom: 20px;
 		}
+
+			.page.homepage .teaser h1 em {
+				color: #fcd728;
+				font-style: normal;}
+
+		.page.homepage .teaser .block {
+			background-color: #34495E;
+			border-radius: 15px;
+			display: inline-block;
+			vertical-align: top;
+			width: 180px;
+			color: #ECF0F1;
+			margin-left: 40px;
+		}
+
+		.page.homepage .teaser .block.see { margin-left: 0;}
+
+			.page.homepage .teaser .block h2 {
+				text-transform: uppercase;
+				color: white;
+			}
+
+			.page.homepage .teaser .block .icon {
+				max-height: 100px;
+				margin: 10px 0;
+				border: none;
+			}
+
+			.page.homepage .teaser .block p {
+				line-height: 150%;
+			}
+
+		.page.homepage .teaser form { padding: 0;}
 
 		.page.homepage .teaser .save {
 			font-size: 128px;
@@ -123,7 +155,7 @@ footer.page_footer {
 		.page.homepage .zip.container .btn.search.providers.zip {
 			position: absolute;
 			right: 2px;
-			top: 10px;
+			top: 0px;
 			padding: 4px 16px 4px 16px;
 		}
 

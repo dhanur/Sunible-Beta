@@ -60,7 +60,7 @@ footer.page_footer {
 	text-align: center;
 }
 
-.page.homepage { min-height: 850px; }
+.page.homepage { min-height: 350px; }
 
 .page.homepage .teaser.ad.container {
 	display: block;
@@ -71,7 +71,7 @@ footer.page_footer {
 	left: 50%;
 	top: 50%;
 	margin-left: -400px;
-	margin-top: -375px;
+	margin-top: -175px;
 }
 
 	.page.homepage .teaser.ad.container .teaser {

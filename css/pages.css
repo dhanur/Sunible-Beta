@@ -71,7 +71,17 @@ footer.page_footer {
 	left: 50%;
 	top: 50%;
 	margin-left: -396px;
-	margin-top: -220px;
+	/*
+	while header and footer aren't the same height
+	and validation message of zip field should look like overlay
+	
+	H = header height til logo end = 110px
+	F = footer height = 51px
+	V = validation message height = 20px;
+	margin-top = -CONTROL_HEIGHT/2 + (H-F)/2 + V = -220+(55/2)+20 = -220+23+20 = -177;
+	*/
+
+	margin-top: -177px;
 }
 
 	.page.homepage .teaser.ad.container .teaser {
@@ -89,6 +99,7 @@ footer.page_footer {
 			color: #34495E;
 			font-size: 47px;
 			margin-bottom: 20px;
+			margin-top: 0;
 		}
 
 			.page.homepage .teaser h1 em {

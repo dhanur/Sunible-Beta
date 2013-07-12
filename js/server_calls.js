@@ -10,7 +10,7 @@ function getCountyFromZip(zip, callback)
 		return;
 	}
 	var options = {
-		requestUrl: '/zipToCountyTest.php?zip=' + zip,
+		requestUrl: '/getCountyFromZip.php?zip=' + zip,
 		opDescription: 'getting county from zip',
 		isAsync: true,
 		callback: callback

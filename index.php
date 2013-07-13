@@ -18,6 +18,7 @@
 		<link rel="stylesheet" type="text/css" href="css/nanoscroller.css"/>
 		<link rel="stylesheet" type="text/css" href="css/general.css"/>
 		<link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+		<link rel="stylesheet" type="text/css" href="css/forms.css"/>
 		<link rel="stylesheet" type="text/css" href="css/layout.css"/>
 		<link rel="stylesheet" type="text/css" href="css/pages.css"/>
 		<!-- IE code -->

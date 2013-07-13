@@ -16,6 +16,17 @@ footer.page_footer {
 	display: none;
 }
 
+.page_header .btn.call_us[disabled] {
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 5px 10px;
+	background-color: #C0392B;
+	opacity: 1;
+	font-size: 12px;
+	line-height: 14px;
+}
+
 .page_header .overlay_beta .text {
 	display: block;
 	position: absolute;
@@ -50,7 +61,7 @@ footer.page_footer {
 		color: #34495E;
 	}
 
-.question.why_solar { width: 100px; }
+/*.question.why_solar { width: 100px; }*/
 
 /* HOMEPAGE */
 

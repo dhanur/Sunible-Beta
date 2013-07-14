@@ -108,6 +108,10 @@ footer,
 			margin: 5px 10px;
 		}
 
+		footer.page_footer .bottom.navigation .social { margin: 5px; }
+
+			footer.page_footer .bottom.navigation .social .icon { width: 24px; height: 24px; }
+
 	footer.page_footer .copyright {
 		display: block;
 		overflow: hidden;

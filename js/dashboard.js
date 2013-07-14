@@ -122,22 +122,22 @@ Dashboard.prototype = {
 							'</th>' +
 							'<th class="name">' +
 								'<span class="text">Solar Providers</span>' +
-								//'<br/>' +
 								'<span class="question_mark light" data-toggle="tooltip" data-placement="bottom" title="These providers have installed solar in at least one home every month in your County recently.">?</span>' + 
 							'</th>' +
 							'<th class="cost">' +
 								'<span class="text">Price Category</span>' +
-								//'<br/>' +
 								'<span class="question_mark light" data-toggle="tooltip" data-placement="bottom" title="Based on the average cost of systems installed in your County, Value = Bottom 33%, Standard = Middle 33% Premium = Top 33%. Please read FAQ #3 for a more detailed explanation.">?</span>' + 
+							'</th>' +
+							'<th class="avg_cost">' +
+								'<span class="text">$/watt</span>' +
+								'<span class="question_mark light" data-toggle="tooltip" data-placement="bottom" title="Average Cost">?</span>' + 
 							'</th>' +
 							'<th class="number_of_homes_installed">' +
 								'<span class="text">Homes Installed</span>' +
-								//'<br/>' +
 								'<span class="question_mark light" data-toggle="tooltip" data-placement="bottom" title="Homes in your County that have gone solar with each provider since 2006.">?</span>' +
 							'</th>' +
 							'<th class="rating">' +
 								'<img src="../images/yelp_logo_100x50.png" alt=""/>' +
-								//'<br/>' +
 								'<span class="text">Rating</span>' +
 							'</th>' +
 						'</tr>' +
@@ -160,6 +160,7 @@ Dashboard.prototype = {
 		{
 			//	row json example
 			//	{
+			//		"avg_cost": "3.62",
 			//		"id": "12",
 			//		"name": "Nova West Solar",
 			//		"logo": "NovaWestSolar.jpg",
@@ -233,6 +234,7 @@ Dashboard.prototype = {
 					'</td>' +
 					'<td class="name">' + jsonRow.name + logoImg + '</td>' +
 					tdPricing +
+					'<td class="avg_cost">' + jsonRow.avg_cost + '</td>' +
 					'<td class="number_of_homes_installed">' + jsonRow.total_installs + '</td>' +
 					'<td class="rating">' + 
 						spanRating  +
@@ -261,17 +263,19 @@ Dashboard.prototype = {
 			bSort: true,
 			bPaginate: false,
 			aaSorting: [
-				[ 4, "asc" ]
+				[ 5, "asc" ]
 			],
 			aoColumns: [
 				null,
 				{ "asSorting": [ "asc", "desc" ] }, // providers
 				{ "asSorting": [ "asc", "desc" ] }, // pricing
+				{ "asSorting": [ "asc", "desc" ] }, // $/watt
 				{ "asSorting": [ "desc", "asc" ] }, // homes installed
 				{ "asSorting": [ "desc", "asc" ] }  // rating
 			],
 			aoColumnDefs: [
 				{ "bSortable": false, "aTargets": [0] },
+				{ "bSortable": true,  "aTargets": [0] },
 				{ "bSortable": true,  "aTargets": [0] },
 				{ "bSortable": true,  "aTargets": [0] },
 				{ "bSortable": true,  "aTargets": [0] },

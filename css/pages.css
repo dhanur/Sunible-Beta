@@ -450,6 +450,7 @@ footer.page_footer {
 
 			.page.dashboard .providers.container .providers.list.grid td.checkboxes,
 			.page.dashboard .providers.container .providers.list.grid td.cost,
+			.page.dashboard .providers.container .providers.list.grid td.avg_cost,
 			.page.dashboard .providers.container .providers.list.grid td.number_of_homes_installed {
 				text-align: center;
 			}
@@ -571,26 +572,28 @@ footer.page_footer {
 	min-width: 42px;
 }
 
-.providers.list.grid th.cost {
-	width: 15% !important;
-	min-width: 126px;
-}
-
+.providers.list.grid th.cost,
 .providers.list.grid td.cost {
 	width: 15% !important;
-	min-width: 126px;
+	min-width: 100px;
+}
+
+.providers.list.grid th.avg_cost,
+.providers.list.grid td.avg_cost {
+	width: 10% !important;
+	min-width: 50px;
 }
 
 .providers.list.grid td.number_of_homes_installed,
 .providers.list.grid th.number_of_homes_installed {
 	width: 15% !important;
-	min-width: 125px;
+	min-width: 120px;
 }
 
 .providers.list.grid td.rating,
 .providers.list.grid th.rating {
 	width: 15% !important;
-	min-width: 125px;
+	min-width: 100px;
 }
 
 .providers.list.grid  .row:before,

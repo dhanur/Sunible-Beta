@@ -6,7 +6,7 @@
 					<form class="sign_up" id="modal-page-sign_up-form">
 						<input type="hidden" name="Lead_Type__c" value="Contact Request"/>
 						<p style="padding:.0in .0in .0in .2in">
-							We are not yet in your city right now, but we won’t stop working until we are.<br>
+							We are not in your city right now, but we won’t stop working until we are.<br>
                                                         No really, we won’t stop working until we make every city Sunible!<br>                                 
 							Sign up and be the first to know when we launch...
 						</p>

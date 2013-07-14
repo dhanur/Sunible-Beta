@@ -16,6 +16,17 @@ footer.page_footer {
 	display: none;
 }
 
+.page_header .btn.call_us[disabled] {
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: middle;
+	margin: 5px 10px;
+	background-color: #C0392B;
+	opacity: 1;
+	font-size: 12px;
+	line-height: 14px;
+}
+
 .page_header .overlay_beta .text {
 	display: block;
 	position: absolute;
@@ -50,7 +61,7 @@ footer.page_footer {
 		color: #34495E;
 	}
 
-.question.why_solar { width: 100px; }
+/*.question.why_solar { width: 100px; }*/
 
 /* HOMEPAGE */
 
@@ -60,22 +71,33 @@ footer.page_footer {
 	text-align: center;
 }
 
-.page.homepage { min-height: 350px; }
+.page.homepage { min-height: 456px; }
 
 .page.homepage .teaser.ad.container {
 	display: block;
 	overflow: hidden;
 	position: absolute;
 	width: 792px;
-	height: 456px;
+	height: 440px;
 	left: 50%;
 	top: 50%;
-	margin-left: -400px;
-	margin-top: -175px;
+	margin-left: -396px;
+	/*
+	while header and footer aren't the same height
+	and validation message of zip field should look like overlay
+	
+	H = header height til logo end = 110px
+	F = footer height = 51px
+	V = validation message height = 20px;
+	margin-top = -CONTROL_HEIGHT/2 + (H-F)/2 + V = -220+(55/2)+20 = -220+23+20 = -177;
+	*/
+
+	margin-top: -177px;
 }
 
 	.page.homepage .teaser.ad.container .teaser {
 		text-decoration: none;
+		margin-bottom: 20px;
 	}
 
 	.page.homepage .teaser,
@@ -84,13 +106,45 @@ footer.page_footer {
 		text-align: center;
 	}
 
-		.page.homepage .teaser .save,
-		.page.homepage .teaser .money_with,
-		.page.homepage .teaser .solar {
-			line-height: 120%;
-			display: block;
-			overflow: hidden;
+		.page.homepage .teaser h1 {
+			color: #34495E;
+			font-size: 47px;
+			margin-bottom: 20px;
+			margin-top: 0;
 		}
+
+			.page.homepage .teaser h1 em {
+				color: #fcd728;
+				font-style: normal;}
+
+		.page.homepage .teaser .block {
+			background-color: #34495E;
+			border-radius: 15px;
+			display: inline-block;
+			vertical-align: top;
+			width: 180px;
+			color: #ECF0F1;
+			margin-left: 40px;
+		}
+
+		.page.homepage .teaser .block.see { margin-left: 0;}
+
+			.page.homepage .teaser .block h2 {
+				text-transform: uppercase;
+				color: white;
+			}
+
+			.page.homepage .teaser .block .icon {
+				max-height: 100px;
+				margin: 10px 0;
+				border: none;
+			}
+
+			.page.homepage .teaser .block p {
+				line-height: 150%;
+			}
+
+		.page.homepage .teaser form { padding: 0;}
 
 		.page.homepage .teaser .save {
 			font-size: 128px;
@@ -123,7 +177,7 @@ footer.page_footer {
 		.page.homepage .zip.container .btn.search.providers.zip {
 			position: absolute;
 			right: 2px;
-			top: 10px;
+			top: 0px;
 			padding: 4px 16px 4px 16px;
 		}
 

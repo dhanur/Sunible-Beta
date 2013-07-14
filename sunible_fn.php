@@ -1,6 +1,6 @@
 <?php
 
-function zipToCounty($zip){
+function getCountyFromZip($zip){
 
 include 'db_vars.php';
 $group = array();

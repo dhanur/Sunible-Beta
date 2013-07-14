@@ -164,7 +164,7 @@ function initHomePage()
 
 function bindZipCodeFieldFocusOnTeaserClick()
 {
-	var $teaser = $('#homepage_teaser_heading');
+	var $teaser = $('.page.homepage .teaser.ad.container .teaser');
 	var $zipCodeField = $('#homepage-field-zip_code');
 	$teaser.click(function(){
 		$zipCodeField.focus();

@@ -71,7 +71,7 @@
 							Why Sunible?</span>
 					<button type="button" class="btn call_us" disabled>
 						Questions?<br/>
-						1(800)979-2215</button>
+						1 (800) 979-2215</button>
 				</div>
 				<a href="/" class="logo sunible"
 					onMouseover="_gaq.push(['_trackEvent', 'Links', 'Mouseover', 'Landing Page Logo', 1, false]);"
@@ -117,6 +117,15 @@
 							onMouseover="_gaq.push(['_trackEvent', 'Links', 'Mouseover', 'Footer Terms of Service', 1, false]);"
 							onClick="_gaq.push(['_trackEvent', 'Links', 'Click', 'Footer Terms of Service', 1, false]);"
 							class="launcher open terms_of_service">Terms</a>
+						<a href="http://www.facebook.com/sunible"
+							target="_blank"
+							class="launcher social facebook"><img class="icon" src="images/icons/icon_facebook.png" alt=""/></a>
+						<a href="http://www.twitter.com/sunible"
+							target="_blank"
+							class="launcher social twitter"><img class="icon" src="images/icons/icon_twitter.png" alt=""/></a>
+						<a href="http://www.linkedin.com/company/sunible"
+							target="_blank"
+							class="launcher social linkedin"><img class="icon" src="images/icons/icon_linkedin.png" alt=""/></a>
 					</nav>
 					<span class="copyright">&copy; Sunible Inc.  2013</span>
 			</footer>

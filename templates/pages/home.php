@@ -17,7 +17,7 @@
 			<div class="block request">
 				<h2>Request</h2>
 				<img alt="" class="icon see" src="/images/icons/big_icon_quote.png"/>
-				<p>Request quotes. Once you get them, we'll advice you from start to finish. No cost, no commitment.</p>
+				<p>Request quotes. Once you get them, we'll advise you from start to finish. No cost, no commitment.</p>
 			</div>
 		</div>
 		<form class="zip search providers container"

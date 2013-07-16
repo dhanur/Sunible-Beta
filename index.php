@@ -71,7 +71,7 @@
 							Why Sunible?</span>
 					<button type="button" class="btn call_us" disabled>
 						Questions?<br/>
-						1(800)979-2215</button>
+						1 (800) 979-2215</button>
 				</div>
 				<a href="/" class="logo sunible"
 					onMouseover="_gaq.push(['_trackEvent', 'Links', 'Mouseover', 'Landing Page Logo', 1, false]);"

@@ -4,8 +4,8 @@ include 'sunible_fn.php';
 $yelp_search = array();
 $php_errormsg = "";
 
-$conn = mysql_connect('localhost', 'root', '') or die(mysql_error());
-mysql_select_db('sunible', $conn) or die(mysql_error());
+$conn = mysql_connect('localhost', 'torrohol_nik', 'installers') or die(mysql_error());
+mysql_select_db('torrohol_ca_csi', $conn) or die(mysql_error());
 
 $data = mysql_query("SELECT contractor_license, yelp_search FROM installer") 
  or die(mysql_error()); 

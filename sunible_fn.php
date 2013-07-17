@@ -20,7 +20,7 @@ $state = $group->state;
 
 $result->close();
 
-return(json_encode(array($state,$county)));
+return(json_encode($group));
 }
 
 function getSocial($zip){
@@ -312,9 +312,8 @@ curl_close($ch);
 // Handle Yelp response data
 
 $response = json_decode($data);
-
 // Print it for debugging
-// print_r($response);
+//print_r($response);
 return $response;
 }
 
@@ -336,7 +335,7 @@ if (!mysqli_query($db,$sql))
 mysqli_close($db);
 
 $email_from = "info@sunible.com";
-$email_to = "john@sunible.com, stephen@sunible.com, dhanur@sunible.com";
+$email_to = "stephen@sunible.com, dhanur@sunible.com";
 $email_message = "IP Address: ".$ip."\n";
 $email_message .= "Zip Code: ".$zipcode."\n";
 $email_message .= "Name: ".$name."\n";

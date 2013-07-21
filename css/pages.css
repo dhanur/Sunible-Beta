@@ -334,9 +334,9 @@ footer.page_footer {
 			margin-bottom: 0;
 		}
 
-		.page.social_proof.fresno .social_info_by_zip .solar_info .message.bakersfield.county { display: none; }
+		.page.social_proof.installers_found .social_info_by_zip .solar_info .message.bakersfield.county { display: none; }
 
-		.page.social_proof.california .social_info_by_zip .solar_info .message.bakersfield.county {
+		.page.social_proof.no_installers_data .social_info_by_zip .solar_info .message.bakersfield.county {
 			text-align: center;
 			margin-bottom: 10px;
 			font-size: 18px;
@@ -367,7 +367,7 @@ footer.page_footer {
 			right: 5%;
 		}
 
-		.page.social_proof.fresno .social_info_by_zip .map.container .map {
+		.page.social_proof.installers_found .social_info_by_zip .map.container .map {
 			bottom: 220px;
 		}
 

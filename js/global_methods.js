@@ -364,3 +364,38 @@ function getFormFields($form)
 
 	return fields;
 }
+
+function weCoverThisState(state)
+{
+	// method used to define in which states Project is presented
+	var statesWeCover = {
+		CA: true
+	};
+	return statesWeCover[state];
+}
+
+function installersInCounty(county)
+{
+	county = county.toLowerCase();
+	county = county.replace(/\s/g, '_');
+	var countiesWeWorkWith = {
+		alameda: true,
+		contra_costa: true,
+		fresno: true,
+		kern: true,
+		los_angeles: true,
+		marin: true,
+		napa: true,
+		orange: true,
+		riverside: true,
+		san_bernardino: true,
+		san_diego: true,
+		san_francisco: true,
+		san_mateo: true,
+		santa_clara: true,
+		solano: true,
+		sonoma: true,
+		tulare: true
+	};
+	return countiesWeWorkWith[county];
+}

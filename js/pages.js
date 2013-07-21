@@ -210,77 +210,82 @@ function getInstallersByZipCodeFormSubmit($form)
 	if (!$form.valid()) return;
 	var $currentPage = $form.closest('.page');
 	var zipCode = $form.find('input[type="text"].zip').val();
-	if (zipCode.charAt(0) == '9')
-	{ // CALIFORNIA zip
-		if (zipCode.charAt(1) == '3')
-		{ // FRESNO zip
-			// show social proof with view dashboard button
-			getSocialProofDataByZipCode(zipCode, function(data){
-				if (!data || !data[0])
-				{
-					showNoDataFoundPage();
-				}
-				else
-				{
-					_gaq.push(['_trackPageview', 'vpv/social_proof.html']);
-					changePage($currentPage, pages.socialProof);
-					initSocialProof(data, 'fresno');
-				}
+
+	getCountyFromZip(zipCode, function(location){
+		location.zipCode = zipCode;
+		showLocationBasedSocialProofPage(location);
+	});
+}
+
+function showLocationBasedSocialProofPage(location)
+{
+	if (weCoverThisState(location.state))
+	{
+			if (installersInCounty(location.county))
+			{
+				getInstallersByZipCode(location.zipCode, function(data){
+					if (data != undefined && data.length > 0) initDashboard(location.zipCode, data);
+				});
+			}
+			showSocialProofPage({
+				location: location,
+				installersInCounty: installersInCounty(location.county)
 			});
-			// dashboard
-			getInstallersByZipCode(zipCode, function(data){
-				if (data != undefined && data.length > 0)
-				{
-										initDashboard(zipCode, data);
-				}
-			});
-		}
-		else
-		{ // NON FRESNO, but California
-			// show social proof with Sign Up button
-			getSocialProofDataByZipCode(zipCode, function(data){
-				if (!data || !data[0])
-				{
-					showNoDataFoundPage();
-				}
-				else
-				{
-					_gaq.push(['_trackPageview', 'vpv/social_proof.html']);
-					changePage($currentPage, pages.socialProof);
-					initSocialProof(data, 'california');
-				}
-			});
-		}
 	}
 	else
-	{ // NON-CALIFORNIA zip
-		// we show signup form
+	{
+		// We do not cover this state so we show signup form
 		_gaq.push(['_trackPageview', 'vpv/sign_up.html']);
 		initSignUpForm();
-		showSignUpPopup();
+		showSignUpPopup();	
 	}
 }
 
 // SOCIAL PROOF
-function initSocialProof(data, location)
+function initSocialProof(data, options)
 {
 	updateSocialCounters(data[0]);
 	var $button = pages.socialProof.find('.btn.next_action');
 	var $areaName = pages.socialProof.find('.area_name');
 	$areaName.text(data[0].county + ' County');
-	switch(location){
-		case 'fresno':
+	if (options.installersInCounty)
+	{
 			$button.text('See Solar Providers!');
 			bindButtonViewProviders($button);
-			pages.socialProof.removeClass('california').addClass('fresno');
-			break;
-		case 'california':
+			pages.socialProof.removeClass('no_installers_data').addClass('installers_found');
+	}
+	else
+	{
 			$button.text('Sign Me Up!');
 			bindOpenSignUpPage($button);
-			pages.socialProof.removeClass('fresno').addClass('california');
-			break;
+			pages.socialProof.removeClass('installers_found').addClass('no_installers_data');
 	};
 	showSocialProofMap(data);
+}
+
+function showSocialProofPage(options)
+{
+	// * location
+	//     * zipCode
+	//     * state
+	//     * county
+	// * installersInCounty
+	// callback
+	getSocialProofDataByZipCode(options.location.zipCode, function(data){
+		if (!data || !data[0])
+		{
+			showNoDataFoundPage();
+		}
+		else
+		{
+			var $currentPage = $('.page.is_shown');
+			_gaq.push(['_trackPageview', 'vpv/social_proof.html']);
+			changePage($currentPage, pages.socialProof);
+			initSocialProof(data, options);
+			if (typeof options.callback == 'function') options.callback();
+		}
+	});
+
 }
 
 function updateSocialCounters(data)

@@ -7,7 +7,7 @@
 			<div class="block see">
 				<h2>See</h2>
 				<img alt="" class="icon see" src="/images/icons/big_icon_map.png"/>
-				<p>See exactly how many solar homes there are around you. If they're saving with solar, you can too</p>
+				<p>See exactly how many solar homes there are around you. If they're saving with solar, you can too.</p>
 			</div>
 			<div class="block compare">
 				<h2>Compare</h2>

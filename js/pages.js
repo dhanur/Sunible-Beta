@@ -321,15 +321,17 @@ function showSocialProofMap(data)
 	{
 		if (isSafari()) L.Browser.webkit3d = false; // RLY: issue #28
 		map = L.map('page-social_proof-map', {
+			layers: MQ.mapLayer(),
 			center: zipGeo,
 			zoom: 13,
+			maxZoom: 18,
 			closePopupOnClick: false
 		});
 		$mapContainer.data('map', map);
-
-		L.tileLayer('http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/997/256/{z}/{x}/{y}.png', {
-			maxZoom: 18
-		}).addTo(map);
+//http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/997/256/{z}/{x}/{y}.png
+		//L.tileLayer('http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/997/256/{z}/{x}/{y}.png', {
+			//maxZoom: 18
+		//}).addTo(map);
 	}
 	var bounds = composeMapBounds(markerSource);
 	// adding markers to map

@@ -144,6 +144,7 @@
 		<script type="text/javascript" src="js/bootstrap/bootstrap-modalmanager.js"></script>
 		<script type="text/javascript" src="js/bootstrap/bootstrap-modal.js"></script>
 		<script type="text/javascript" src="js/leaflet.js"></script>
+		<script type="text/javascript" src="http://www.mapquestapi.com/sdk/leaflet/v1.0/mq-map.js?key=Fmjtd%7Cluur2h07nu%2Cra%3Do5-9wb29r"></script>
 		<script type="text/javascript" src="js/custom_checkbox_and_radio.js"></script>
 
 		<script type="text/javascript" src="js/global_methods.js"></script>
